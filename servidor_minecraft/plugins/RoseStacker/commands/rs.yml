@@ -1,0 +1,41 @@
+# This file lets you disable the command, change the name and aliases, and set the priority.
+# If you edit the name/aliases at the top of this file, you will need to restart the server to see all the changes applied properly.
+# Enabling the priority setting will make this command take priority over commands from other plugins on the server.
+enabled: true
+name: rs
+aliases:
+  - rosestacker
+  - stacker
+priority: false
+subcommands:
+  help:
+    name: help
+    aliases: []
+  reload:
+    name: reload
+    aliases: []
+  clearall:
+    name: clearall
+    aliases: []
+  give:
+    name: give
+    aliases: []
+    subcommands:
+      block:
+        name: block
+        aliases: []
+      entity:
+        name: entity
+        aliases: []
+      spawner:
+        name: spawner
+        aliases: []
+  stacktool:
+    name: stacktool
+    aliases: []
+  stats:
+    name: stats
+    aliases: []
+  translate:
+    name: translate
+    aliases: []

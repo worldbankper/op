@@ -1,0 +1,49 @@
+[2025/04/03 23:10:25]: §9          __             _       
+[2025/04/03 23:10:25]: §9  _ __   / /  ___   __ _(_)_ __  
+[2025/04/03 23:10:25]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2025/04/03 23:10:25]: §9 | | | / /__| (_) | (_| | | | | |
+[2025/04/03 23:10:25]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2025/04/03 23:10:25]: §9                  |___/            
+[2025/04/03 23:10:25]: §9 By: www.nickuc.com - V 10.4.21
+[2025/04/03 23:10:25]: §9 
+[2025/04/03 23:10:25]: §3[nLogin] [DEBUG] The config.yml file was created successfully.
+[2025/04/03 23:10:28]: §3[nLogin] [DEBUG] All settings were loaded in 2109 ms.
+[2025/04/03 23:10:28]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2025/04/03 23:10:28]: §3[nLogin] [DEBUG] All plugin messages were loaded in 57 ms (languageByClient=false).
+[2025/04/03 23:10:28]: §3[nLogin] [DEBUG] All proxy settings were loaded in 1 ms.
+[2025/04/03 23:10:28]: §3[nLogin] [DEBUG] Loading database...
+[2025/04/03 23:10:28]: [nLogin] Generating RSA keypair... (this may take a while)
+[2025/04/03 23:10:29]: [nLogin] The RSA key pair was successfully generated. Took 0.72s
+[2025/04/03 23:10:29]: §3[nLogin] [DEBUG] Starting logger filter...
+[2025/04/03 23:10:29]: [nLogin] Starting the OpeNLogin conversion...
+[2025/04/03 23:10:29]: §e[nLogin] [WARN] Initializing the OpeNLogin conversion
+[2025/04/03 23:10:29]: §e[nLogin] [WARN] Please do not shut down your server.
+[2025/04/03 23:10:29]: [nLogin] OpeNLogin data has been successfully converted.
+[2025/04/03 23:10:29]: [nLogin] No users have been converted ~ 0.05s
+[2025/04/03 23:10:38]: 
+[2025/04/03 23:10:38]:  §bThank you so much for choosing nLogin! §4<3
+[2025/04/03 23:10:38]: 
+[2025/04/03 23:10:38]:  §4For your safety, please read the message below:
+[2025/04/03 23:10:38]:   §cNever download nLogin from unknown sources.
+[2025/04/03 23:10:38]:   §cA modified version may contain malicious software.
+[2025/04/03 23:10:38]: 
+[2025/04/03 23:10:38]:  §3Trusted sources:
+[2025/04/03 23:10:38]:   §bwww.nickuc.com
+[2025/04/03 23:10:38]:   §bwww.github.com/nickuc
+[2025/04/03 23:10:38]:   §bOpeNLogin installer (from Spigot or GitHub)
+[2025/04/03 23:10:38]: 
+[2025/04/03 23:10:38]:  §3Official support channels:
+[2025/04/03 23:10:38]:   §bDiscord group: §fwww.nickuc.com/discord
+[2025/04/03 23:10:38]:   §bDocumentation: §fdocs.nickuc.com/nlogin/
+[2025/04/03 23:10:38]:   §bEmail: §fsupport@nickuc.com
+[2025/04/03 23:10:38]:   §bYouTube: §fyoutube.com/nickuc
+[2025/04/03 23:10:38]: 
+[2025/04/03 23:10:38]:  §eTo remove this warning, log in with "nlogin.admin" permission on the server
+[2025/04/03 23:10:38]:  §eand click the "Setup plugin" button to configure your plugin.
+[2025/04/03 23:10:38]: 
+[2025/04/03 23:11:03]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "INSERT INTO `nlogin` (`last_name`, `unique_id`, `mojang_id`, `bedrock_id`, `password`, `last_ip`, `creation_date`, `last_seen`, `email`, `discord`, `settings`) VALUES ('wuyl12', 93accafa0c2b31d5b8d3195a7db150ef, null, null, '$2a$10$nI5Q7H07Wbg2Vp42m7/l3.jn36c1SjSpUKisQjOVPCmA0nRU/rx5e', '127.217.139.180', '2025-04-03 23:11:03.569', '2025-04-03 23:11:03.569', null, null, '{"settings":[{"value":true,"key":"force-invalid-session"}],"version":0}')" (applied to all columns)
+[2025/04/03 23:11:03]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/04/03 23:11:03]: [nLogin] The user wuyl12 has successfully registered.
+[2025/04/03 23:11:45]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'wuyl12', `unique_id` = 93accafa0c2b31d5b8d3195a7db150ef,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$nI5Q7H07Wbg2Vp42m7/l3.jn36c1SjSpUKisQjOVPCmA0nRU/rx5e', `last_ip` = '127.217.139.180', `creation_date` = 2025-04-03 23:11:03.569, `last_seen` = 2025-04-03 23:11:45.423, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"force-invalid-session"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2025/04/03 23:11:56]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'wuyl12', `unique_id` = 93accafa0c2b31d5b8d3195a7db150ef,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$nI5Q7H07Wbg2Vp42m7/l3.jn36c1SjSpUKisQjOVPCmA0nRU/rx5e', `last_ip` = '127.217.139.180', `creation_date` = 2025-04-03 23:11:03.569, `last_seen` = 2025-04-03 23:11:56.317, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2025/04/03 23:11:56]: [nLogin] The user wuyl12 has successfully logged in.

@@ -1,0 +1,1298 @@
+# Available Spawn Requirements:
+# 
+# above-sea-level - Spawn area must be above sea level
+# above-y-axis - Spawn area must be above the given y-axis. Example: `above-y-axis:30`
+# air - Spawn area must have air blocks available
+# below-sea-level - Spawn area must be below the world sea level
+# below-y-axis - Spawn area must be below the given y-axis. Example: `below-y-axis:30`
+# biome - Spawn area must be in one of the given biomes. Example: `biome:plains,desert`
+# block - Spawn area must be on one of the given blocks. Example: `block:grass_block,sand`
+# block-exception - Spawn area must not be on one of the given blocks. Example: `block-exeption:bedrock,barrier`
+# darkness - Spawn area must be below light level 8
+# total-darkness - Spawn area must have no light at all
+# fluid - Spawn area must be inside a fluid. Valid values are `water` and `lava`. Example: `fluid:water`
+# lightness - Spawn area must be above light level 8
+# max-nearby-entities - Spawn area must have below a certain number of entities. Example: `max-nearby-entities:6`
+# no-skylight-access - Spawn area must have no skylight access
+# on-ground - Spawn area must have a ground block to spawn on
+# skylight-access - Spawn area must have skylight access
+# 
+# Valid Blocks: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# Valid Biomes: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/Biome.html
+# 
+# Want to remove all requirements? Set the value to the following:
+# spawn-requirements: []
+ALLAY:
+  enabled: true
+  display-name: Allay Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements: []
+  item-lore-singular: []
+  item-lore-plural: []
+ARMADILLO:
+  enabled: true
+  display-name: Armadillo Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:coarse_dirt,red_sand,terracotta,white_terracotta,yellow_terracotta,orange_terracotta,red_terracotta,brown_terracotta,light_gray_terracotta
+    - lightness
+  item-lore-singular: []
+  item-lore-plural: []
+AXOLOTL:
+  enabled: true
+  display-name: Axolotl Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - fluid:water
+    - below-sea-level
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+BAT:
+  enabled: true
+  display-name: Bat Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+BEE:
+  enabled: true
+  display-name: Bee Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements: []
+  item-lore-singular: []
+  item-lore-plural: []
+BLAZE:
+  enabled: true
+  display-name: Blaze Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+BOGGED:
+  enabled: true
+  display-name: Bogged Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+BREEZE:
+  enabled: true
+  display-name: Breeze Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+CAMEL:
+  enabled: true
+  display-name: Camel Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block,sand
+    - lightness
+  item-lore-singular: []
+  item-lore-plural: []
+CAT:
+  enabled: true
+  display-name: Cat Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+  item-lore-singular: []
+  item-lore-plural: []
+CAVE_SPIDER:
+  enabled: true
+  display-name: Cave Spider Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+CHICKEN:
+  enabled: true
+  display-name: Chicken Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+  item-lore-singular: []
+  item-lore-plural: []
+COD:
+  enabled: true
+  display-name: Cod Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - fluid:water
+  item-lore-singular: []
+  item-lore-plural: []
+COW:
+  enabled: true
+  display-name: Cow Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+  item-lore-singular: []
+  item-lore-plural: []
+CREEPER:
+  enabled: true
+  display-name: Creeper Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+DOLPHIN:
+  enabled: true
+  display-name: Dolphin Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - above-y-axis:45
+    - below-sea-level
+    - biome:ocean,deep_ocean
+    - fluid:water
+  item-lore-singular: []
+  item-lore-plural: []
+DONKEY:
+  enabled: true
+  display-name: Donkey Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+  item-lore-singular: []
+  item-lore-plural: []
+DROWNED:
+  enabled: true
+  display-name: Drowned Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+    - below-sea-level
+  item-lore-singular: []
+  item-lore-plural: []
+ELDER_GUARDIAN:
+  enabled: true
+  display-name: Elder Guardian Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - fluid:water
+  item-lore-singular: []
+  item-lore-plural: []
+EMPTY:
+  enabled: true
+  display-name: Empty Spawner
+  max-stack-size: -1
+  item-lore-singular: []
+  item-lore-plural: []
+ENDERMAN:
+  enabled: true
+  display-name: Enderman Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+ENDERMITE:
+  enabled: true
+  display-name: Endermite Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+ENDER_DRAGON:
+  enabled: true
+  display-name: Ender Dragon Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements: []
+  item-lore-singular: []
+  item-lore-plural: []
+EVOKER:
+  enabled: true
+  display-name: Evoker Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+FOX:
+  enabled: true
+  display-name: Fox Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+  item-lore-singular: []
+  item-lore-plural: []
+FROG:
+  enabled: true
+  display-name: Frog Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block,mud,mangrove_roots,muddy_mangrove_roots
+    - lightness
+  item-lore-singular: []
+  item-lore-plural: []
+GHAST:
+  enabled: true
+  display-name: Ghast Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements: []
+  item-lore-singular: []
+  item-lore-plural: []
+GIANT:
+  enabled: true
+  display-name: Giant Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+GLOW_SQUID:
+  enabled: true
+  display-name: Glow Squid Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - fluid:water
+    - below-sea-level
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+GOAT:
+  enabled: true
+  display-name: Goat Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+  item-lore-singular: []
+  item-lore-plural: []
+GUARDIAN:
+  enabled: true
+  display-name: Guardian Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - fluid:water
+  item-lore-singular: []
+  item-lore-plural: []
+HOGLIN:
+  enabled: true
+  display-name: Hoglin Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+    - block-exception:nether_wart_block
+  item-lore-singular: []
+  item-lore-plural: []
+HORSE:
+  enabled: true
+  display-name: Horse Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+  item-lore-singular: []
+  item-lore-plural: []
+HUSK:
+  enabled: true
+  display-name: Husk Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+ILLUSIONER:
+  enabled: true
+  display-name: Illusioner Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+IRON_GOLEM:
+  enabled: true
+  display-name: Iron Golem Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - on-ground
+  item-lore-singular: []
+  item-lore-plural: []
+LLAMA:
+  enabled: true
+  display-name: Llama Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+  item-lore-singular: []
+  item-lore-plural: []
+MAGMA_CUBE:
+  enabled: true
+  display-name: Magma Cube Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements: []
+  item-lore-singular: []
+  item-lore-plural: []
+MOOSHROOM:
+  enabled: true
+  display-name: Mooshroom Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:mycelium
+    - lightness
+  item-lore-singular: []
+  item-lore-plural: []
+MULE:
+  enabled: true
+  display-name: Mule Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+  item-lore-singular: []
+  item-lore-plural: []
+OCELOT:
+  enabled: true
+  display-name: Ocelot Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block,acacia_leaves,birch_leaves,dark_oak_leaves,jungle_leaves,oak_leaves,spruce_leaves
+    - lightness
+  item-lore-singular: []
+  item-lore-plural: []
+PANDA:
+  enabled: true
+  display-name: Panda Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+  item-lore-singular: []
+  item-lore-plural: []
+PARROT:
+  enabled: true
+  display-name: Parrot Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block,acacia_leaves,birch_leaves,dark_oak_leaves,jungle_leaves,oak_leaves,spruce_leaves
+    - lightness
+  item-lore-singular: []
+  item-lore-plural: []
+PHANTOM:
+  enabled: true
+  display-name: Phantom Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+PIG:
+  enabled: true
+  display-name: Pig Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+  item-lore-singular: []
+  item-lore-plural: []
+PIGLIN:
+  enabled: true
+  display-name: Piglin Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+    - block-exception:nether_wart_block
+  item-lore-singular: []
+  item-lore-plural: []
+PIGLIN_BRUTE:
+  enabled: true
+  display-name: Piglin Brute Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+    - block-exception:nether_wart_block
+  item-lore-singular: []
+  item-lore-plural: []
+PILLAGER:
+  enabled: true
+  display-name: Pillager Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+POLAR_BEAR:
+  enabled: true
+  display-name: Polar Bear Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block,ice,packed_ice,blue_ice
+    - lightness
+  item-lore-singular: []
+  item-lore-plural: []
+PUFFERFISH:
+  enabled: true
+  display-name: Pufferfish Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - fluid:water
+  item-lore-singular: []
+  item-lore-plural: []
+RABBIT:
+  enabled: true
+  display-name: Rabbit Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block,snow,sand
+    - lightness
+  item-lore-singular: []
+  item-lore-plural: []
+RAVAGER:
+  enabled: true
+  display-name: Ravager Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+SALMON:
+  enabled: true
+  display-name: Salmon Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - fluid:water
+  item-lore-singular: []
+  item-lore-plural: []
+SHEEP:
+  enabled: true
+  display-name: Sheep Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+  item-lore-singular: []
+  item-lore-plural: []
+SHULKER:
+  enabled: true
+  display-name: Shulker Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+SILVERFISH:
+  enabled: true
+  display-name: Silverfish Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+SKELETON:
+  enabled: true
+  display-name: Skeleton Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+SKELETON_HORSE:
+  enabled: true
+  display-name: Skeleton Horse Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+  item-lore-singular: []
+  item-lore-plural: []
+SLIME:
+  enabled: true
+  display-name: Slime Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - below-y-axis:40
+    - lightness
+  item-lore-singular: []
+  item-lore-plural: []
+SNIFFER:
+  enabled: true
+  display-name: Sniffer Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - on-ground
+    - block:grass_block
+  item-lore-singular: []
+  item-lore-plural: []
+SNOW_GOLEM:
+  enabled: true
+  display-name: Snow Golem Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - on-ground
+  item-lore-singular: []
+  item-lore-plural: []
+SPIDER:
+  enabled: true
+  display-name: Spider Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+SQUID:
+  enabled: true
+  display-name: Squid Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - fluid:water
+    - below-sea-level
+    - above-y-axis:45
+  item-lore-singular: []
+  item-lore-plural: []
+STRAY:
+  enabled: true
+  display-name: Stray Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+STRIDER:
+  enabled: true
+  display-name: Strider Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+TADPOLE:
+  enabled: true
+  display-name: Tadpole Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - fluid:water
+  item-lore-singular: []
+  item-lore-plural: []
+TRADER_LLAMA:
+  enabled: true
+  display-name: Trader Llama Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+  item-lore-singular: []
+  item-lore-plural: []
+TROPICAL_FISH:
+  enabled: true
+  display-name: Tropical Fish Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - fluid:water
+  item-lore-singular: []
+  item-lore-plural: []
+TURTLE:
+  enabled: true
+  display-name: Turtle Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - above-sea-level
+    - block:sand,red_sand
+    - lightness
+  item-lore-singular: []
+  item-lore-plural: []
+VEX:
+  enabled: true
+  display-name: Vex Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+VILLAGER:
+  enabled: true
+  display-name: Villager Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - on-ground
+  item-lore-singular: []
+  item-lore-plural: []
+VINDICATOR:
+  enabled: true
+  display-name: Vindicator Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+WANDERING_TRADER:
+  enabled: true
+  display-name: Wandering Trader Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - on-ground
+  item-lore-singular: []
+  item-lore-plural: []
+WARDEN:
+  enabled: true
+  display-name: Warden Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+WITCH:
+  enabled: true
+  display-name: Witch Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+WITHER:
+  enabled: true
+  display-name: Wither Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+WITHER_SKELETON:
+  enabled: true
+  display-name: Wither Skeleton Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+WOLF:
+  enabled: true
+  display-name: Wolf Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+  item-lore-singular: []
+  item-lore-plural: []
+ZOGLIN:
+  enabled: true
+  display-name: Zoglin Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+    - block-exception:nether_wart_block
+  item-lore-singular: []
+  item-lore-plural: []
+ZOMBIE:
+  enabled: true
+  display-name: Zombie Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+ZOMBIE_HORSE:
+  enabled: true
+  display-name: Zombie Horse Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - block:grass_block
+    - lightness
+  item-lore-singular: []
+  item-lore-plural: []
+ZOMBIE_VILLAGER:
+  enabled: true
+  display-name: Zombie Villager Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+  item-lore-singular: []
+  item-lore-plural: []
+ZOMBIFIED_PIGLIN:
+  enabled: true
+  display-name: Zombified Piglin Spawner
+  max-stack-size: -1
+  disable-mob-ai: default
+  spawn-count-stack-size-multiplier: -1
+  spawn-delay-minimum: -1
+  spawn-delay-maximum: -1
+  entity-search-range: -1
+  player-activation-range: -1
+  spawn-range: -1
+  spawn-requirements:
+    - darkness
+    - block-exception:nether_wart_block
+  item-lore-singular: []
+  item-lore-plural: []

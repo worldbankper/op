@@ -1,0 +1,171 @@
+#########################################################
+##                                                     ##
+##              WildChests Configuration               ##
+##                 Developed by Ome_R                  ##
+##                                                     ##
+#########################################################
+
+# How much time should be passed between sell and crafting notifies? (in ticks)
+# Set 0 to disable this feature.
+notifier-interval: 12000
+
+# When enabled there will be a list of items that has been sold and crafted.
+detailed-notifier: true
+
+# When enabled, a gui will be popped to confirm chest expand purchase. Otherwise, it will be done in chat.
+confirm-gui: false
+
+# Specify a command to be executed when a sell is running.
+# {player-name} - use as the player's name
+# {price} - use as the price of item
+# Set to '' in order to disable the feature.
+sell-command: ''
+
+# When enabled, the values will be formatted (e.g 10B, 1T)
+sell-format: false
+
+# Should the chest item be dropped on explosions?
+# Set a chance of it to get dropped between 0 and 100.
+explode-drop-chance: 100
+
+# Choose which prices plugin to check for prices:
+# Auto, CMI, EconomyShopGUI, Essentials, ExcellentShop, GUIShop, newtShop, NextGens, QuantumShop, ShopGUIPlus, zShop
+prices-provider: 'WildChests'
+
+# What stacker provider should the plugin use? (WildStacker, RoseStacker, Auto)
+stacker-provider: 'Auto'
+
+# Built-in prices list.
+# Use the "ID:PRICE" or "ID:DATA:PRICE" formats.
+prices-list:
+- 'STONE:5' #Each stone will cost $5
+- 'LOG:0:5' #Only oak logs will cost $5
+
+# All settings related to database.
+database:
+  # Automatically delete data from invalid worlds.
+  invalid-world-delete: false
+
+# All settings related to hooks
+hooks:
+  # Should items dropped by the plugin get directly stacked by WildStacker?
+  wildstacker: true
+
+# The maximum pickup delay items can have for the suction chests to pick them up.
+maximum-pickup-delay: 32767
+
+# The maximum number of stacks of items that can be dropped from a storage unit.
+# Useful when not having a stacking plugin installed, and you don't want a lot
+# of items to be dropped from storage units.
+# Keep in mind, enabling this feature may cause items to be lost on drop.
+# You can disable this feature by setting it to -1.
+max-stacks-on-drop: -1
+
+# The plugin brings tons of new custom and unique chests to your server. All the chests are configurable, and
+# you can create and mix between them. You can create chests that stores infinite amount of items, chests that
+# are connected to player vaults or factions, linked chests and many more!
+#
+# *** Chest Mode ***
+# Chests in this mode react like regular chests. This is the base mode, and used for creating
+# sell chests and larger chests.
+#
+# *** Linked Mode ***
+# Chests in this mode are all linked together, and work like ender chests, but globally.
+#
+# *** Storage Units Mode ***
+# Chests in this mode will have unlimited amount of storage, but only for one specific item.
+# Note: Auto sell & auto craft modes doesn't work for this mode!
+#
+# There are sections that can be applied to all of the chests:
+# size: Amount of rows the chest will have (INTEGER) (Will be overridden by pages' size)
+# title: Global title for all pages. Will be overridden by page's title (STRING)
+# sell-chest: Should items in this chest will be sold to the chest placer? (BOOLEAN)
+# crafter-chest: List of recipes that will take action in this chest (LIST)
+#      Please follow "TYPE" and "TYPE:DATA" formats
+# hopper-filter: When enabled, only craftable items will go into hoppers below (BOOLEAN)
+# pages: Section that handles all settings for pages
+# pages.default: Default amount of pages (INTEGER) [REQUIRED FOR PAGES]
+# pages.<#>: Section that handles all settings for a specific page
+# pages.<#>.price: Price for upgrading to that page (DOUBLE) [REQUIRED]
+# pages.<#>.title: Custom title for that page.
+# item.name: Custom name for the chest (STRING)
+# item.lore: Custom lore for the chest (LIST)
+# multiplier: Money multiplier for sell chests. (DOUBLE)
+# deposit-method: Transfer the money received by the sell chest to a skyblock/faction bank
+#     Currently supported: Vault, SuperiorSkyblock2
+# auto-collect: Should items get directly into inventory after breaking? (BOOLEAN)
+# auto-suction.range: Should items inside the specified range will get suctioned into the chest? (INTEGER)
+# auto-suction.chunk: Should items inside the chunk will get suctioned into the chest? (BOOLEAN)
+#      If you set it to true, the range will be checked as y-range only.
+# blacklist: A list of items that won't be picked up by the chests (only works for auto-suction for now)
+# whitelist: A list of items that will be picked up by the chests (only works for auto-suction for now)
+# particles: A list of particles that will be shown to the chest.
+
+chests:
+  linked_chest:
+    chest-mode: LINKED_CHEST
+    title: Linked Chest
+    item:
+      name: '&6Linked Chest &7(Place to active)'
+    particles:
+      - CRIT
+  large_chest:
+    chest-mode: CHEST
+    size: 6
+    item:
+      name: '&aLarge Chest &7(Place to active)'
+    pages:
+      default: 1
+      '2':
+        price: 500000.0
+        title: 'Chest #2'
+      '3':
+        price: 1000000.0
+        title: 'Chest #3'
+      '4':
+        price: 2000000.0
+        title: 'Chest #4'
+      '5':
+        price: 3000000.0
+        title: 'Chest #5'
+    particles:
+      - TOTEM
+  sell_chest:
+    chest-mode: CHEST
+    size: 6
+    title: Drop your items here to sell them.
+    item:
+      name: '&dSell Chest &7(Place to active)'
+    sell-mode: true
+    particles:
+      - SPELL_WITCH
+  auto_crafter:
+    chest-mode: CHEST
+    size: 6
+    title: Drop your items here to auto-craft them.
+    item:
+      name: '&cAuto Crafter &7(Place to active)'
+    crafter-chest:
+      - GOLD_INGOT
+    particles:
+      - LANDING_LAVA
+  storage_unit:
+    chest-mode: STORAGE_UNIT
+    size: 3
+    title: Storage Unit {0}
+    item:
+      name: '&bStorage Unit &7(Place to active)'
+    particles:
+      - CRIT_MAGIC
+  chunk_collector:
+    chest-mode: CHEST
+    size: 6
+    title: Chunk Collector
+    item:
+      name: '&eChunk Collector &7(Place to active)'
+    auto-suction:
+      range: 5
+      chunk: true
+    particles:
+      - SMOKE_NORMAL
+      - FLAME

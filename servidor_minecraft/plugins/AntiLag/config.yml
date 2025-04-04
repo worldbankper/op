@@ -1,0 +1,18 @@
+#### AntiLag configuration
+#
+# Worlds to remove entities in
+worlds:
+   - world
+   - world_nether
+   - world_the_end
+
+# Prefix
+prefix: "&6[AntiLag] &r>&6 "
+
+# Countdown
+countdown: 10
+countdown_message: "All dropped items will be removed in {time} seconds"
+countdown_over: "Removing..."
+
+# Delay between removals (ticks)
+countdown_cycle: 10000
