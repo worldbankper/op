@@ -1,150 +1,132 @@
-[19:58:56] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
-[19:58:56] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[19:58:56] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[19:58:56] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/nAntiBot.jar'...
-[19:58:57] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/nAntiBot.jar' in 591ms.
-[19:58:57] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
-[19:58:57] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[21:01:42] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
+[21:01:42] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[21:01:43] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:01:44] [ServerMain/INFO]: [PluginInitializerManager] Initialized 9 plugins
+[21:01:44] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - RoseStacker (1.5.32)
-[19:58:57] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
- - AntiLag (2.0), ClearLag (3.2.2), OpeNLogin (1.6.7), ProtocolLib (5.3.0), WildChests (2024.4-b84), nAntiBot (6.1.28), nLogin (10.4.21)
-[19:59:01] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:59:02] [ServerMain/INFO]: Loaded 1290 recipes
-[19:59:03] [ServerMain/INFO]: Loaded 1399 advancements
-[19:59:03] [Server thread/INFO]: Starting minecraft server version 1.21
-[19:59:03] [Server thread/INFO]: Loading properties
-[19:59:03] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[19:59:04] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[19:59:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:59:04] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:59:04] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[19:59:04] [Server thread/INFO]: Default game type: SURVIVAL
-[19:59:04] [Server thread/INFO]: Generating keypair
-[19:59:04] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:59:04] [Server thread/INFO]: Using epoll channel type
-[19:59:04] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[19:59:04] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[19:59:05] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[19:59:13] [Server thread/WARN]: Legacy plugin AntiLag v2.0 does not specify an api-version.
-[19:59:14] [Server thread/INFO]: [WildChests] Loading server plugin WildChests v2024.4-b84
-[19:59:14] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
-[19:59:14] [Server thread/INFO]: [RoseStacker] Loading server plugin RoseStacker v1.5.32
-[19:59:14] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.4.21
-[19:59:14] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
-[19:59:14] [Server thread/INFO]: [AntiLag] Loading server plugin AntiLag v2.0
-[19:59:14] [Server thread/INFO]: [nAntiBot] Loading server plugin nAntiBot v6.1.28
-[19:59:15] [Server thread/INFO]: [nAntiBot] Relocating dependencies (using 4 cores)
-[19:59:17] [Server thread/INFO]: [nAntiBot] All dependencies were loaded successfully. Took 2.10s
-[19:59:17] [Server thread/INFO]: [OpeNLogin] Loading server plugin OpeNLogin v1.6.7
-[19:59:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:59:17] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
-[19:59:17] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.21
-[19:59:17] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.23s)
-[19:59:17] [Server thread/INFO]:           __             _       
-[19:59:17] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
-[19:59:17] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
-[19:59:17] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
-[19:59:17] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
-[19:59:17] [Server thread/INFO]:                   |___/            
-[19:59:17] [Server thread/INFO]:  By: www.nickuc.com - V 10.4.21
-[19:59:17] [Server thread/INFO]:  
-[19:59:18] [Server thread/INFO]: [nAntiBot] Enabling nAntiBot v6.1.28
-[19:59:18] [Server thread/INFO]: [nAntiBot] Successful plugin core start (took 0.20s)
-[19:59:18] [Server thread/INFO]:           _         _   _   ___       _   
-[19:59:18] [Server thread/INFO]:   _ __   /_\  _ __ | |_(_) / __\ ___ | |_ 
-[19:59:18] [Server thread/INFO]:  | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
-[19:59:18] [Server thread/INFO]:  | | | /  _  \ | | | |_| / \/  \ (_) | |_ 
-[19:59:18] [Server thread/INFO]:  |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
-[19:59:18] [Server thread/INFO]:                                          
-[19:59:18] [Server thread/INFO]:  By: www.nickuc.com - V 6.1.28 DEVELOPMENT
-[19:59:18] [Server thread/INFO]: 
-[19:59:19] [Folia Async Scheduler Thread #3/INFO]: [nAntiBot] Connecting to the remote server antibot.nickuc.com...
-[19:59:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:59:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:59:19] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:59:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:59:19] [Server thread/INFO]: Preparing level "world"
-[19:59:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:59:20] [Server thread/INFO]: Time elapsed: 1005 ms
-[19:59:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:59:21] [Server thread/INFO]: Time elapsed: 166 ms
-[19:59:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:59:21] [Server thread/INFO]: Time elapsed: 116 ms
-[19:59:21] [Server thread/INFO]: [WildChests] Enabling WildChests v2024.4-b84
-[19:59:21] [Server thread/INFO]: [WildChests] ******** ENABLE START ********
-[19:59:21] [Server thread/INFO]: [WildChests] Loading configuration started...
-[19:59:21] [Server thread/INFO]: [WildChests]  - Found 6 chests in config.yml.
-[19:59:21] [Server thread/INFO]: [WildChests] Loading configuration done (Took 135ms)
-[19:59:21] [Server thread/INFO]: [WildChests] Loading messages started...
-[19:59:21] [Server thread/INFO]: [WildChests]  - Found 42 messages in lang.yml.
-[19:59:21] [Server thread/INFO]: [WildChests] Loading messages done (Took 4ms)
-[19:59:21] [Server thread/INFO]: [WildChests] ******** ENABLE DONE ********
-[19:59:21] [Server thread/INFO]: [RoseStacker] Enabling RoseStacker v1.5.32
-[19:59:21] [Server thread/WARN]: [RoseStacker] Ignored loading stack settings for entities: [CREAKING]
-[19:59:22] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[19:59:22] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[19:59:22] [Server thread/INFO]: [ClearLag] Loading modules...
-[19:59:22] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (Index 3 out of bounds for length 3)
-[19:59:22] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[19:59:22] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[19:59:22] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[19:59:22] [Server thread/INFO]: [AntiLag] Enabling AntiLag v2.0*
-[19:59:22] [Thread-13/WARN]: [ClearLag] Clearlag failed to check for updates - bukkit may be down
-[19:59:22] [Thread-13/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
-[19:59:22] [Thread-13/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.Util.getBukkitVersion(Util.java:105)
-[19:59:22] [Thread-13/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.updateAvailable(BukkitUpdater.java:32)
-[19:59:22] [Thread-13/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.run(BukkitUpdater.java:82)
-[19:59:22] [Thread-13/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[19:59:22] [Server thread/INFO]: [OpeNLogin] Enabling OpeNLogin v1.6.7
-[19:59:22] [Server thread/INFO]: [OpeNLogin] nLogin was detected, turning off plugin...
-[19:59:22] [Server thread/INFO]: [OpeNLogin] Disabling OpeNLogin v1.6.7
-[19:59:22] [Server thread/INFO]: [spark] Starting background profiler...
-[19:59:23] [Server thread/INFO]: Done preparing level "world" (3.631s)
-[19:59:23] [Server thread/INFO]: Running delayed init tasks
-[19:59:23] [Server thread/INFO]: Done (27.870s)! For help, type "help"
-[19:59:23] [Server thread/INFO]: Timings Reset
-[19:59:23] [Server thread/INFO]: [WildChests] - Couldn't find any prices providers, using default one
-[19:59:23] [Server thread/INFO]: [WildChests] 
-[19:59:23] [Server thread/INFO]: [WildChests] If you want sell-chests to be enabled, please install Vault & Economy plugin.
-[19:59:23] [Server thread/INFO]: [WildChests] 
-[19:59:23] [Server thread/INFO]: [WildChests] Trying to connect to SQLite database...
-[19:59:23] [Craft Scheduler Thread - 2 - RoseStacker/INFO]: [RoseStacker] Fetched 134 translation locales.
-[19:59:23] [Server thread/INFO]: [WildChests] Successfully established connection with SQLite database!
-[19:59:27] [pool-14-thread-2/INFO]: [nAntiBot] [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 45, threads = 4, took 8.35s)
-[20:06:27] [Server thread/INFO]: Stopping server
-[20:06:27] [Server thread/INFO]: [nAntiBot] Disabling nAntiBot v6.1.28
-[20:06:27] [Server thread/INFO]: [nAntiBot] Successful plugin core shutdown (took 0.00s)
-[20:06:27] [Server thread/INFO]: [nAntiBot] Disconnecting from remote server...
-[20:06:29] [Server thread/INFO]: [AntiLag] Disabling AntiLag v2.0
-[20:06:29] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
-[20:06:29] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[20:06:29] [Server thread/INFO]: [nLogin] Disabling nLogin v10.4.21
-[20:06:29] [Server thread/INFO]: [nLogin] Successful plugin core shutdown (took 0.00s)
-[20:06:29] [Server thread/INFO]: [RoseStacker] Disabling RoseStacker v1.5.32
-[20:06:29] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.3.0
-[20:06:29] [Server thread/INFO]: [WildChests] Disabling WildChests v2024.4-b84
-[20:06:29] [Server thread/INFO]: [WildChests] Chunks to save: 147
-[20:06:29] [Server thread/INFO]: [WildChests] Terminating executor...
-[20:06:29] [Server thread/INFO]: [WildChests] Shutting down database executor
-[20:06:29] [Server thread/INFO]: [WildChests] Terminating database...
-[20:06:29] [Server thread/INFO]: Saving players
-[20:06:29] [Server thread/INFO]: Saving worlds
-[20:06:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:06:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[20:06:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[20:06:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[20:06:29] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 17 entity chunks, 0 poi chunks in world 'world' in 0.01s
-[20:06:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[20:06:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[20:06:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[20:06:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[20:06:29] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[20:06:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[20:06:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[20:06:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[20:06:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[20:06:29] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[20:06:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:06:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:06:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:06:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:01:44] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
+ - AntiLag (2.0), ClearLag (3.2.2), Multiverse-Core (4.3.14), OpeNLogin (1.6.7), ProtocolLib (5.3.0), WildChests (2024.4-b84), nAntiBot (6.1.28), nLogin (10.4.21)
+[21:01:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:01:52] [ServerMain/INFO]: Loaded 1290 recipes
+[21:01:52] [ServerMain/INFO]: Loaded 1399 advancements
+[21:01:52] [Server thread/INFO]: Starting minecraft server version 1.21
+[21:01:52] [Server thread/INFO]: Loading properties
+[21:01:53] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[21:01:53] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[21:01:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:01:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:01:54] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[21:01:54] [Server thread/INFO]: Default game type: SURVIVAL
+[21:01:54] [Server thread/INFO]: Generating keypair
+[21:01:55] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:01:55] [Server thread/INFO]: Using epoll channel type
+[21:01:55] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[21:01:55] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[21:01:56] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[21:02:08] [Server thread/WARN]: Legacy plugin AntiLag v2.0 does not specify an api-version.
+[21:02:08] [Server thread/INFO]: [WildChests] Loading server plugin WildChests v2024.4-b84
+[21:02:08] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[21:02:09] [Server thread/INFO]: [RoseStacker] Loading server plugin RoseStacker v1.5.32
+[21:02:09] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.4.21
+[21:02:09] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[21:02:09] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.14
+[21:02:09] [Server thread/INFO]: [AntiLag] Loading server plugin AntiLag v2.0
+[21:02:09] [Server thread/INFO]: [nAntiBot] Loading server plugin nAntiBot v6.1.28
+[21:02:10] [Server thread/INFO]: [OpeNLogin] Loading server plugin OpeNLogin v1.6.7
+[21:02:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:02:10] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[21:02:10] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.21
+[21:02:10] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.35s)
+[21:02:10] [Server thread/INFO]:           __             _       
+[21:02:10] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
+[21:02:10] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[21:02:10] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
+[21:02:10] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[21:02:10] [Server thread/INFO]:                   |___/            
+[21:02:10] [Server thread/INFO]:  By: www.nickuc.com - V 10.4.21
+[21:02:10] [Server thread/INFO]:  
+[21:02:12] [Server thread/INFO]: [nAntiBot] Enabling nAntiBot v6.1.28
+[21:02:12] [Server thread/INFO]: [nAntiBot] Successful plugin core start (took 0.25s)
+[21:02:12] [Server thread/INFO]:           _         _   _   ___       _   
+[21:02:12] [Server thread/INFO]:   _ __   /_\  _ __ | |_(_) / __\ ___ | |_ 
+[21:02:12] [Server thread/INFO]:  | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
+[21:02:12] [Server thread/INFO]:  | | | /  _  \ | | | |_| / \/  \ (_) | |_ 
+[21:02:12] [Server thread/INFO]:  |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
+[21:02:12] [Server thread/INFO]:                                          
+[21:02:12] [Server thread/INFO]:  By: www.nickuc.com - V 6.1.28 DEVELOPMENT
+[21:02:12] [Server thread/INFO]: 
+[21:02:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:02:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:02:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:02:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:02:13] [Folia Async Scheduler Thread #3/INFO]: [nAntiBot] Connecting to the remote server antibot.nickuc.com...
+[21:02:13] [Server thread/INFO]: Preparing level "world"
+[21:02:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:02:15] [Server thread/INFO]: Time elapsed: 1551 ms
+[21:02:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:02:16] [Server thread/INFO]: Time elapsed: 294 ms
+[21:02:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:02:16] [Server thread/INFO]: Time elapsed: 158 ms
+[21:02:16] [Server thread/INFO]: [WildChests] Enabling WildChests v2024.4-b84
+[21:02:16] [Server thread/INFO]: [WildChests] ******** ENABLE START ********
+[21:02:16] [Server thread/INFO]: [WildChests] Loading configuration started...
+[21:02:16] [Server thread/INFO]: [WildChests]  - Found 6 chests in config.yml.
+[21:02:16] [Server thread/INFO]: [WildChests] Loading configuration done (Took 216ms)
+[21:02:16] [Server thread/INFO]: [WildChests] Loading messages started...
+[21:02:16] [Server thread/INFO]: [WildChests]  - Found 42 messages in lang.yml.
+[21:02:16] [Server thread/INFO]: [WildChests] Loading messages done (Took 4ms)
+[21:02:16] [Server thread/INFO]: [WildChests] ******** ENABLE DONE ********
+[21:02:16] [Server thread/INFO]: [RoseStacker] Enabling RoseStacker v1.5.32
+[21:02:17] [Server thread/WARN]: [RoseStacker] Ignored loading stack settings for entities: [CREAKING]
+[21:02:17] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[21:02:17] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[21:02:17] [Server thread/INFO]: [ClearLag] Loading modules...
+[21:02:17] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (Index 3 out of bounds for length 3)
+[21:02:17] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[21:02:17] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[21:02:17] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[21:02:17] [Thread-13/WARN]: [ClearLag] Clearlag failed to check for updates - bukkit may be down
+[21:02:17] [Thread-13/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+[21:02:17] [Thread-13/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.Util.getBukkitVersion(Util.java:105)
+[21:02:17] [Thread-13/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.updateAvailable(BukkitUpdater.java:32)
+[21:02:17] [Thread-13/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.run(BukkitUpdater.java:82)
+[21:02:17] [Thread-13/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[21:02:17] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.14
+[21:02:17] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.14" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[21:02:17] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[21:02:18] [Server thread/INFO]: Preparing start region for dimension minecraft:lobby
+[21:02:18] [Server thread/INFO]: Time elapsed: 364 ms
+[21:02:18] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[21:02:18] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[21:02:18] [Server thread/INFO]: [Multiverse-Core] Version 4.3.14 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[21:02:18] [Server thread/INFO]: [AntiLag] Enabling AntiLag v2.0*
+[21:02:18] [Server thread/INFO]: [OpeNLogin] Enabling OpeNLogin v1.6.7
+[21:02:18] [Server thread/INFO]: [OpeNLogin] nLogin was detected, turning off plugin...
+[21:02:18] [Server thread/INFO]: [OpeNLogin] Disabling OpeNLogin v1.6.7
+[21:02:18] [Server thread/INFO]: [spark] Starting background profiler...
+[21:02:20] [Server thread/INFO]: Done preparing level "world" (6.751s)
+[21:02:20] [Server thread/INFO]: Running delayed init tasks
+[21:02:20] [Server thread/INFO]: Done (38.699s)! For help, type "help"
+[21:02:20] [Server thread/INFO]: Timings Reset
+[21:02:20] [Server thread/INFO]: [WildChests] - Couldn't find any prices providers, using default one
+[21:02:20] [Server thread/INFO]: [WildChests] 
+[21:02:20] [Server thread/INFO]: [WildChests] If you want sell-chests to be enabled, please install Vault & Economy plugin.
+[21:02:20] [Server thread/INFO]: [WildChests] 
+[21:02:20] [Craft Scheduler Thread - 2 - RoseStacker/INFO]: [RoseStacker] Fetched 134 translation locales.
+[21:02:20] [Server thread/INFO]: [WildChests] Trying to connect to SQLite database...
+[21:02:20] [Server thread/INFO]: [WildChests] Successfully established connection with SQLite database!
+[21:02:26] [pool-12-thread-2/INFO]: [nAntiBot] [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 45, threads = 4, took 13.88s)
+[21:10:39] [User Authenticator #0/INFO]: UUID of player wuyl12 is 93accafa-0c2b-31d5-b8d3-195a7db150ef
+[21:10:40] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 10 seconds
+[21:10:41] [Server thread/INFO]: wuyl12[/127.38.189.165:39983] logged in with entity id 3472 at ([lobby]-0.8303442886035813, -57.0922028102297, -51.183390969700554)
+[21:10:41] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 9 seconds
+[21:10:42] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 8 seconds
+[21:10:43] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 7 seconds
+[21:10:44] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 6 seconds
+[21:10:45] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 5 seconds
+[21:10:46] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user wuyl12 has successfully logged in.
+[21:10:46] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 4 seconds
+[21:10:47] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 3 seconds
+[21:10:48] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 2 seconds
+[21:10:49] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 1 seconds
+[21:10:50] [Server thread/INFO]: [AntiLag] > Removing...
