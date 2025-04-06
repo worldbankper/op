@@ -1,0 +1,23 @@
+location: lobby:-1.491:126.000:0.616
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#5A0080&l&o&nG&#4D0285&l&o&nA&#400589&l&o&nM&#33078E&l&o&nI&#270A92&l&o&nG
+      &#0D0F9B&l&o&nO&#0011A0&l&o&nP'
+    height: 0.3
+  - content: '&6&lBienvenido %luckperms_prefix%&3&l%player_name% &6&Lal servidor'
+    height: 0.3
+  - content: '&6&lesperemos q disfrutes tu estadia'
+    height: 0.3
+  - content: '&9&lpuede comensar con:'
+    height: 0.3
+  - content: '&7&l/menu'
+    height: 0.3
+  - content: '&6&l o dirijete a los npc'
+    height: 0.3
+  actions: {}

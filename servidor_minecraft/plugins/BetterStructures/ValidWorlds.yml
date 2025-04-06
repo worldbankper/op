@@ -1,0 +1,8 @@
+New worlds spawn structures: true
+Valid worlds:
+  world: true
+  world_nether: true
+  world_the_end: true
+  worlds: true
+  lobby: true
+  futbol: true

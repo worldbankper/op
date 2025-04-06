@@ -1,0 +1,19 @@
+# ### This file contains the timers that were running when the server restarted ###
+# ###  and the list of players who already used their first-join-dragon-spawn.  ###
+
+Timerlist:
+  '1':
+    Mapname: world_the_end
+    Resttime: 17191079
+  '2':
+    Mapname: world_the_end
+    Resttime: 17199657
+  '3':
+    Mapname: world_the_end
+    Resttime: 17203532
+  '4':
+    Mapname: world_the_end
+    Resttime: 289121
+  '5':
+    Mapname: world_the_end
+    Resttime: 147139

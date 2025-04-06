@@ -1,0 +1,129 @@
+[
+  {
+    "id": 1,
+    "hologramHeight": 0.0,
+    "skin": "",
+    "signature": "",
+    "skinName": "Steve",
+    "location": {
+      "world": "lobby",
+      "x": -14.5,
+      "y": 123.5,
+      "z": 0.5,
+      "yaw": -91.64992,
+      "pitch": 6.450036
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&6&lSURVIVAL"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "rtp world world",
+        "delay": 0
+      }
+    ],
+    "npcEquip": {},
+    "npcFunctions": {},
+    "customizationMap": {}
+  },
+  {
+    "id": 2,
+    "hologramHeight": 0.0,
+    "skin": "",
+    "signature": "",
+    "skinName": "Steve",
+    "location": {
+      "world": "lobby",
+      "x": -14.5,
+      "y": 123.5,
+      "z": -2.5,
+      "yaw": -68.30408,
+      "pitch": 14.986909
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&7&lFUTBOL"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [],
+    "npcEquip": {},
+    "npcFunctions": {},
+    "customizationMap": {}
+  },
+  {
+    "id": 3,
+    "hologramHeight": 0.0,
+    "skin": "",
+    "signature": "",
+    "skinName": "Steve",
+    "location": {
+      "world": "lobby",
+      "x": -14.5,
+      "y": 123.5,
+      "z": 3.5,
+      "yaw": -90.50397,
+      "pitch": 8.986925
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&3&LPRONTO"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [],
+    "npcEquip": {},
+    "npcFunctions": {},
+    "customizationMap": {}
+  },
+  {
+    "id": 4,
+    "hologramHeight": 0.0,
+    "skin": "",
+    "signature": "",
+    "skinName": "Steve",
+    "location": {
+      "world": "lobby",
+      "x": -14.5,
+      "y": 122.5,
+      "z": 6.5,
+      "yaw": -92.004395,
+      "pitch": 13.6369705
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&3&LPRONTO"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [],
+    "npcEquip": {},
+    "npcFunctions": {},
+    "customizationMap": {}
+  },
+  {
+    "id": 5,
+    "hologramHeight": 0.0,
+    "skin": "",
+    "signature": "",
+    "skinName": "Steve",
+    "location": {
+      "world": "lobby",
+      "x": -14.5,
+      "y": 123.0,
+      "z": -5.5,
+      "yaw": -85.70422,
+      "pitch": 12.58698
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "&3&LPRONTO"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [],
+    "npcEquip": {},
+    "npcFunctions": {},
+    "customizationMap": {}
+  }
+]
