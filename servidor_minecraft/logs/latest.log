@@ -828,3 +828,25 @@ java.lang.NoSuchMethodError: 'com.viaversion.viaversion.api.minecraft.entities.E
 [23:26:34] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 2 seconds
 [23:26:35] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 1 seconds
 [23:26:36] [Server thread/INFO]: [AntiLag] > Removing...
+[23:34:46] [Netty Epoll Server IO #3/INFO]: Could not get version of a client viewing motd! Continue with version 735 (1.16).
+[23:34:46] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 10 seconds
+[23:34:47] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 9 seconds
+[23:34:48] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 8 seconds
+[23:34:48] [Netty Epoll Server IO #0/INFO]: Could not get version of a client viewing motd! Continue with version 735 (1.16).
+[23:34:49] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 7 seconds
+[23:34:49] [User Authenticator #0/INFO]: UUID of player wuyl12 is 93accafa-0c2b-31d5-b8d3-195a7db150ef
+[23:34:50] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 6 seconds
+[23:34:52] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[23:34:52] [Server thread/INFO]: wuyl12[/127.162.49.85:40719] logged in with entity id 33319 at ([lobby]-2.480797293859167, 123.0, 1.0185163977330558)
+[23:34:53] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 5 seconds
+[23:34:54] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 4 seconds
+[23:34:54] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 3 seconds
+[23:34:55] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 2 seconds
+[23:34:55] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 1 seconds
+[23:34:56] [Server thread/INFO]: [AntiLag] > Removing...
+[23:34:59] [Folia Async Scheduler Thread #1/INFO]: [nLogin] The user wuyl12 has successfully logged in.
+[23:35:42] [Server thread/INFO]: wuyl12 issued server command: /znpcs skin 1 god
+[23:36:33] [Server thread/INFO]: wuyl12 issued server command: /lp editor
+[23:36:49] [Server thread/INFO]: wuyl12 issued server command: /lp trusteditor 5dd2-704f
+[23:37:03] [Async Chat Thread - #1/INFO]: [Not Secure] <wuyl12> prefix.1.&#7100d6&lO&#8429e0&lW&#9752ea&lN&#aa7af3&lE&#bda3fd&lR &r
+[23:38:30] [Server thread/INFO]: wuyl12 issued server command: /lp group owner meta addtempprefix "&#7100d6&lO&#8429e0&lW&#9752ea&lN&#aa7af3&lE&#bda3fd&lR &r"
