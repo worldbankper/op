@@ -1,146 +1,300 @@
-[21:01:42] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
-[21:01:42] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[21:01:43] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[21:01:44] [ServerMain/INFO]: [PluginInitializerManager] Initialized 9 plugins
-[21:01:44] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[02:53:25] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
+[02:53:25] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[02:53:25] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[02:53:28] [ServerMain/INFO]: [PluginInitializerManager] Initialized 21 plugins
+[02:53:28] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - RoseStacker (1.5.32)
-[21:01:44] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
- - AntiLag (2.0), ClearLag (3.2.2), Multiverse-Core (4.3.14), OpeNLogin (1.6.7), ProtocolLib (5.3.0), WildChests (2024.4-b84), nAntiBot (6.1.28), nLogin (10.4.21)
-[21:01:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:01:52] [ServerMain/INFO]: Loaded 1290 recipes
-[21:01:52] [ServerMain/INFO]: Loaded 1399 advancements
-[21:01:52] [Server thread/INFO]: Starting minecraft server version 1.21
-[21:01:52] [Server thread/INFO]: Loading properties
-[21:01:53] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[21:01:53] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[21:01:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:01:54] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:01:54] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[21:01:54] [Server thread/INFO]: Default game type: SURVIVAL
-[21:01:54] [Server thread/INFO]: Generating keypair
-[21:01:55] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:01:55] [Server thread/INFO]: Using epoll channel type
-[21:01:55] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[21:01:55] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[21:01:56] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[21:02:08] [Server thread/WARN]: Legacy plugin AntiLag v2.0 does not specify an api-version.
-[21:02:08] [Server thread/INFO]: [WildChests] Loading server plugin WildChests v2024.4-b84
-[21:02:08] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
-[21:02:09] [Server thread/INFO]: [RoseStacker] Loading server plugin RoseStacker v1.5.32
-[21:02:09] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.4.21
-[21:02:09] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
-[21:02:09] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.14
-[21:02:09] [Server thread/INFO]: [AntiLag] Loading server plugin AntiLag v2.0
-[21:02:09] [Server thread/INFO]: [nAntiBot] Loading server plugin nAntiBot v6.1.28
-[21:02:10] [Server thread/INFO]: [OpeNLogin] Loading server plugin OpeNLogin v1.6.7
-[21:02:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:02:10] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
-[21:02:10] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.21
-[21:02:10] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.35s)
-[21:02:10] [Server thread/INFO]:           __             _       
-[21:02:10] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
-[21:02:10] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
-[21:02:10] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
-[21:02:10] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
-[21:02:10] [Server thread/INFO]:                   |___/            
-[21:02:10] [Server thread/INFO]:  By: www.nickuc.com - V 10.4.21
-[21:02:10] [Server thread/INFO]:  
-[21:02:12] [Server thread/INFO]: [nAntiBot] Enabling nAntiBot v6.1.28
-[21:02:12] [Server thread/INFO]: [nAntiBot] Successful plugin core start (took 0.25s)
-[21:02:12] [Server thread/INFO]:           _         _   _   ___       _   
-[21:02:12] [Server thread/INFO]:   _ __   /_\  _ __ | |_(_) / __\ ___ | |_ 
-[21:02:12] [Server thread/INFO]:  | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
-[21:02:12] [Server thread/INFO]:  | | | /  _  \ | | | |_| / \/  \ (_) | |_ 
-[21:02:12] [Server thread/INFO]:  |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
-[21:02:12] [Server thread/INFO]:                                          
-[21:02:12] [Server thread/INFO]:  By: www.nickuc.com - V 6.1.28 DEVELOPMENT
-[21:02:12] [Server thread/INFO]: 
-[21:02:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:02:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:02:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:02:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:02:13] [Folia Async Scheduler Thread #3/INFO]: [nAntiBot] Connecting to the remote server antibot.nickuc.com...
-[21:02:13] [Server thread/INFO]: Preparing level "world"
-[21:02:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:02:15] [Server thread/INFO]: Time elapsed: 1551 ms
-[21:02:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:02:16] [Server thread/INFO]: Time elapsed: 294 ms
-[21:02:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:02:16] [Server thread/INFO]: Time elapsed: 158 ms
-[21:02:16] [Server thread/INFO]: [WildChests] Enabling WildChests v2024.4-b84
-[21:02:16] [Server thread/INFO]: [WildChests] ******** ENABLE START ********
-[21:02:16] [Server thread/INFO]: [WildChests] Loading configuration started...
-[21:02:16] [Server thread/INFO]: [WildChests]  - Found 6 chests in config.yml.
-[21:02:16] [Server thread/INFO]: [WildChests] Loading configuration done (Took 216ms)
-[21:02:16] [Server thread/INFO]: [WildChests] Loading messages started...
-[21:02:16] [Server thread/INFO]: [WildChests]  - Found 42 messages in lang.yml.
-[21:02:16] [Server thread/INFO]: [WildChests] Loading messages done (Took 4ms)
-[21:02:16] [Server thread/INFO]: [WildChests] ******** ENABLE DONE ********
-[21:02:16] [Server thread/INFO]: [RoseStacker] Enabling RoseStacker v1.5.32
-[21:02:17] [Server thread/WARN]: [RoseStacker] Ignored loading stack settings for entities: [CREAKING]
-[21:02:17] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[21:02:17] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[21:02:17] [Server thread/INFO]: [ClearLag] Loading modules...
-[21:02:17] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (Index 3 out of bounds for length 3)
-[21:02:17] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[21:02:17] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[21:02:17] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[21:02:17] [Thread-13/WARN]: [ClearLag] Clearlag failed to check for updates - bukkit may be down
-[21:02:17] [Thread-13/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
-[21:02:17] [Thread-13/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.Util.getBukkitVersion(Util.java:105)
-[21:02:17] [Thread-13/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.updateAvailable(BukkitUpdater.java:32)
-[21:02:17] [Thread-13/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.run(BukkitUpdater.java:82)
-[21:02:17] [Thread-13/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[21:02:17] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.14
-[21:02:17] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.14" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[21:02:17] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[21:02:18] [Server thread/INFO]: Preparing start region for dimension minecraft:lobby
-[21:02:18] [Server thread/INFO]: Time elapsed: 364 ms
-[21:02:18] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[21:02:18] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[21:02:18] [Server thread/INFO]: [Multiverse-Core] Version 4.3.14 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[21:02:18] [Server thread/INFO]: [AntiLag] Enabling AntiLag v2.0*
-[21:02:18] [Server thread/INFO]: [OpeNLogin] Enabling OpeNLogin v1.6.7
-[21:02:18] [Server thread/INFO]: [OpeNLogin] nLogin was detected, turning off plugin...
-[21:02:18] [Server thread/INFO]: [OpeNLogin] Disabling OpeNLogin v1.6.7
-[21:02:18] [Server thread/INFO]: [spark] Starting background profiler...
-[21:02:20] [Server thread/INFO]: Done preparing level "world" (6.751s)
-[21:02:20] [Server thread/INFO]: Running delayed init tasks
-[21:02:20] [Server thread/INFO]: Done (38.699s)! For help, type "help"
-[21:02:20] [Server thread/INFO]: Timings Reset
-[21:02:20] [Server thread/INFO]: [WildChests] - Couldn't find any prices providers, using default one
-[21:02:20] [Server thread/INFO]: [WildChests] 
-[21:02:20] [Server thread/INFO]: [WildChests] If you want sell-chests to be enabled, please install Vault & Economy plugin.
-[21:02:20] [Server thread/INFO]: [WildChests] 
-[21:02:20] [Craft Scheduler Thread - 2 - RoseStacker/INFO]: [RoseStacker] Fetched 134 translation locales.
-[21:02:20] [Server thread/INFO]: [WildChests] Trying to connect to SQLite database...
-[21:02:20] [Server thread/INFO]: [WildChests] Successfully established connection with SQLite database!
-[21:02:26] [pool-12-thread-2/INFO]: [nAntiBot] [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 45, threads = 4, took 13.88s)
-[21:10:39] [User Authenticator #0/INFO]: UUID of player wuyl12 is 93accafa-0c2b-31d5-b8d3-195a7db150ef
-[21:10:40] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 10 seconds
-[21:10:41] [Server thread/INFO]: wuyl12[/127.38.189.165:39983] logged in with entity id 3472 at ([lobby]-0.8303442886035813, -57.0922028102297, -51.183390969700554)
-[21:10:41] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 9 seconds
-[21:10:42] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 8 seconds
-[21:10:43] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 7 seconds
-[21:10:44] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 6 seconds
-[21:10:45] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 5 seconds
-[21:10:46] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user wuyl12 has successfully logged in.
-[21:10:46] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 4 seconds
-[21:10:47] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 3 seconds
-[21:10:48] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 2 seconds
-[21:10:49] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 1 seconds
-[21:10:50] [Server thread/INFO]: [AntiLag] > Removing...
-[21:19:00] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 10 seconds
-[21:19:01] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 9 seconds
-[21:19:02] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 8 seconds
-[21:19:03] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 7 seconds
-[21:19:04] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 6 seconds
-[21:19:05] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 5 seconds
-[21:19:06] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 4 seconds
-[21:19:07] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 3 seconds
-[21:19:08] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 2 seconds
-[21:19:09] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 1 seconds
-[21:19:10] [Server thread/INFO]: [AntiLag] > Removing...
-[21:19:15] [Server thread/INFO]: wuyl12 issued server command: /mv tp world
-[21:19:26] [Server thread/INFO]: wuyl12 issued server command: /gamemode creative
-[21:19:26] [Server thread/INFO]: [wuyl12: Set own game mode to Creative Mode]
+[02:53:28] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (20):
+ - AdvancedNMotd (10.0.1), AntiLag (2.0), ClearLag (3.2.2), Essentials (2.21.0), EssentialsSpawn (2.21.1-dev+12-8455212), LibertyBans (1.1.0), LuckPerms (5.4.158), Multiverse-Core (4.3.14), PlaceholderAPI (2.11.6), ProtocolLib (5.3.0), TAB (5.2.0), Vault (1.7.3-b131), ViaBackwards (5.3.1), ViaRewind (4.0.4), ViaVersion (5.3.1), WildChests (2024.4-b84), WorldEdit (7.3.9+6959-7adf70b), WorldGuard (7.0.11+068ad68), nAntiBot (6.1.28), nLogin (10.4.21)
+[02:53:33] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02:53:35] [ServerMain/INFO]: Loaded 1290 recipes
+[02:53:36] [ServerMain/INFO]: Loaded 1399 advancements
+[02:53:36] [Server thread/INFO]: Starting minecraft server version 1.21
+[02:53:36] [Server thread/INFO]: Loading properties
+[02:53:36] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[02:53:37] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[02:53:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:53:37] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:53:38] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[02:53:38] [Server thread/INFO]: Default game type: SURVIVAL
+[02:53:38] [Server thread/INFO]: Generating keypair
+[02:53:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:53:39] [Server thread/INFO]: Using epoll channel type
+[02:53:39] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[02:53:39] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[02:53:42] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[02:53:54] [Server thread/WARN]: Legacy plugin AntiLag v2.0 does not specify an api-version.
+[02:53:54] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.1
+[02:53:54] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.1 is now loaded. Registering protocol transformers and injecting...
+[02:53:55] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[02:53:56] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[02:53:57] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[02:53:57] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[02:53:59] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[02:53:59] [Server thread/ERROR]: [ViaVersion] Error initializing plugin 'ViaVersion-5.3.1.jar' in folder 'plugins' (Is it up to date?)
+java.lang.NoSuchMethodError: 'com.viaversion.viaversion.api.minecraft.entities.EntityTypes1_8$ObjectType com.viaversion.viaversion.api.minecraft.entities.EntityTypes1_8$ObjectType.findById(int)'
+	at ViaRewind-4.0.4.jar/com.viaversion.viarewind.protocol.v1_8to1_7_6_10.rewriter.EntityPacketRewriter1_8$3.register(EntityPacketRewriter1_8.java:144) ~[ViaRewind-4.0.4.jar:?]
+	at ViaVersion-5.3.1.jar/com.viaversion.viaversion.api.protocol.remapper.PacketHandlers.<init>(PacketHandlers.java:38) ~[ViaVersion-5.3.1.jar:?]
+	at ViaRewind-4.0.4.jar/com.viaversion.viarewind.protocol.v1_8to1_7_6_10.rewriter.EntityPacketRewriter1_8$3.<init>(EntityPacketRewriter1_8.java:130) ~[ViaRewind-4.0.4.jar:?]
+	at ViaRewind-4.0.4.jar/com.viaversion.viarewind.protocol.v1_8to1_7_6_10.rewriter.EntityPacketRewriter1_8.registerPackets(EntityPacketRewriter1_8.java:130) ~[ViaRewind-4.0.4.jar:?]
+	at ViaVersion-5.3.1.jar/com.viaversion.viaversion.api.rewriter.RewriterBase.register(RewriterBase.java:36) ~[ViaVersion-5.3.1.jar:?]
+	at ViaRewind-4.0.4.jar/com.viaversion.viarewind.protocol.v1_8to1_7_6_10.Protocol1_8To1_7_6_10.registerPackets(Protocol1_8To1_7_6_10.java:62) ~[ViaRewind-4.0.4.jar:?]
+	at ViaVersion-5.3.1.jar/com.viaversion.viaversion.api.protocol.AbstractProtocol.initialize(AbstractProtocol.java:106) ~[ViaVersion-5.3.1.jar:?]
+	at ViaVersion-5.3.1.jar/com.viaversion.viaversion.protocol.ProtocolManagerImpl.registerProtocol(ProtocolManagerImpl.java:213) ~[ViaVersion-5.3.1.jar:?]
+	at ViaVersion-5.3.1.jar/com.viaversion.viaversion.protocol.ProtocolManagerImpl.registerProtocol(ProtocolManagerImpl.java:207) ~[ViaVersion-5.3.1.jar:?]
+	at ViaRewind-4.0.4.jar/com.viaversion.viarewind.api.ViaRewindPlatform.init(ViaRewindPlatform.java:55) ~[ViaRewind-4.0.4.jar:?]
+	at ViaRewind-4.0.4.jar/com.viaversion.viarewind.BukkitPlugin.lambda$new$0(BukkitPlugin.java:29) ~[ViaRewind-4.0.4.jar:?]
+	at ViaVersion-5.3.1.jar/com.viaversion.viaversion.ViaManagerImpl.init(ViaManagerImpl.java:115) ~[ViaVersion-5.3.1.jar:?]
+	at ViaVersion-5.3.1.jar/com.viaversion.viaversion.ViaVersionPlugin.onLoad(ViaVersionPlugin.java:87) ~[ViaVersion-5.3.1.jar:?]
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[02:53:59] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.158
+[02:54:01] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[02:54:01] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.9+6959-7adf70b
+[02:54:03] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@27119211]
+[02:54:03] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.1
+[02:54:03] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.11+068ad68
+[02:54:03] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[02:54:03] [Server thread/INFO]: [WildChests] Loading server plugin WildChests v2024.4-b84
+[02:54:03] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[02:54:03] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.4
+[02:54:03] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0
+[02:54:03] [Server thread/INFO]: [RoseStacker] Loading server plugin RoseStacker v1.5.32
+[02:54:03] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.4.21
+[02:54:04] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.0
+[02:54:04] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[02:54:04] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.14
+[02:54:04] [Server thread/INFO]: [AntiLag] Loading server plugin AntiLag v2.0
+[02:54:04] [Server thread/INFO]: [LibertyBans] Loading server plugin LibertyBans v1.1.0
+[02:54:04] [Server thread/INFO]: [nAntiBot] Loading server plugin nAntiBot v6.1.28
+[02:54:04] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.1-dev+12-8455212
+[02:54:04] [Server thread/INFO]: [AdvancedNMotd] Loading server plugin AdvancedNMotd v10.0.1
+[02:54:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:54:04] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.158
+[02:54:05] [Server thread/INFO]:         __    
+[02:54:05] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.158
+[02:54:05] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[02:54:05] [Server thread/INFO]: 
+[02:54:05] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[02:54:05] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[02:54:05] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[02:54:05] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[02:54:05] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1206ms)
+[02:54:05] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[02:54:06] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[02:54:06] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[02:54:06] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[02:54:06] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[02:54:06] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.9+6959-7adf70b
+[02:54:06] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[02:54:06] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[02:54:06] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[02:54:07] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[02:54:07] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.4
+[02:54:07] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.21
+[02:54:08] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.38s)
+[02:54:08] [Server thread/INFO]:           __             _       
+[02:54:08] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
+[02:54:08] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[02:54:08] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
+[02:54:08] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[02:54:08] [Server thread/INFO]:                   |___/            
+[02:54:08] [Server thread/INFO]:  By: www.nickuc.com - V 10.4.21
+[02:54:08] [Server thread/INFO]:  
+[02:54:09] [Server thread/INFO]: [nAntiBot] Enabling nAntiBot v6.1.28
+[02:54:09] [Server thread/INFO]: [nAntiBot] Successful plugin core start (took 0.30s)
+[02:54:09] [Server thread/INFO]:           _         _   _   ___       _   
+[02:54:09] [Server thread/INFO]:   _ __   /_\  _ __ | |_(_) / __\ ___ | |_ 
+[02:54:09] [Server thread/INFO]:  | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
+[02:54:09] [Server thread/INFO]:  | | | /  _  \ | | | |_| / \/  \ (_) | |_ 
+[02:54:09] [Server thread/INFO]:  |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
+[02:54:09] [Server thread/INFO]:                                          
+[02:54:09] [Server thread/INFO]:  By: www.nickuc.com - V 6.1.28 DEVELOPMENT
+[02:54:09] [Server thread/INFO]: 
+[02:54:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:54:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:54:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:54:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:54:10] [Folia Async Scheduler Thread #3/INFO]: [nAntiBot] Connecting to the remote server antibot.nickuc.com...
+[02:54:10] [Server thread/INFO]: Preparing level "world"
+[02:54:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:54:11] [Server thread/INFO]: Time elapsed: 879 ms
+[02:54:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[02:54:11] [Server thread/INFO]: Time elapsed: 118 ms
+[02:54:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[02:54:12] [Server thread/INFO]: Time elapsed: 155 ms
+[02:54:12] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.1
+[02:54:12] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[02:54:12] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.1
+[02:54:12] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.11+068ad68
+[02:54:12] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[02:54:12] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[02:54:12] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[02:54:12] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[02:54:12] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[02:54:12] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[02:54:12] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[02:54:12] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[02:54:12] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[02:54:12] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[02:54:12] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[02:54:12] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[02:54:12] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[02:54:12] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[02:54:12] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[02:54:12] [Server thread/INFO]: [WorldGuard] Loading region data...
+[02:54:12] [Server thread/WARN]: [WorldGuard] "WorldGuard v7.0.11+068ad68" has registered a listener for org.bukkit.event.entity.EntityKnockbackByEntityEvent on method "public void com.sk89q.worldguard.bukkit.listener.EventAbstractionListener.onEntityKnockbackByEntity(org.bukkit.event.entity.EntityKnockbackByEntityEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [].
+[02:54:12] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[02:54:13] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[02:54:13] [Server thread/INFO]: [WildChests] Enabling WildChests v2024.4-b84
+[02:54:13] [Server thread/INFO]: [WildChests] ******** ENABLE START ********
+[02:54:13] [Server thread/INFO]: [WildChests] Loading configuration started...
+[02:54:13] [Server thread/INFO]: [WildChests]  - Found 6 chests in config.yml.
+[02:54:13] [Server thread/INFO]: [WildChests] Loading configuration done (Took 101ms)
+[02:54:13] [Server thread/INFO]: [WildChests] Loading messages started...
+[02:54:13] [Server thread/INFO]: [WildChests]  - Found 42 messages in lang.yml.
+[02:54:13] [Server thread/INFO]: [WildChests] Loading messages done (Took 3ms)
+[02:54:13] [Server thread/INFO]: [WildChests] ******** ENABLE DONE ********
+[02:54:13] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0
+[02:54:14] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[02:54:14] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsSpawn to the same version.
+[02:54:15] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[02:54:15] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[02:54:15] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[02:54:15] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[02:54:15] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[02:54:15] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[02:54:15] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[02:54:15] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[02:54:15] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[02:54:15] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[02:54:15] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[02:54:15] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[02:54:15] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[02:54:15] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[02:54:15] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[02:54:15] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[02:54:15] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[02:54:15] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[02:54:15] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[02:54:15] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[02:54:15] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[02:54:15] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[02:54:15] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[02:54:15] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[02:54:15] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[02:54:15] [Server thread/INFO]: [Essentials] Using locale en
+[02:54:15] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[02:54:16] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[02:54:16] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[02:54:16] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[02:54:16] [Server thread/INFO]: [RoseStacker] Enabling RoseStacker v1.5.32
+[02:54:16] [Server thread/WARN]: [RoseStacker] Ignored loading stack settings for entities: [CREAKING]
+[02:54:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: rosestacker [1.5.32]
+[02:54:16] [Server thread/INFO]: [TAB] Enabling TAB v5.2.0
+[02:54:17] [Server thread/INFO]: [TAB] Loaded NMS hook in 91ms
+[02:54:17] [Server thread/INFO]: [TAB] Enabled in 603ms
+[02:54:17] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[02:54:17] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[02:54:17] [Server thread/INFO]: [ClearLag] Loading modules...
+[02:54:17] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (Index 3 out of bounds for length 3)
+[02:54:17] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[02:54:17] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[02:54:17] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[02:54:17] [Thread-16/WARN]: [ClearLag] Clearlag failed to check for updates - bukkit may be down
+[02:54:17] [Thread-16/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+[02:54:17] [Thread-16/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.Util.getBukkitVersion(Util.java:105)
+[02:54:17] [Thread-16/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.updateAvailable(BukkitUpdater.java:32)
+[02:54:17] [Thread-16/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.run(BukkitUpdater.java:82)
+[02:54:17] [Thread-16/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:54:17] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.14
+[02:54:17] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.14" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[02:54:17] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[02:54:18] [Server thread/INFO]: Preparing start region for dimension minecraft:worlds
+[02:54:18] [Server thread/INFO]: Time elapsed: 271 ms
+[02:54:18] [Server thread/INFO]: [WorldGuard] (worlds) TNT ignition is PERMITTED.
+[02:54:18] [Server thread/INFO]: [WorldGuard] (worlds) Lighters are PERMITTED.
+[02:54:18] [Server thread/INFO]: [WorldGuard] (worlds) Lava fire is PERMITTED.
+[02:54:18] [Server thread/INFO]: [WorldGuard] (worlds) Fire spread is UNRESTRICTED.
+[02:54:18] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'worlds'
+[02:54:18] [Server thread/INFO]: Preparing start region for dimension minecraft:lobby
+[02:54:18] [Server thread/INFO]: Time elapsed: 420 ms
+[02:54:19] [Server thread/INFO]: [WorldGuard] (lobby) TNT ignition is PERMITTED.
+[02:54:19] [Server thread/INFO]: [WorldGuard] (lobby) Lighters are PERMITTED.
+[02:54:19] [Server thread/INFO]: [WorldGuard] (lobby) Lava fire is PERMITTED.
+[02:54:19] [Server thread/INFO]: [WorldGuard] (lobby) Fire spread is UNRESTRICTED.
+[02:54:19] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'lobby'
+[02:54:19] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
+[02:54:19] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[02:54:19] [Server thread/INFO]: [Multiverse-Core] Version 4.3.14 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[02:54:19] [Server thread/INFO]: [AntiLag] Enabling AntiLag v2.0*
+[02:54:19] [Server thread/INFO]: [LibertyBans] Enabling LibertyBans v1.1.0
+[02:54:19] [Server thread/INFO]: [LibertyBans] No addons detected
+[02:54:19] [Server thread/INFO]: [space.arim.libertybans.core.addon.AddonLoader] No addons loaded
+[02:54:19] [Server thread/INFO]: [space.arim.libertybans.core.AbstractBaseFoundation] Conducting start phase...
+[02:54:19] [Server thread/INFO]: [space.arim.libertybans.core.LifecycleGodfather] Starting LibertyBans 1.1.0 on Paper (Bukkit) 1.21-130-b1b5d4c (MC: 1.21)
+[02:54:20] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] LibertyBansPool-HyperSQL - Starting...
+[02:54:20] [Server thread/INFO]: [com.zaxxer.hikari.pool.PoolBase] LibertyBansPool-HyperSQL - Driver does not support get/set network timeout for connections. (feature not supported)
+[02:54:20] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] LibertyBansPool-HyperSQL - Added connection org.hsqldb.jdbc.JDBCConnection@47e2e4ca
+[02:54:20] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] LibertyBansPool-HyperSQL - Start completed.
+[02:54:21] [Server thread/INFO]: [org.flywaydb.core.internal.license.VersionPrinter] Flyway Community Edition 8.2.0 by Redgate
+[02:54:21] [Server thread/INFO]: [org.flywaydb.core.internal.database.base.BaseDatabaseType] Database: jdbc:hsqldb:file:/workspaces/op/servidor_minecraft/plugins/LibertyBans/internal/hypersql/punishments-database;hsqldb.tx_interrupt_rollback=true;sql.enforce_refs=true;sql.restrict_exec=true;sql.sys_index_names=true;hsqldb.default_table_type=cached;sql.enforce_names=true;sql.enforce_types=true (HSQL Database Engine 2.7)
+[02:54:21] [Server thread/WARN]: [org.flywaydb.core.internal.database.base.Database] Flyway upgrade recommended: HSQLDB 2.7 is newer than this version of Flyway and support has not been tested. The latest supported version of HSQLDB is 2.6.
+[02:54:21] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbValidate] Successfully validated 14 migrations (execution time 00:00.069s)
+[02:54:21] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Current version of schema "PUBLIC": 38
+[02:54:21] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Schema "PUBLIC" is up to date. No migration necessary.
+[02:54:21] [Server thread/INFO]: [space.arim.libertybans.core.AbstractBaseFoundation] Finished start phase in 1.384 seconds
+[02:54:21] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.1-dev+12-8455212
+[02:54:21] [Server thread/WARN]: [EssentialsSpawn] Version mismatch! Please update all Essentials jars to the same version.
+[02:54:21] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[02:54:21] [Server thread/INFO]: [AdvancedNMotd] Enabling AdvancedNMotd v10.0.1
+[02:54:21] [Server thread/INFO]: 
+[02:54:21] [Server thread/INFO]: ---------------- AdvancedNMotd --------------
+[02:54:21] [Server thread/INFO]:            AdvancedNMotd is enabled!
+[02:54:21] [Server thread/INFO]: ---------------------------------------------
+[02:54:21] [Server thread/INFO]: 
+[02:54:21] [Server thread/INFO]: [spark] Starting background profiler...
+[02:54:22] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[02:54:22] [Server thread/INFO]: Done preparing level "world" (12.112s)
+[02:54:22] [Server thread/INFO]: Running delayed init tasks
+[02:54:22] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[02:54:22] [Craft Scheduler Thread - 8 - Essentials/INFO]: [Essentials] Fetching version information...
+[02:54:22] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[02:54:22] [Craft Scheduler Thread - 11 - Vault/INFO]: [Vault] Checking for Updates ... 
+[02:54:22] [Server thread/INFO]: Done (58.023s)! For help, type "help"
+[02:54:22] [Server thread/INFO]: Timings Reset
+[02:54:22] [Server thread/INFO]: [WildChests] - Couldn't find any prices providers, using default one
+[02:54:22] [Craft Scheduler Thread - 9 - RoseStacker/INFO]: [RoseStacker] Fetched 134 translation locales.
+[02:54:22] [Server thread/INFO]: [WildChests] Trying to connect to SQLite database...
+[02:54:22] [Server thread/INFO]: [WildChests] Successfully established connection with SQLite database!
+[02:54:22] [Craft Scheduler Thread - 11 - Vault/INFO]: [Vault] No new version available
+[02:54:22] [Craft Scheduler Thread - 12 - AdvancedNMotd/INFO]: 
+[02:54:22] [Craft Scheduler Thread - 12 - AdvancedNMotd/INFO]: ------------ AdvancedNMotd Updater ----------
+[02:54:22] [Craft Scheduler Thread - 12 - AdvancedNMotd/INFO]: You have the latest version of AdvancedNMotd!
+[02:54:22] [Craft Scheduler Thread - 12 - AdvancedNMotd/INFO]: Current version: 10.0.0.
+[02:54:22] [Craft Scheduler Thread - 12 - AdvancedNMotd/INFO]: ---------------------------------------------
+[02:54:22] [Craft Scheduler Thread - 12 - AdvancedNMotd/INFO]: 
+[02:54:22] [ForkJoinPool.commonPool-worker-1/INFO]: [space.arim.libertybans.core.database.jooq.JooqClassloading] Finished pre-initializing classes in 1.65 seconds
+[02:54:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[02:54:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[02:54:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: changeoutput [1.2.2]
+[02:54:23] [Server thread/INFO]: 3 placeholder hook(s) registered!
+[02:54:26] [pool-22-thread-1/INFO]: [nAntiBot] [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 45, threads = 4, took 17.34s)
+[03:02:42] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 10 seconds
+[03:02:43] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 9 seconds
+[03:02:44] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 8 seconds
+[03:02:45] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 7 seconds
+[03:02:46] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 6 seconds
+[03:02:47] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 5 seconds
+[03:02:48] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 4 seconds
+[03:02:49] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 3 seconds
+[03:02:50] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 2 seconds
+[03:02:51] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 1 seconds
+[03:02:52] [Server thread/INFO]: [AntiLag] > Removing...
