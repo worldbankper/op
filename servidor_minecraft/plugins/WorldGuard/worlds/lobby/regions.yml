@@ -14,7 +14,7 @@ regions:
         min: {x: -107, y: -64, z: -142}
         max: {x: 118, y: 319, z: 93}
         members: {}
-        flags: {invincible: allow, mob-spawning: deny}
+        flags: {invincible: allow, mob-spawning: allow}
         owners: {}
         type: cuboid
         priority: 0
@@ -22,7 +22,7 @@ regions:
         min: {x: -145, y: -64, z: -226}
         max: {x: 134, y: 319, z: 172}
         members: {}
-        flags: {invincible: allow, interact: allow}
+        flags: {invincible: allow, interact: allow, mob-spawning: allow}
         owners: {}
         type: cuboid
         priority: 0

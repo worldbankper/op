@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1743991444330
-  login: 1743990009056
+  logout: 1743992651654
+  login: 1743991616689
 money: '100000.0'
 last-account-name: wuyl12
 lastlocation:
@@ -31,11 +31,11 @@ lastlocation:
 logoutlocation:
   world: 247b9917-61e2-4a30-9040-751bdd8fb5b5
   world-name: lobby
-  x: -10.392535448355485
+  x: 6.300000011920929
   y: 133.0
-  z: -112.47717725680347
-  yaw: -85.7037353515625
-  pitch: 18.436874389648438
+  z: -19.440568005464588
+  yaw: -53.754150390625
+  pitch: 21.599943161010742
 homes:
   ww:
     world: d94b8f24-b34f-4d40-a778-168121561fb6
