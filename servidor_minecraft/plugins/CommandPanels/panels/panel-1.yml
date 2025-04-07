@@ -42,71 +42,85 @@ panels:
         stack: 1
         name: ' '
       '12':
-        material: PLAYER_HEAD
+        material: grass_block
         stack: 1
         name: §6§lSURVIVAL
+        lore: 
+        - 'CLICK PARA IR AL SURVIVAL'
+        commands:
+        - rtp world world 
         nbt:
           Skulls:ID: 102
       '14':
         material: PLAYER_HEAD
         stack: 1
         name: §6§lFUTBOLL
+        lore:
+        - 'click para ir al futboll'
       '17':
         material: BLACK_STAINED_GLASS_PANE
         stack: 1
-        name: ''
+        name: ' '
       '28':
         material: PLAYER_HEAD
         stack: 1
         name: §6§lPOCIONES
+        lore:
+        - 'click para ir'
         nbt:
           Skulls:ID: 420
       '30':
         material: PLAYER_HEAD
         stack: 1
         name: §6§lCRATES
+        lore:
+        - 'click para ir'
       '32':
         material: PLAYER_HEAD
         stack: 1
         name: §6§lKITS
+        lore:
+        - 'click para ir'
       '34':
         material: PLAYER_HEAD
         stack: 1
         name: §6§lEND
+        lore:
+        - 'click para ir'
       '36':
         material: BLACK_STAINED_GLASS_PANE
         stack: 1
-        name: ''
+        name: ' '
       '44':
         material: BLACK_STAINED_GLASS_PANE
         stack: 1
-        name: ''
+        name: ' '
       '45':
         material: BLACK_STAINED_GLASS_PANE
         stack: 1
-        name: ''
+        name: ' '
       '46':
         material: BLACK_STAINED_GLASS_PANE
         stack: 1
-        name: ''
+        name: ' '
       '48':
         material: BLACK_STAINED_GLASS_PANE
         stack: 1
-        name: ''
+        name: ' '
       '49':
         material: BLACK_STAINED_GLASS_PANE
         stack: 1
-        name: ''
+        name: ' '
       '50':
         material: BLACK_STAINED_GLASS_PANE
         stack: 1
-        name: ''
+        name: ' '
       '52':
         material: BLACK_STAINED_GLASS_PANE
         stack: 1
-        name: ''
+        name: ' '
       '53':
         material: BLACK_STAINED_GLASS_PANE
         stack: 1
-        name: ''
+        name: ' '
 
