@@ -75,16 +75,22 @@ panels:
         name: §6§lCRATES
         lore:
         - 'click para ir'
+        commands:
+        - warp crates
       '32':
         material: PLAYER_HEAD
         stack: 1
         name: §6§lKITS
         lore:
         - 'click para ir'
+        commands:
+        - warp kits
       '34':
         material: PLAYER_HEAD
         stack: 1
         name: §6§lEND
+        commands:
+        - warp end
         lore:
         - 'click para ir'
       '36':
