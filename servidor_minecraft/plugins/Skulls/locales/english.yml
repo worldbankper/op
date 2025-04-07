@@ -1,0 +1,202 @@
+input:
+  category create:
+    subtitle: '&fEnter id for new category'
+    title: '&eCategory Creation'
+  skull edit:
+    price: '&fEnter the new skull price'
+    name: '&FEnter the new name skull name'
+    title: '&eEditing Skull'
+  skull search:
+    subtitle: '&fEnter search terms into chat'
+    title: '&eSkull Search'
+categories:
+  food and drinks: Food & Drinks
+  humanoids: Humanoids
+  plants: Plants
+  blocks: Blocks
+  player head: '&e%player_name%''s Head'
+  monsters: Monsters
+  alphabet: Alphabet
+  animals: Animals
+  decoration: Decoration
+  humans: Humans
+  misc: Miscellaneous
+gui:
+  custom category list:
+    title: '&eSkulls &8> &7Custom Categories'
+    items:
+      new:
+        lore:
+          - ''
+          - '&e&lClick &8» &7To create new category'
+        name: <GRADIENT:DD5E89>&lNew Category</GRADIENT:fbc7d4>
+      category:
+        lore:
+          - '&8View heads by this category'
+          - '&7Total Heads&F: &b%category_size%'
+          - ''
+          - '&e&lClick &8» &7To view category'
+        name: '%category_name%'
+  skulls list:
+    title:
+      all: '&eSkulls &8> &7All'
+      search: '&eSkulls &8> &7%search_phrase%'
+      favourites: '&eSkulls &8> &7Favourites'
+      category: '&eSkulls &8> &7%category_name%'
+    items:
+      skull:
+        lore:
+          take: '&e&lLeft Click &8» &7To take one'
+          blocked: '&c&oPurchase is blocked'
+          edit: '&b&lPress 1 &8» &7To edit this skull'
+          favourited: '&e&lFAVOURITED'
+          price: '&7Cost: &a$%skull_price%'
+          un favourite: '&e&lRight Click &8» &7To unfavourite head'
+          id: '&7Id: &e%skull_id%'
+          favourite: '&e&lRight Click &8» &7To favourite head'
+          tags: '&7Tags: &e%skull_tags%'
+        name: '&e%skull_name%'
+  settings:
+    title: '&eSkulls &8> &7Settings'
+  edit:
+    title: '&eSkulls &8> &7Edit &8> &7%skull_id%'
+    items:
+      blocked:
+        lore:
+          - ''
+          - '&7Blocked&f: %is_true%'
+          - ''
+          - '&e&lClick &8» &7To toggle block status'
+        name: <GRADIENT:DD5E89>&lSkull Blocked</GRADIENT:fbc7d4>
+      price:
+        lore:
+          - ''
+          - '&e&lClick &8» &7To edit skull price'
+        name: <GRADIENT:DD5E89>&lSkull Price</GRADIENT:fbc7d4>
+      name:
+        lore:
+          - ''
+          - '&e&lClick &8» &7To change skull name'
+        name: <GRADIENT:DD5E89>&lSkull Name</GRADIENT:fbc7d4>
+      add category:
+        lore:
+          - ''
+          - '&e&lClick &8» &7To add to another category'
+        name: <GRADIENT:DD5E89>&lAdd To Category</GRADIENT:fbc7d4>
+  player heads:
+    title: '&eSkulls &8> &7Player Heads'
+    items:
+      head:
+        name: '&e%player_name%'
+  shared buttons:
+    back button:
+      lore: '&e&lClick &8» &7to go back'
+      name: <GRADIENT:DD5E89>&LGo Back</GRADIENT:fbc7d4>
+    previous button:
+      lore: '&e&lClick &8» &7to go back a page'
+      name: <GRADIENT:DD5E89>&lPrevious Page</GRADIENT:fbc7d4>
+    next button:
+      lore: '&e&lClick &8» &7to go to next page'
+      name: <GRADIENT:DD5E89>&lNext Page</GRADIENT:fbc7d4>
+    exit button:
+      lore: '&e&lClick &8» &7to exit menu'
+      name: <GRADIENT:DD5E89>&LExit</GRADIENT:fbc7d4>
+  main:
+    title: '&eSkulls'
+    items:
+      search:
+        lore:
+          - ''
+          - '&e&lClick &8» &7To search for heads'
+        name: <GRADIENT:DD5E89>&lSearch</GRADIENT:fbc7d4>
+      favourites:
+        lore:
+          - '&7A collection of every single head'
+          - '&7that you have favourited.'
+          - ''
+          - '&e&lClick &8» &7To view your favourites'
+        name: <GRADIENT:DD5E89>&lFavourites</GRADIENT:fbc7d4>
+      players:
+        lore:
+          - '&8View all player heads'
+          - '&7Total Heads&F: &b%category_size%'
+          - ''
+          - '&e&lClick &8» &7To view player heads'
+        name: '&ePlayer Heads'
+      custom categories:
+        lore:
+          - ''
+          - '&e&lClick &8» &7To view more categories'
+        name: <GRADIENT:DD5E89>&lMore Categories</GRADIENT:fbc7d4>
+      category:
+        lore:
+          - '&8View heads by this category'
+          - '&7Total Heads&F: &b%category_size%'
+          - ''
+          - '&e&lClick &8» &7To view category'
+        name: '&e%category_name%'
+      random head:
+        lore:
+          - '&7Used to receive a random head from'
+          - '&7a random category that you have access too.'
+          - ''
+          - '&7Cost: &a$%price%'
+          - ''
+          - '&e&lClick &8» &7To receive a random head'
+        name: <GRADIENT:DD5E89>&lRandom Head</GRADIENT:fbc7d4>
+  custom category selector:
+    title: '&eSkulls &8> &7Select Category'
+    items:
+      category:
+        lore: '&e&lClick &8» &7To select category'
+        name: '%category_name%'
+  confirm action:
+    title: '%pl_name% &f- &7Are you sure?'
+    items:
+      cancel:
+        lore: '&e&lClick &7to confirm action'
+        name: <GRADIENT:9c0505>&lCancel</GRADIENT:c26a6a>
+      confirm:
+        lore: '&e&lClick &7to confirm action'
+        name: <GRADIENT:4ab310>&lConfirm</GRADIENT:7ed664>
+error:
+  not a number: '&4%value% &cis not a valid number!'
+  no permission: '&cYou do not have enough permission!'
+  player offline: '&4%value% &cis not online currently!'
+  not enough money: '&cYou do not have enough money!'
+  player not found: '&4%value% &cwas not found!'
+misc:
+  received random skull: '&aYou received a random skull &F(&E%skull_name%&f)'
+  claim delay: '&cYou can claim another head in &7(&e%time_difference%&7)'
+  purchase success: '&aSuccessfully Purchased'
+  id taken: '&cThat category id is already in use!'
+  skull not found: '&cNo skull by that id could be found'
+  no skull info: '&cCould not determine ID of that skull'
+  category permission: '&cYou do not have permission to access that category!'
+button:
+  number key: 'Press # Key'
+  left click: Left Click
+  right click: Right Click
+  left shift click: Shift+Left Click
+  middle click: Middle Click
+  drop key: Press Drop Key
+conditionals:
+  is true: '&ATrue'
+  is allowed: '&aAllowed'
+  is false: '&cFalse'
+  'false': '&CFalse'
+  is disallowed: '&cDisallowed'
+  'true': '&aTrue'
+  closed: '&cClosed'
+  disabled: '&cDisabled'
+  open: '&aOpen'
+  enabled: '&aEnabled'
+skull:
+  name: '&e%skull_name%'
+inspect info:
+  - '&8&m-----------------------------------------------------'
+  - ''
+  - '&eSkull ID&f: &a%skull_id%'
+  - '&eTexture URL&f: &a%skull_texture%'
+  - ''
+  - '&8&m-----------------------------------------------------'

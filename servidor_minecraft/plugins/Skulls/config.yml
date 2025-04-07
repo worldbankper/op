@@ -1,0 +1,157 @@
+# Default language file
+language: english
+# Prefix to be used in chat
+prefix: <GRADIENT:DD5E89>&lSkulls</GRADIENT:fbc7d4>&r &8»
+# Should skulls charge users without permission for heads?
+charge for heads: true
+# Do not touch this if you don't know what you are doing!
+data url: https://raw.githubusercontent.com/Tweetzy/Data-Files/main/Skulls/skulls.json
+# You can use Vault or Item or CoinsEngine or UltraEconomy
+# If you use CoinsEngine, please enter "coinsengine:money"
+# If you use UltraEconomy, please enter "ultraeconomy:money"
+economy: Vault
+# 
+item economy item: GOLD_INGOT
+# 
+main menu requires no permission: true
+# If true, no permission is required to use except for admin stuff
+general usage requires no permission: false
+# 
+tell ops patron on join: true
+# If disabled skulls will no longer drop in creative
+track skull placement: true
+random head button:
+  # The price for using the random head button
+  price: 1.0
+  # If enabled players can click to receive a random head (only from categories they have access too)
+  enabled: false
+# If true, players will just need to confirm if they want to buy a skull.
+ask for purchase confirmation: false
+enabled categories:
+  # 
+  food and drinks: true
+  # 
+  humanoids: true
+  # 
+  player heads: false
+  # 
+  blocks: true
+  # 
+  plants: true
+  # 
+  monsters: true
+  # 
+  alphabet: true
+  # 
+  animals: true
+  # 
+  decoration: true
+  # 
+  humans: true
+  # 
+  misc: true
+player head:
+  # 
+  name: '&e%player_name%'
+  # 
+  drop enabled: true
+  # 
+  drop chance: 50
+claim delay:
+  # Structure -> perm name:seconds to claim again. Ex basic:30 means skulls.claimdelay.basic permission will allow players to get a head every 30 seconds
+  permission times:
+    - basic:30
+  # If enabled, players will be forced to wait based on their permission to claim another head.
+  enabled: false
+gui:
+  shared buttons:
+    back button:
+      # 
+      item: DARK_OAK_DOOR
+    previous button:
+      # 
+      item: ARROW
+    next button:
+      # 
+      item: ARROW
+    exit button:
+      # 
+      item: BARRIER
+  main:
+    items:
+      favourites:
+        # -1 to disable it
+        slot: 42
+      blocks:
+        # 
+        slot: 13
+      monsters:
+        # 
+        slot: 23
+      alphabet:
+        # 
+        slot: 11
+      random head:
+        # -1 to disable or turn off completely under 'random head button'
+        slot: 40
+      food and drinks:
+        # 
+        slot: 15
+      humanoids:
+        # 
+        slot: 21
+      search:
+        # -1 to disable it
+        slot: 41
+      player heads:
+        # -1 to disable it
+        slot: 39
+      plants:
+        # 
+        slot: 24
+      custom categories:
+        # -1 to disable it
+        slot: 38
+      animals:
+        # 
+        slot: 12
+      decoration:
+        # 
+        slot: 14
+      humans:
+        # 
+        slot: 20
+      misc:
+        # 
+        slot: 22
+  confirm action:
+    # 
+    background: BLACK_STAINED_GLASS_PANE
+    items:
+      # 
+      confirm: LIME_STAINED_GLASS_PANE
+      # 
+      cancel: RED_STAINED_GLASS_PANE
+default prices:
+  # 
+  food and drinks: 1.0
+  # 
+  humanoids: 1.0
+  # 
+  player heads: 1.0
+  # 
+  blocks: 1.0
+  # 
+  plants: 1.0
+  # 
+  monsters: 1.0
+  # 
+  alphabet: 1.0
+  # 
+  animals: 1.0
+  # 
+  decoration: 1.0
+  # 
+  humans: 1.0
+  # 
+  misc: 1.0

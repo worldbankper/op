@@ -7,7 +7,6 @@ header-footer:
     - ""
   footer:
     - "&2Ping: %ping%"
-    - ""
     - "<#FFFFFF>&m                                                </#FFFF00>"
   disable-condition: '%world%=disabledworld'
   per-world:
@@ -94,16 +93,16 @@ scoreboard:
       title: "&#5800d6&l&oG&#6112dc&l&oA&#6925e1&l&oM&#7237e7&l&oI&#7b49ec&l&oN&#845bf2&l&oG &#8c6ef7&l&oO&#9580fd&l&oP"
       display-condition: "%player-version-id%>=765;%bedrock%=false" # Only display it to players using 1.20.3+ AND NOT bedrock edition
       lines:
-        - "&6Personal Info:"
-        - "&bNick&7:  %player%"
-        - "&bRank&7: %luckperms_prefix%"
-        - "&bPing&7: %ping%&8ms"
-        - "&bDinero&7: %vault_eco_balance%"
+        - "%animation:MyAnimation1%"
+        - ""
+        - "&b&lNick&7:  &6%player%"
+        - "&b&lRank&7: %luckperms_prefix%"
+        - "&b&lPing&7: &6%ping%&8 &6ms"
+        - "&b&lDinero&7: &6$%vault_eco_balance%"
         - ""
         - "&bWorld&7: %world%"
         - "%animation:MyAnimation1%"
-      
-    
+
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Layout
 layout:
   enabled: false
