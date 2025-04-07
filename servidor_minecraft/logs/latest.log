@@ -896,3 +896,27 @@ java.lang.NoSuchMethodError: 'com.viaversion.viaversion.api.minecraft.entities.E
 [15:34:52] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 2 seconds
 [15:34:53] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 1 seconds
 [15:34:54] [Server thread/INFO]: [AntiLag] > Removing...
+[15:42:23] [Netty Epoll Server IO #1/INFO]: Could not get version of a client viewing motd! Continue with version 735 (1.16).
+[15:42:28] [Netty Epoll Server IO #2/INFO]: Could not get version of a client viewing motd! Continue with version 735 (1.16).
+[15:42:29] [User Authenticator #0/INFO]: UUID of player wuyl12 is 93accafa-0c2b-31d5-b8d3-195a7db150ef
+[15:42:31] [Server thread/INFO]: wuyl12[/127.162.49.85:51661] logged in with entity id 42997 at ([lobby]6.300000011920929, 133.0, -19.440568005464588)
+[15:42:39] [Folia Async Scheduler Thread #4/INFO]: [nLogin] The user wuyl12 has successfully logged in.
+[15:43:04] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 10 seconds
+[15:43:05] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 9 seconds
+[15:43:06] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 8 seconds
+[15:43:07] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 7 seconds
+[15:43:08] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 6 seconds
+[15:43:09] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 5 seconds
+[15:43:10] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 4 seconds
+[15:43:11] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 3 seconds
+[15:43:12] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 2 seconds
+[15:43:13] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 1 seconds
+[15:43:14] [Server thread/INFO]: [AntiLag] > Removing...
+[15:43:37] [Server thread/INFO]: wuyl12 issued server command: /ie rename &#084CFB&l&oC&#1D61FB&l&oA&#3176FC&l&oS&#468BFC&l&oC&#5BA0FC&l&oO &#84C9FD&l&oV&#98DEFD&l&oI&#ADF3FD&l&oP
+[15:43:59] [Server thread/INFO]: wuyl12 issued server command: /ie rename &#084CFB&l&oP&#195DFB&l&oE&#296DFB&l&oC&#3A7EFC&l&oH&#4A8FFC&l&oE&#5BA0FC&l&oR&#6BB0FC&l&oA &#8CD2FD&l&oV&#9DE2FD&l&oI&#ADF3FD&l&oP
+[15:44:25] [Server thread/INFO]: wuyl12 issued server command: /ie rename &#084CFB&l&oG&#1A5FFB&l&oR&#2D71FB&l&oE&#3F84FC&l&oB&#5196FC&l&oA&#64A9FC&l&oS &#88CEFD&l&oV&#9BE0FD&l&oI&#ADF3FD&l&oP
+[15:44:44] [Server thread/INFO]: wuyl12 issued server command: /ie rename &#084CFB&l&oB&#1D61FB&l&oO&#3176FC&l&oT&#468BFC&l&oA&#5BA0FC&l&oS &#84C9FD&l&oV&#98DEFD&l&oI&#ADF3FD&l&oP
+[15:45:32] [Server thread/INFO]: wuyl12 issued server command: /ie rename &#084CFB&l&oE&#1A5FFB&l&oS&#2D71FB&l&oP&#3F84FC&l&oA&#5196FC&l&oD&#64A9FC&l&oA &#88CEFD&l&oV&#9BE0FD&l&oI&#ADF3FD&l&oP
+[15:45:55] [Server thread/INFO]: wuyl12 issued server command: /ie rename &#084CFB&l&oH&#1D61FB&l&oA&#3176FC&l&oC&#468BFC&l&oH&#5BA0FC&l&oA &#84C9FD&l&oV&#98DEFD&l&oI&#ADF3FD&l&oP
+[15:46:11] [Server thread/INFO]: wuyl12 issued server command: /ie rename &#084CFB&l&oP&#2064FB&l&oI&#377CFC&l&oC&#4F94FC&l&oO &#7EC3FC&l&oV&#95DBFD&l&oI&#ADF3FD&l&oP
+[15:46:25] [Server thread/INFO]: wuyl12 issued server command: /ie rename &#084CFB&l&oP&#2064FB&l&oA&#377CFC&l&oL&#4F94FC&l&oA &#7EC3FC&l&oV&#95DBFD&l&oI&#ADF3FD&l&oP
