@@ -1442,3 +1442,142 @@ java.lang.NoSuchMethodError: 'com.viaversion.viaversion.api.minecraft.entities.E
 [23:17:37] [luckperms-command-executor/INFO]: [LP] LOG > (wuyl12) [U] (smith)
 [23:17:37] [luckperms-command-executor/INFO]: [LP] LOG > parent set vip
 [23:17:43] [Server thread/INFO]: smith issued server command: /kit
+[23:18:07] [Server thread/INFO]: wuyl12 issued server command: /playerkits2:kit reset &1&lVIP smith
+[23:18:10] [Server thread/INFO]: smith issued server command: /kit
+[23:18:39] [Server thread/INFO]: wuyl12 issued server command: /playerkits2:kit reset &1&lVIP smith smith
+[23:18:42] [Server thread/INFO]: wuyl12 issued server command: /lp user smith parent set vip
+[23:18:42] [luckperms-command-executor/INFO]: [LP] LOG > (wuyl12) [U] (smith)
+[23:18:42] [luckperms-command-executor/INFO]: [LP] LOG > parent set vip
+[23:19:02] [Server thread/INFO]: main_inventory
+[23:19:02] [Server thread/INFO]: premium_kits_inventory
+[23:19:02] [Server thread/INFO]: preview_inventory
+[23:19:02] [Server thread/INFO]: buy_requirements_inventory
+[23:19:09] [Server thread/INFO]: main_inventory
+[23:19:09] [Server thread/INFO]: premium_kits_inventory
+[23:19:09] [Server thread/INFO]: preview_inventory
+[23:19:09] [Server thread/INFO]: buy_requirements_inventory
+[23:19:09] [Server thread/INFO]: main_inventory
+[23:19:09] [Server thread/INFO]: premium_kits_inventory
+[23:19:09] [Server thread/INFO]: preview_inventory
+[23:19:09] [Server thread/INFO]: buy_requirements_inventory
+[23:19:09] [Server thread/INFO]: main_inventory
+[23:19:09] [Server thread/INFO]: premium_kits_inventory
+[23:19:09] [Server thread/INFO]: preview_inventory
+[23:19:09] [Server thread/INFO]: buy_requirements_inventory
+[23:19:09] [Server thread/INFO]: main_inventory
+[23:19:09] [Server thread/INFO]: premium_kits_inventory
+[23:19:09] [Server thread/INFO]: preview_inventory
+[23:19:09] [Server thread/INFO]: buy_requirements_inventory
+[23:19:09] [Server thread/INFO]: main_inventory
+[23:19:09] [Server thread/INFO]: premium_kits_inventory
+[23:19:09] [Server thread/INFO]: preview_inventory
+[23:19:09] [Server thread/INFO]: buy_requirements_inventory
+[23:19:09] [Server thread/INFO]: main_inventory
+[23:19:09] [Server thread/INFO]: premium_kits_inventory
+[23:19:09] [Server thread/INFO]: preview_inventory
+[23:19:09] [Server thread/INFO]: buy_requirements_inventory
+[23:19:09] [Server thread/INFO]: main_inventory
+[23:19:09] [Server thread/INFO]: premium_kits_inventory
+[23:19:09] [Server thread/INFO]: preview_inventory
+[23:19:09] [Server thread/INFO]: buy_requirements_inventory
+[23:19:09] [Server thread/INFO]: main_inventory
+[23:19:09] [Server thread/INFO]: premium_kits_inventory
+[23:19:09] [Server thread/INFO]: preview_inventory
+[23:19:09] [Server thread/INFO]: buy_requirements_inventory
+[23:19:09] [Server thread/INFO]: main_inventory
+[23:19:09] [Server thread/INFO]: premium_kits_inventory
+[23:19:09] [Server thread/INFO]: preview_inventory
+[23:19:09] [Server thread/INFO]: buy_requirements_inventory
+[23:19:09] [Server thread/INFO]: main_inventory
+[23:19:09] [Server thread/INFO]: premium_kits_inventory
+[23:19:09] [Server thread/INFO]: preview_inventory
+[23:19:09] [Server thread/INFO]: buy_requirements_inventory
+[23:19:09] [Server thread/INFO]: main_inventory
+[23:19:09] [Server thread/INFO]: premium_kits_inventory
+[23:19:09] [Server thread/INFO]: preview_inventory
+[23:19:09] [Server thread/INFO]: buy_requirements_inventory
+[23:19:09] [Server thread/INFO]: main_inventory
+[23:19:09] [Server thread/INFO]: premium_kits_inventory
+[23:19:09] [Server thread/INFO]: preview_inventory
+[23:19:09] [Server thread/INFO]: buy_requirements_inventory
+[23:19:09] [Server thread/INFO]: main_inventory
+[23:19:09] [Server thread/INFO]: premium_kits_inventory
+[23:19:09] [Server thread/INFO]: preview_inventory
+[23:19:09] [Server thread/INFO]: buy_requirements_inventory
+[23:19:09] [Server thread/INFO]: main_inventory
+[23:19:09] [Server thread/INFO]: premium_kits_inventory
+[23:19:09] [Server thread/INFO]: preview_inventory
+[23:19:09] [Server thread/INFO]: buy_requirements_inventory
+[23:19:09] [Server thread/INFO]: main_inventory
+[23:19:09] [Server thread/INFO]: premium_kits_inventory
+[23:19:09] [Server thread/INFO]: preview_inventory
+[23:19:09] [Server thread/INFO]: buy_requirements_inventory
+[23:19:09] [Server thread/INFO]: main_inventory
+[23:19:09] [Server thread/INFO]: premium_kits_inventory
+[23:19:09] [Server thread/INFO]: preview_inventory
+[23:19:09] [Server thread/INFO]: buy_requirements_inventory
+[23:19:09] [Server thread/INFO]: main_inventory
+[23:19:09] [Server thread/INFO]: premium_kits_inventory
+[23:19:09] [Server thread/INFO]: preview_inventory
+[23:19:09] [Server thread/INFO]: buy_requirements_inventory
+[23:19:09] [Server thread/INFO]: main_inventory
+[23:19:09] [Server thread/INFO]: premium_kits_inventory
+[23:19:09] [Server thread/INFO]: preview_inventory
+[23:19:09] [Server thread/INFO]: buy_requirements_inventory
+[23:19:09] [Server thread/INFO]: main_inventory
+[23:19:09] [Server thread/INFO]: premium_kits_inventory
+[23:19:09] [Server thread/INFO]: preview_inventory
+[23:19:09] [Server thread/INFO]: buy_requirements_inventory
+[23:19:09] [Server thread/INFO]: main_inventory
+[23:19:09] [Server thread/INFO]: premium_kits_inventory
+[23:19:09] [Server thread/INFO]: preview_inventory
+[23:19:09] [Server thread/INFO]: buy_requirements_inventory
+[23:19:09] [Server thread/INFO]: main_inventory
+[23:19:09] [Server thread/INFO]: premium_kits_inventory
+[23:19:09] [Server thread/INFO]: preview_inventory
+[23:19:09] [Server thread/INFO]: buy_requirements_inventory
+[23:19:09] [Server thread/INFO]: main_inventory
+[23:19:09] [Server thread/INFO]: premium_kits_inventory
+[23:19:09] [Server thread/INFO]: preview_inventory
+[23:19:09] [Server thread/INFO]: buy_requirements_inventory
+[23:19:09] [Server thread/INFO]: main_inventory
+[23:19:09] [Server thread/INFO]: premium_kits_inventory
+[23:19:09] [Server thread/INFO]: preview_inventory
+[23:19:09] [Server thread/INFO]: buy_requirements_inventory
+[23:20:19] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 10 seconds
+[23:20:20] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 9 seconds
+[23:20:21] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 8 seconds
+[23:20:22] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 7 seconds
+[23:20:23] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 6 seconds
+[23:20:24] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 5 seconds
+[23:20:25] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 4 seconds
+[23:20:26] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 3 seconds
+[23:20:27] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 2 seconds
+[23:20:28] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 1 seconds
+[23:20:29] [Server thread/INFO]: [AntiLag] > Removing...
+[23:21:44] [luckperms-worker-12/INFO]: [LP] LOG > (wuyl12) [G] (depredator)
+[23:21:44] [luckperms-worker-12/INFO]: [LP] LOG > webeditor add playerkits.kit.&5&LDEPREDADOR true
+[23:21:44] [luckperms-worker-12/INFO]: [LP] LOG > (wuyl12) [G] (depredator)
+[23:21:44] [luckperms-worker-12/INFO]: [LP] LOG > webeditor remove playerkits.kit.DEPREDATOR true
+[23:21:44] [luckperms-worker-12/INFO]: [LP] LOG > (wuyl12) [G] (diamond)
+[23:21:44] [luckperms-worker-12/INFO]: [LP] LOG > webeditor add playerkits.kit.&3DIAMOND true
+[23:21:44] [luckperms-worker-12/INFO]: [LP] LOG > (wuyl12) [G] (diamond)
+[23:21:44] [luckperms-worker-12/INFO]: [LP] LOG > webeditor remove playerkits.kit.DIAMOND true
+[23:21:44] [luckperms-worker-12/INFO]: [LP] LOG > (wuyl12) [G] (gold)
+[23:21:44] [luckperms-worker-12/INFO]: [LP] LOG > webeditor add playerkits.kit.&6&lGOLD true
+[23:21:44] [luckperms-worker-12/INFO]: [LP] LOG > (wuyl12) [G] (gold)
+[23:21:44] [luckperms-worker-12/INFO]: [LP] LOG > webeditor remove playerkits.kit.GOLD true
+[23:21:44] [luckperms-worker-12/INFO]: [LP] LOG > (wuyl12) [G] (vip)
+[23:21:44] [luckperms-worker-12/INFO]: [LP] LOG > webeditor add playerkits.kit.&1&lVIP true
+[23:21:44] [luckperms-worker-12/INFO]: [LP] LOG > (wuyl12) [G] (vip)
+[23:21:44] [luckperms-worker-12/INFO]: [LP] LOG > webeditor remove playerkits.kit.vip true
+[23:21:51] [Server thread/INFO]: smith issued server command: /kit
+[23:22:45] [Server thread/INFO]: wuyl12 issued server command: /difficulty hard
+[23:22:45] [Server thread/INFO]: [wuyl12: The difficulty has been set to Hard]
+[23:23:06] [Server thread/INFO]: smith issued server command: /kit
+[23:23:31] [Server thread/INFO]: wuyl12 issued server command: /playerkits2:kit reset &1&lVIP smith smith
+[23:23:36] [Server thread/INFO]: smith issued server command: /kit
+[23:25:23] [Server thread/INFO]: smith issued server command: /spawn
+[23:25:44] [Server thread/INFO]: smith issued server command: /spawn
+[23:27:09] [Server thread/INFO]: wuyl12 issued server command: /warp
+[23:27:46] [Server thread/INFO]: wuyl12 issued server command: /gmc

@@ -1341,6 +1341,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:enderman": "2025-04-07 21:52:50 +0000",
+      "minecraft:zombie": "2025-04-07 23:22:32 +0000",
       "minecraft:ender_dragon": "2025-04-07 21:54:33 +0000"
     },
     "done": false

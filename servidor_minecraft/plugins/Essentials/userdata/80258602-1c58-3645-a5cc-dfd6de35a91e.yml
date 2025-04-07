@@ -11,7 +11,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1744060934614
+  lastteleport: 1744068344212
   lastheal: 0
   mute: 0
   jail: 0
@@ -21,13 +21,13 @@ timestamps:
 money: '0'
 last-account-name: smith
 lastlocation:
-  world: 247b9917-61e2-4a30-9040-751bdd8fb5b5
-  world-name: lobby
-  x: 28.5
-  y: 213.0
-  z: 4.5
-  yaw: -69.60002899169922
-  pitch: 40.04997253417969
+  world: efbb6def-c431-447b-b488-a00541dc0755
+  world-name: world
+  x: -2993.5
+  y: 72.0
+  z: -2916.5
+  yaw: 0.0
+  pitch: 0.0
 logoutlocation:
   world: 247b9917-61e2-4a30-9040-751bdd8fb5b5
   world-name: lobby
