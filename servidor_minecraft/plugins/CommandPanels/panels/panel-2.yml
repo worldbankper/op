@@ -1,0 +1,46 @@
+panels:
+  panel-2:
+    perm: default
+    rows: 1
+    title: '                &6&lKITS'
+    commands:
+    - kit
+    - kits
+    empty: BLACK_STAINED_GLASS_PANE
+    item:
+      '0':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '1':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '2':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '3':
+        material: IRON_SWORD
+        stack: 1
+        name: §6§lKIT BASICOS
+      '4':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '5':
+        material: NETHERITE_SWORD
+        stack: 1
+        name: §6§lKIT VIP
+      '6':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '7':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '8':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''

@@ -1581,3 +1581,43 @@ java.lang.NoSuchMethodError: 'com.viaversion.viaversion.api.minecraft.entities.E
 [23:25:44] [Server thread/INFO]: smith issued server command: /spawn
 [23:27:09] [Server thread/INFO]: wuyl12 issued server command: /warp
 [23:27:46] [Server thread/INFO]: wuyl12 issued server command: /gmc
+[23:27:55] [Server thread/INFO]: wuyl12 issued server command: /v
+[23:28:11] [Server thread/INFO]: smith issued server command: /v
+[23:28:11] [Server thread/INFO]: [Essentials] smith was denied access to command.
+[23:28:25] [Server thread/INFO]: wuyl12 issued server command: /v
+[23:28:39] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 10 seconds
+[23:28:40] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 9 seconds
+[23:28:41] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 8 seconds
+[23:28:41] [Server thread/INFO]: wuyl12 issued server command: /kits
+[23:28:42] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 7 seconds
+[23:28:43] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 6 seconds
+[23:28:44] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 5 seconds
+[23:28:45] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 4 seconds
+[23:28:46] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 3 seconds
+[23:28:47] [Server thread/INFO]: wuyl12 issued server command: /gmc
+[23:28:47] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 2 seconds
+[23:28:48] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 1 seconds
+[23:28:49] [Server thread/INFO]: [AntiLag] > Removing...
+[23:30:42] [Server thread/INFO]: wuyl12 issued server command: /spawn
+[23:31:50] [Server thread/INFO]: wuyl12 issued server command: /cpg 1
+[23:32:29] [Server thread/INFO]: wuyl12 issued server command: /ie rename &6&lKIT VIP
+[23:32:37] [Server thread/INFO]: wuyl12 issued server command: /ie rename &6&lKIT BASICOS
+[23:32:44] [Server thread/INFO]: wuyl12 issued server command: /cpg 1
+[23:34:30] [Server thread/INFO]: wuyl12 issued server command: /CPR
+[23:34:32] [Server thread/INFO]: wuyl12 issued server command: /cpr
+[23:34:34] [Server thread/INFO]: wuyl12 issued server command: /kit
+[23:34:43] [Server thread/INFO]: wuyl12 issued server command: /cpr
+[23:34:44] [Server thread/INFO]: wuyl12 issued server command: /kit
+[23:34:52] [Server thread/INFO]: wuyl12 issued server command: /cpr
+[23:34:53] [Server thread/INFO]: wuyl12 issued server command: /kit
+[23:36:59] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 10 seconds
+[23:37:00] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 9 seconds
+[23:37:01] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 8 seconds
+[23:37:02] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 7 seconds
+[23:37:03] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 6 seconds
+[23:37:04] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 5 seconds
+[23:37:05] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 4 seconds
+[23:37:06] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 3 seconds
+[23:37:07] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 2 seconds
+[23:37:08] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 1 seconds
+[23:37:09] [Server thread/INFO]: [AntiLag] > Removing...
