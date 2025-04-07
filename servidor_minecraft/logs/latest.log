@@ -1,13 +1,13 @@
-[01:40:21] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
-[01:40:21] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[01:40:21] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[01:40:22] [ServerMain/INFO]: [PluginInitializerManager] Initialized 37 plugins
-[01:40:22] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
+[02:04:20] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
+[02:04:20] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[02:04:20] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[02:04:21] [ServerMain/INFO]: [PluginInitializerManager] Initialized 37 plugins
+[02:04:21] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
  - EconomyShopGUI (6.12.0), RoseStacker (1.5.32)
-[01:40:22] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (35):
+[02:04:21] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (35):
  - AdvancedNMotd (10.0.1), AntiLag (2.0), BetterStructures (1.8.0), CMILib (1.5.4.1), ClearLag (3.2.2), CommandPanels (3.21.7), DecentHolograms (2.8.16), DragonSlayer (0.14.4_Jeppa), Essentials (2.21.0), EssentialsSpawn (2.21.1-dev+12-8455212), ItemEdit (3.7.0), ItemTag (3.7.1), Jobs (5.2.5.0), LibertyBans (1.1.0), LuckPerms (5.4.158), Multiverse-Core (4.3.14), PlaceholderAPI (2.11.6), PlayerKits2 (1.17.2), ProtectionStones (2.10.5), ProtocolLib (5.3.0), ServersNPC (5.0), SimpleRTP (5.4), SkinsRestorer (15.6.1), Skulls (3.24.0), TAB (5.2.0), TerraformGenerator (19.0.0), Vault (1.7.3-b131), ViaBackwards (5.3.1), ViaRewind (4.0.4), ViaVersion (5.3.1), WildChests (2024.4-b84), WorldEdit (7.3.9+6959-7adf70b), WorldGuard (7.0.11+068ad68), nAntiBot (6.1.28), nLogin (10.4.21)
-[01:40:27] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[01:40:27] [ServerMain/ERROR]: Failed to start the minecraft server
+[02:04:26] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02:04:26] [ServerMain/ERROR]: Failed to start the minecraft server
 net.minecraft.util.DirectoryLock$LockException: /workspaces/op/servidor_minecraft/./world/session.lock: already locked (possibly by other Minecraft instance?)
 	at net.minecraft.util.DirectoryLock$LockException.alreadyLocked(DirectoryLock.java:100) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at net.minecraft.util.DirectoryLock.create(DirectoryLock.java:30) ~[paper-1.21.jar:1.21-130-b1b5d4c]
