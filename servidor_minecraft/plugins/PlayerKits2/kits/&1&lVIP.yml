@@ -1,0 +1,52 @@
+cooldown: 3600
+one_time: false
+auto_armor: false
+permission_required: false
+clear_inventory: false
+save_original_items: true
+display:
+  default:
+    id: ECHO_SHARD
+    name: '&x&1&5&0&8&F&B&l&oV&x&6&1&6&A&F&C&l&oI&x&A&D&C&C&F&D&l&oP'
+    amount: 1
+  no_permission:
+    id: ECHO_SHARD
+    name: '&x&1&5&0&8&F&B&l&oV&x&6&1&6&A&F&C&l&oI&x&A&D&C&C&F&D&l&oP'
+    amount: 1
+  cooldown:
+    id: STONE_SWORD
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cYou need to wait &7%time%'
+    - '&cto claim this kit again.'
+    item_flags:
+    - HIDE_ATTRIBUTES
+    attributes:
+    - GENERIC_GRAVITY;ADD_NUMBER;0.0;playerkits2:dummy_attribute;feet
+  one_time:
+    id: ECHO_SHARD
+    name: '&x&1&5&0&8&F&B&l&oV&x&6&1&6&A&F&C&l&oI&x&A&D&C&C&F&D&l&oP'
+    amount: 1
+items:
+  '1':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: GREEN_SHULKER_BOX
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        internal: H4sIAAAAAAAA/+1bYVPbNhh2CbSQrS2ltLTd1svc7W63hQ0IJIRPc2IHcscIR3J82e18ii0nujhWJsmjrNe/sN+xX7HfNnlZsXzBcApqIFu+cInl930kvcrz+JFMVtOy2lrbx05vHQYMsfN1B/cHOOBf6JL2tI8C6BDgsT0HBwzwbySradqrjDZPfcz4Rx4/jxjsL2pzyNVexAEuAn0cuHYX+n3IMtqCg8MgiriX1bIxyKL2TAAJKcN9OwB9mPnrnQ7fMgL0vZ/f6W3su/oeIyHM6w72MdH39Dcbu9vVWkXP64gBHzkf2nHbC6kDGOQRHvApv0QZQT3IugSHne7FVcbz8zxVniEMXEh83o8PMe/zKaCbZnFTAaghBVrYLBVr1RuDNqVAt4u7FQWgctO7UzE2FIA2clKofCGVa+aNUU+lQMu7pqUAtC4Fapi1ggLQ40tBf7lo199ntefx7xoGThcErB/94LPafR/+Bn2a0Z7Ed/AmFwUdTg+ZjLYWXwe/hsAGnocCzk28dSEj8gWBdIAIYAgHw7bVuG1AMIPOpU1h0CYQ9IZ4CxGFjXKQCxjIaivHYZtPUyXs9RA7BX4IOWGtRnzHQGcPeh5HoLaPKNN00/jJ2LfsE6tZb7aMo6qV38j/M7sXfzRtSXsUI/GSwEXegzntj+u4rhNdi4v2bzFkq2bVrGqrcTkLiLXT3sT90fkc8+HxCiKgJ27ipbpQgXsJFfh8VAWcLqRs4PO+SivB/J+TUoLLV3WqEpR3TAWglhToVrmoAlSOlAtGyVJAygdy8mPs1hSAyk2vIvk5kQItVioqQA1JzauaW5PXPNNSAfof1LxbVK7XB5Zx2DqwK41Gs5Xfzg+HPX2q9YOgWihwCIzmHuQ2N3IOJuB3rjI0XcHmEgr2alTBfNjp8Hmn8vpVmJR+7cvpl7FTUwAqx3VbZkmFfZJj9UJtd1sBwVbkpGSzrMKzyRnF4rZRVmEUJaVkt6rCyUhKScXamEmJpJQIDEXPkMdsGnA5mYzMfH1gnTTsRs1uHVj2af3wkLslbpGmVW2+EdSmCwnOuTDngxzwXXiFUcokZGZtVGbaGDN5jZncbpkcCSraLWvcxm5Z6zZ2y+ToXpFdkaX72W7ZbdC9cIdHMGX2GfB7kIxvH9IURBHfrzWPLcucYob/UmB4XgJMkQvcdGqfT1D7y3iEAe8JJLzJpmeYuHfYQMg9VisyEHKnEooMhNxWnyIDIUnuagyEeRsGQnYvamYg7pKBeCy4hD7nraFYCIfBtAvIIICUjsiIzx9fL+TlYzuKXP2oemIZTcsenr1M74HLa0FqvBASeoWFWEizELHOgLfyxyyTsxBy5wDTfOAud8yiyELITa8iCyFL+DMLMc2E/7GJ/Yua0WzZZn1/v360P72s/pXA6gOCKMhFvSZXcPv9BLd/dhm3D5DTG4vf63fzGH1ro7itAFTuV1kolaqT5/daWYWLkHy3qWRVCwpQJal2x6zMqPaazfkrdmM8TFgYwBml3pxSH6Qd7ArbMl3MizZj1Bs9Math1MPbYFTJh9cZo84Y9f/MqIsJRhUG2QdO+nPpTUq8HF+PCux0Ryp/hqKz05BQNmwSMrkwoMOXh69YLA+if2UQxriUGGNupOfQtaM6wcAGg4EvjvpHMU02kUZcdBj3eI42hF5a7CdpsTB6n5acU75A0mI/TcQ+jGNZwNJiHiZilsW+ts9gOy3sUSJsJQ7DbYpcBIK0wMfXn5fw2mCxv8ti/HIiXiz48Cg9DfdJIu57weQin1cX2oD0MbH5j6tvR264y3th8/tH3l4Wk64kkuaFpAEO2VgpnyZSfiesdUDcsTKuJjJ+K7xHj9pjJXyWlhCejzeNz9PG7Pn4bKyMa6mFGSAyXidfpJl0zD/ikEbpgG/34Hna0n2ZyLB+2dIPBx0CXHhlrxYizvobiIUFmMM1AAA=
+        blockMaterial: GREEN_SHULKER_BOX
+actions:
+  claim:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;2'
+      execute_before_items: false
+      count_as_item: false
+  error:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1'
+      execute_before_items: false
+      count_as_item: false

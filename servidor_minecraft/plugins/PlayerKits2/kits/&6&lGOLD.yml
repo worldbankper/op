@@ -10,12 +10,9 @@ display:
     name: '&x&F&B&E&B&0&8&l&oG&x&F&C&E&F&3&F&l&oO&x&F&C&F&4&7&6&l&oL&x&F&D&F&8&A&D&l&oD'
     amount: 1
   no_permission:
-    id: BARRIER
-    name: '&c&l%kit_name% &cKit'
+    id: YELLOW_DYE
+    name: '&x&F&B&E&B&0&8&l&oG&x&F&C&E&F&3&F&l&oO&x&F&C&F&4&7&6&l&oL&x&F&D&F&8&A&D&l&oD'
     amount: 1
-    lore:
-    - '&cYou don''t have permissions to claim'
-    - '&cthis kit.'
   cooldown:
     id: STONE_SWORD
     name: '&c&l%kit_name% &cKit'

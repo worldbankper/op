@@ -1439,3 +1439,48 @@ java.lang.NoSuchMethodError: 'com.viaversion.viaversion.api.minecraft.entities.E
 [17:26:04] [Server thread/INFO]: wuyl12 issued server command: /ie rename &#FBEB08&l&oG&#FCEF3F&l&oO&#FCF476&l&oL&#FDF8AD&l&oD
 [17:26:43] [Server thread/INFO]: wuyl12 issued server command: /playerkits2:kit create &6&lGOLD
 [17:27:06] [Server thread/INFO]: wuyl12 issued server command: /playerkits2:kit edit &6&lGOLD
+[17:27:35] [Server thread/INFO]: wuyl12 issued server command: /KIT}
+[17:27:38] [Server thread/INFO]: wuyl12 issued server command: /kit
+[17:28:18] [Server thread/INFO]: wuyl12 issued server command: /playerkits2:kit create &1&lVIP
+[17:29:12] [Server thread/INFO]: wuyl12 issued server command: /ie rename &#1508FB&l&oV&#616AFC&l&oI&#ADCCFD&l&oP
+[17:29:26] [Server thread/INFO]: wuyl12 issued server command: /playerkits2:kit edit &1&lVIP
+[17:30:14] [Server thread/INFO]: wuyl12 issued server command: /kit
+[17:30:18] [Server thread/INFO]: wuyl12 issued server command: /playerkits2:kit edit &1&lVIP
+[17:30:30] [Server thread/INFO]: wuyl12 issued server command: /playerkits2:kit edit &3DIAMOND
+[17:30:40] [Server thread/INFO]: wuyl12 issued server command: /playerkits2:kit edit &5&LDEPREDADOR
+[17:31:05] [Server thread/INFO]: wuyl12 issued server command: /playerkits2:kit edit &6&lGOLD
+[17:31:17] [Server thread/INFO]: wuyl12 issued server command: /kit
+[17:31:24] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 10 seconds
+[17:31:25] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 9 seconds
+[17:31:26] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 8 seconds
+[17:31:27] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 7 seconds
+[17:31:28] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 6 seconds
+[17:31:29] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 5 seconds
+[17:31:30] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 4 seconds
+[17:31:31] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 3 seconds
+[17:31:32] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 2 seconds
+[17:31:33] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 1 seconds
+[17:31:34] [Server thread/INFO]: [AntiLag] > Removing...
+[17:33:30] [Server thread/INFO]: wuyl12 issued server command: /lp creategroup &x&1&5&0&8&F&B&l&oV&x&6&1&6&A&F&C&l&oI&x&A&D&C&C&F&D&l&oP
+[17:33:54] [Server thread/INFO]: wuyl12 issued server command: /lp creategroup
+[17:34:07] [Server thread/INFO]: wuyl12 issued server command: /lp creategroup &x&1&5&0&8&F&B&l&oV&x&6&1&6&A&F&C&l&oI&x&A&D&C&C&F&D&l&oP
+[17:34:21] [Server thread/INFO]: wuyl12 issued server command: /lp creategroup vip
+[17:34:21] [luckperms-command-executor/INFO]: [LP] LOG > (wuyl12) [G] (vip)
+[17:34:21] [luckperms-command-executor/INFO]: [LP] LOG > create
+[17:34:39] [Server thread/INFO]: wuyl12 issued server command: /lp group vip meta addprefix &x&1&5&0&8&F&B&l&oV&x&6&1&6&A&F&C&l&oI&x&A&D&C&C&F&D&l&oP
+[17:35:32] [Server thread/INFO]: wuyl12 issued server command: /lp group vip meta setprefix "&x&1&5&0&8&F&B&l&oV&x&6&1&6&A&F&C&l&oI&x&A&D&C&C&F&D&l&oP &r"
+[17:35:32] [luckperms-command-executor/INFO]: [LP] LOG > (wuyl12) [G] (vip)
+[17:35:32] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 1 &x&1&5&0&8&F&B&l&oV&x&6&1&6&A&F&C&l&oI&x&A&D&C&C&F&D&l&oP &r
+[17:35:46] [Server thread/INFO]: wuyl12 issued server command: /lp user wuyl12 parent set vip
+[17:35:46] [luckperms-command-executor/INFO]: [LP] LOG > (wuyl12) [U] (wuyl12)
+[17:35:46] [luckperms-command-executor/INFO]: [LP] LOG > parent set vip
+[17:36:12] [Server thread/INFO]: wuyl12 issued server command: /lp creategroup gold
+[17:36:12] [luckperms-command-executor/INFO]: [LP] LOG > (wuyl12) [G] (gold)
+[17:36:12] [luckperms-command-executor/INFO]: [LP] LOG > create
+[17:37:07] [Server thread/INFO]: wuyl12 issued server command: /lp group gold meta setprefix "&x&F&B&E&B&0&8&l&oG&x&F&C&E&F&3&F&l&oO&x&F&C&F&4&7&6&l&oL&x&F&D&F&8&A&D&l&oD &r"
+[17:37:07] [luckperms-command-executor/INFO]: [LP] LOG > (wuyl12) [G] (gold)
+[17:37:07] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 1 &x&F&B&E&B&0&8&l&oG&x&F&C&E&F&3&F&l&oO&x&F&C&F&4&7&6&l&oL&x&F&D&F&8&A&D&l&oD &r
+[17:37:14] [Server thread/INFO]: wuyl12 issued server command: /lp user wuyl12 parent set gold
+[17:37:14] [luckperms-command-executor/INFO]: [LP] LOG > (wuyl12) [U] (wuyl12)
+[17:37:14] [luckperms-command-executor/INFO]: [LP] LOG > parent set gold
+[17:37:15] [TAB Processing Thread/INFO]: [TAB] [WARN] Player wuyl12's group (gold) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
