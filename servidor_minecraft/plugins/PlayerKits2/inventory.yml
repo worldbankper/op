@@ -7,13 +7,7 @@ inventories:
         id: BLACK_STAINED_GLASS_PANE
         name: ' '
         amount: 1
-    '49':
-      item:
-        id: DIAMOND_BLOCK
-        name: '&ePremium Kits'
-        amount: 1
-      open_inventory: premium_kits_inventory
-    '20':
+    '22':
       type: 'kit: INICIO'
   premium_kits_inventory:
     slots: 54
@@ -31,12 +25,12 @@ inventories:
       open_inventory: main_inventory
     '13':
       type: 'kit: &5&LDEPREDADOR'
-    '33':
-      type: 'kit: &1&lVIP'
     '28':
       type: 'kit: &3DIAMOND'
     '31':
       type: 'kit: &6&lGOLD'
+    '34':
+      type: 'kit: &1&lVIP'
   preview_inventory:
     slots: 54
     title: '&4&lKit Preview'

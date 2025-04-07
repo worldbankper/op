@@ -24,6 +24,8 @@ panels:
         material: IRON_SWORD
         stack: 1
         name: §6§lKIT BASICOS
+        commands:
+        - console= playerkits2:kit open main_inventory %cp-player-name%
       '4':
         material: BLACK_STAINED_GLASS_PANE
         stack: 1
@@ -32,6 +34,8 @@ panels:
         material: NETHERITE_SWORD
         stack: 1
         name: §6§lKIT VIP
+        commands:
+        - console= playerkits2:kit open premium_kits_inventory %cp-player-name%
       '6':
         material: BLACK_STAINED_GLASS_PANE
         stack: 1

@@ -18,6 +18,8 @@ pages:
     height: 0.3
   - content: '&7&l/menu'
     height: 0.3
-  - content: '&6&l o dirijete a los npc'
+  - content: '&7&l/kits'
+    height: 0.3
+  - content: '&7&l/rtp'
     height: 0.3
   actions: {}
