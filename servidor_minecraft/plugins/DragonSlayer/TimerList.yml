@@ -4,16 +4,13 @@
 Timerlist:
   '1':
     Mapname: world_the_end
-    Resttime: 17079204
+    Resttime: 16903660
   '2':
     Mapname: world_the_end
-    Resttime: 17087782
+    Resttime: 16912238
   '3':
     Mapname: world_the_end
-    Resttime: 17091657
+    Resttime: 16916113
   '4':
     Mapname: world_the_end
-    Resttime: 177246
-  '5':
-    Mapname: world_the_end
-    Resttime: 35264
+    Resttime: 1702
