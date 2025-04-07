@@ -11,7 +11,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1743991309271
+  lastteleport: 1744041526363
   lastheal: 0
   mute: 0
   jail: 0
@@ -23,11 +23,11 @@ last-account-name: wuyl12
 lastlocation:
   world: 247b9917-61e2-4a30-9040-751bdd8fb5b5
   world-name: lobby
-  x: 7.213134990775702
-  y: 87.24341321608179
-  z: 8.075045620973075
-  yaw: -73.40866088867188
-  pitch: 6.299977779388428
+  x: -1.1111609118183026
+  y: 123.0
+  z: -3.155695063855132
+  yaw: -178.404052734375
+  pitch: -2.10011887550354
 logoutlocation:
   world: 247b9917-61e2-4a30-9040-751bdd8fb5b5
   world-name: lobby
@@ -45,3 +45,11 @@ homes:
     z: 576.6226451470758
     yaw: 88.05020141601562
     pitch: 14.699899673461914
+  kits:
+    world: 247b9917-61e2-4a30-9040-751bdd8fb5b5
+    world-name: lobby
+    x: 7.048091091701618
+    y: 133.0
+    z: -17.789493128921492
+    yaw: -66.20361328125
+    pitch: 24.44989776611328
