@@ -1012,3 +1012,29 @@ java.lang.NoSuchMethodError: 'com.viaversion.viaversion.api.minecraft.entities.E
 [21:24:22] [Server thread/INFO]: wuyl12 issued server command: /warp tradeos
 [21:26:47] [Server thread/INFO]: wuyl12 issued server command: /spawn
 [21:27:14] [Server thread/INFO]: wuyl12 issued server command: /warp kits
+[21:27:35] [Server thread/INFO]: wuyl12 issued server command: /createwarp kits
+[21:28:19] [Server thread/INFO]: wuyl12 issued server command: //pos1
+[21:28:25] [Server thread/INFO]: wuyl12 issued server command: //pos2
+[21:28:42] [Server thread/INFO]: wuyl12 issued server command: //replace air light
+[21:29:05] [Server thread/INFO]: wuyl12 issued server command: /home kits
+[21:29:39] [Server thread/INFO]: wuyl12 issued server command: /kits
+[21:29:50] [Server thread/INFO]: wuyl12 issued server command: /kits
+[21:30:17] [Server thread/INFO]: wuyl12 issued server command: /playerkits2:kit edit &5&LDEPREDADOR
+[21:30:31] [Server thread/INFO]: wuyl12 issued server command: /warp kits
+[21:31:50] [Server thread/INFO]: wuyl12 issued server command: /shopkeeper villager
+[21:31:54] [Server thread/INFO]: wuyl12 issued server command: /shopkeeper villager
+[21:31:57] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 10 seconds
+[21:31:58] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 9 seconds
+[21:31:59] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 8 seconds
+[21:32:00] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 7 seconds
+[21:32:00] [Server thread/INFO]: wuyl12 issued server command: /shopkeeper villager
+[21:32:01] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 6 seconds
+[21:32:02] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 5 seconds
+[21:32:03] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 4 seconds
+[21:32:04] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 3 seconds
+[21:32:05] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 2 seconds
+[21:32:06] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 1 seconds
+[21:32:07] [Server thread/INFO]: [AntiLag] > Removing...
+[21:32:12] [Server thread/INFO]: wuyl12 issued server command: /shopkeeper villager
+[21:34:29] [Server thread/INFO]: wuyl12 issued server command: /KIT
+[21:34:31] [Server thread/INFO]: wuyl12 issued server command: /kit

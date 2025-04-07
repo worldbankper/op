@@ -1,3 +1,1169 @@
 # This file is not intended to be manually modified! If you want to manually edit this file anyway, ensure that the server is not running currently and that you have prepared a backup of this file.
 
 data-version: 3|2|3953
+'1':
+  uniqueId: 44824bf2-a708-4db5-875a-1e71c4c7b77b
+  world: lobby
+  x: 107
+  y: 166
+  z: 123
+  yaw: 174.00623
+  type: admin
+  name: DIAMONS
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:none
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"C","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#08F1FB","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#16F2F8","bold":true},{"text":"S","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#24F3F4","bold":true},{"text":"C","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#31F4F1","bold":true},{"text":"O
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#3FF5EE","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#5BF7E7","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#68F8E4","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#76F9E0","bold":true},{"text":"M","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#84FADD","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#92FBDA","bold":true},{"text":"N","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#9FFCD6","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADFDD3","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":[{"text":"luminisencia","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[{"text":"resistencia 3","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          enchants:
+            minecraft:aqua_affinity: 10
+            minecraft:mending: 7
+            minecraft:protection: 10
+            minecraft:respiration: 10
+            minecraft:unbreaking: 10
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "DAMAGE_RESISTANCE,2,false,true,true;GLOWING,1,true,true,true"
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#08B6FB","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#24C2FA","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#3FCEFA","bold":true},{"text":"M","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#5BDAF9","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#76E5F8","bold":true},{"text":"N","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#92F1F8","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADFDF7","bold":true}]}'
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: OMINOUS_TRIAL_KEY
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#9F08FB","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#A412FB","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#A91DFB","bold":true},{"text":"R","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#AF27FB","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#B431FC","bold":true},{"text":"F","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#B93CFC","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#BE46FC","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#C350FC","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#C95BFC","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#CE65FC","bold":true},{"text":"R
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#D36FFC","bold":true},{"text":"+
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#DD84FD","bold":true},{"text":"+
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#E898FD","bold":true},{"text":"+","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F2ADFD","bold":true}]}'
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#08F1FB","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#14F2F8","bold":true},{"text":"C","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#20F3F5","bold":true},{"text":"H","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#2BF4F2","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#37F4F0","bold":true},{"text":"R","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#43F5ED","bold":true},{"text":"A
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#4FF6EA","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#66F8E4","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#72F9E1","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#7EFADE","bold":true},{"text":"M","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#8AFADC","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#95FBD9","bold":true},{"text":"N","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#A1FCD6","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADFDD3","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":[{"text":"regeneracion","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[{"text":"aumenta 14 corazones","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          enchants:
+            minecraft:mending: 7
+            minecraft:protection: 10
+            minecraft:unbreaking: 10
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "HEALTH_BOOST,6,false,true,true;REGENERATION,0,false,true,true"
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#08B6FB","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#24C2FA","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#3FCEFA","bold":true},{"text":"M","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#5BDAF9","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#76E5F8","bold":true},{"text":"N","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#92F1F8","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADFDF7","bold":true}]}'
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: OMINOUS_TRIAL_KEY
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#9F08FB","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#A412FB","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#A91DFB","bold":true},{"text":"R","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#AF27FB","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#B431FC","bold":true},{"text":"F","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#B93CFC","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#BE46FC","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#C350FC","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#C95BFC","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#CE65FC","bold":true},{"text":"R
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#D36FFC","bold":true},{"text":"+
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#DD84FD","bold":true},{"text":"+
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#E898FD","bold":true},{"text":"+","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F2ADFD","bold":true}]}'
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"G","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#08F1FB","bold":true},{"text":"R","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#15F2F8","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#21F3F5","bold":true},{"text":"B","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#2EF4F2","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#3BF5EF","bold":true},{"text":"S
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#47F6EC","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#61F7E5","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#6EF8E2","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#7AF9DF","bold":true},{"text":"M","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#87FADC","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#94FBD9","bold":true},{"text":"N","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#A0FCD6","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADFDD3","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":[{"text":"heroe de la aldea 5","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          enchants:
+            minecraft:mending: 7
+            minecraft:protection: 10
+            minecraft:swift_sneak: 10
+            minecraft:unbreaking: 10
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "HERO_OF_THE_VILLAGE,4,false,true,true"
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#08B6FB","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#24C2FA","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#3FCEFA","bold":true},{"text":"M","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#5BDAF9","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#76E5F8","bold":true},{"text":"N","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#92F1F8","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADFDF7","bold":true}]}'
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: OMINOUS_TRIAL_KEY
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#9F08FB","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#A412FB","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#A91DFB","bold":true},{"text":"R","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#AF27FB","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#B431FC","bold":true},{"text":"F","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#B93CFC","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#BE46FC","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#C350FC","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#C95BFC","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#CE65FC","bold":true},{"text":"R
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#D36FFC","bold":true},{"text":"+
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#DD84FD","bold":true},{"text":"+
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#E898FD","bold":true},{"text":"+","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F2ADFD","bold":true}]}'
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"B","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#08F1FB","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#16F2F8","bold":true},{"text":"T","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#24F3F4","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#31F4F1","bold":true},{"text":"S
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#3FF5EE","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#5BF7E7","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#68F8E4","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#76F9E0","bold":true},{"text":"M","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#84FADD","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#92FBDA","bold":true},{"text":"N","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#9FFCD6","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADFDD3","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":[{"text":"velosidad 3","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          enchants:
+            minecraft:feather_falling: 7
+            minecraft:frost_walker: 3
+            minecraft:mending: 7
+            minecraft:protection: 10
+            minecraft:unbreaking: 10
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "SPEED,2,false,true,true"
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#08B6FB","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#24C2FA","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#3FCEFA","bold":true},{"text":"M","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#5BDAF9","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#76E5F8","bold":true},{"text":"N","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#92F1F8","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADFDF7","bold":true}]}'
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: OMINOUS_TRIAL_KEY
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#9F08FB","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#A412FB","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#A91DFB","bold":true},{"text":"R","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#AF27FB","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#B431FC","bold":true},{"text":"F","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#B93CFC","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#BE46FC","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#C350FC","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#C95BFC","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#CE65FC","bold":true},{"text":"R
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#D36FFC","bold":true},{"text":"+
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#DD84FD","bold":true},{"text":"+
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#E898FD","bold":true},{"text":"+","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F2ADFD","bold":true}]}'
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: NETHERITE_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#08F1FB","bold":true},{"text":"S","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#15F2F8","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#21F3F5","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#2EF4F2","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#3BF5EF","bold":true},{"text":"A
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#47F6EC","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#61F7E5","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#6EF8E2","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#7AF9DF","bold":true},{"text":"M","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#87FADC","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#94FBD9","bold":true},{"text":"N","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#A0FCD6","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADFDD3","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":[{"text":"fuersa 3","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          enchants:
+            minecraft:looting: 10
+            minecraft:mending: 7
+            minecraft:sharpness: 10
+            minecraft:smite: 10
+            minecraft:unbreaking: 10
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "INCREASE_DAMAGE,2,true,true,true"
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#08B6FB","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#24C2FA","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#3FCEFA","bold":true},{"text":"M","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#5BDAF9","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#76E5F8","bold":true},{"text":"N","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#92F1F8","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADFDF7","bold":true}]}'
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: OMINOUS_TRIAL_KEY
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#9F08FB","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#A412FB","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#A91DFB","bold":true},{"text":"R","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#AF27FB","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#B431FC","bold":true},{"text":"F","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#B93CFC","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#BE46FC","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#C350FC","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#C95BFC","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#CE65FC","bold":true},{"text":"R
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#D36FFC","bold":true},{"text":"+
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#DD84FD","bold":true},{"text":"+
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#E898FD","bold":true},{"text":"+","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F2ADFD","bold":true}]}'
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: NETHERITE_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"H","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#08F1FB","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#16F2F8","bold":true},{"text":"C","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#24F3F4","bold":true},{"text":"H","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#31F4F1","bold":true},{"text":"A
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#3FF5EE","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#5BF7E7","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#68F8E4","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#76F9E0","bold":true},{"text":"M","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#84FADD","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#92FBDA","bold":true},{"text":"N","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#9FFCD6","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADFDD3","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":[{"text":"prisa minera 3","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          enchants:
+            minecraft:efficiency: 10
+            minecraft:mending: 7
+            minecraft:sharpness: 10
+            minecraft:smite: 10
+            minecraft:unbreaking: 10
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "FAST_DIGGING,2,true,true,true"
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#08B6FB","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#24C2FA","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#3FCEFA","bold":true},{"text":"M","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#5BDAF9","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#76E5F8","bold":true},{"text":"N","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#92F1F8","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADFDF7","bold":true}]}'
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: OMINOUS_TRIAL_KEY
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#9F08FB","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#A412FB","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#A91DFB","bold":true},{"text":"R","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#AF27FB","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#B431FC","bold":true},{"text":"F","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#B93CFC","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#BE46FC","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#C350FC","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#C95BFC","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#CE65FC","bold":true},{"text":"R
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#D36FFC","bold":true},{"text":"+
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#DD84FD","bold":true},{"text":"+
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#E898FD","bold":true},{"text":"+","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F2ADFD","bold":true}]}'
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: NETHERITE_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#08F1FB","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#17F2F7","bold":true},{"text":"C","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#26F3F4","bold":true},{"text":"O
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#35F4F0","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#53F6E9","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#62F8E5","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#71F9E2","bold":true},{"text":"M","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#80FADE","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#8FFBDA","bold":true},{"text":"N","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#9EFCD7","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADFDD3","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":[{"text":"prisa minera 3","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          enchants:
+            minecraft:efficiency: 10
+            minecraft:fortune: 10
+            minecraft:mending: 7
+            minecraft:unbreaking: 10
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "FAST_DIGGING,1,true,true,true"
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#08B6FB","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#24C2FA","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#3FCEFA","bold":true},{"text":"M","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#5BDAF9","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#76E5F8","bold":true},{"text":"N","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#92F1F8","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADFDF7","bold":true}]}'
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: OMINOUS_TRIAL_KEY
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#9F08FB","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#A412FB","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#A91DFB","bold":true},{"text":"R","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#AF27FB","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#B431FC","bold":true},{"text":"F","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#B93CFC","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#BE46FC","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#C350FC","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#C95BFC","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#CE65FC","bold":true},{"text":"R
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#D36FFC","bold":true},{"text":"+
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#DD84FD","bold":true},{"text":"+
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#E898FD","bold":true},{"text":"+","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F2ADFD","bold":true}]}'
+    '8':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: NETHERITE_SHOVEL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#08F1FB","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#17F2F7","bold":true},{"text":"L","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#26F3F4","bold":true},{"text":"A
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#35F4F0","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#53F6E9","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#62F8E5","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#71F9E2","bold":true},{"text":"M","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#80FADE","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#8FFBDA","bold":true},{"text":"N","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#9EFCD7","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADFDD3","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":[{"text":"prisa minera 3","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          enchants:
+            minecraft:efficiency: 10
+            minecraft:fortune: 10
+            minecraft:mending: 7
+            minecraft:unbreaking: 10
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "FAST_DIGGING,2,true,true,true"
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#08B6FB","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#24C2FA","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#3FCEFA","bold":true},{"text":"M","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#5BDAF9","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#76E5F8","bold":true},{"text":"N","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#92F1F8","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADFDF7","bold":true}]}'
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: OMINOUS_TRIAL_KEY
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#9F08FB","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#A412FB","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#A91DFB","bold":true},{"text":"R","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#AF27FB","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#B431FC","bold":true},{"text":"F","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#B93CFC","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#BE46FC","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#C350FC","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#C95BFC","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#CE65FC","bold":true},{"text":"R
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#D36FFC","bold":true},{"text":"+
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#DD84FD","bold":true},{"text":"+
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#E898FD","bold":true},{"text":"+","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F2ADFD","bold":true}]}'
+    '9':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: MACE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            minecraft:breach: 8
+            minecraft:density: 6
+            minecraft:mending: 3
+            minecraft:unbreaking: 10
+            minecraft:wind_burst: 8
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#08B6FB","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#24C2FA","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#3FCEFA","bold":true},{"text":"M","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#5BDAF9","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#76E5F8","bold":true},{"text":"N","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#92F1F8","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADFDF7","bold":true}]}'
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: OMINOUS_TRIAL_KEY
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#9F08FB","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#A412FB","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#A91DFB","bold":true},{"text":"R","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#AF27FB","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#B431FC","bold":true},{"text":"F","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#B93CFC","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#BE46FC","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#C350FC","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#C95BFC","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#CE65FC","bold":true},{"text":"R
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#D36FFC","bold":true},{"text":"+
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#DD84FD","bold":true},{"text":"+
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#E898FD","bold":true},{"text":"+","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F2ADFD","bold":true}]}'
+  snapshots: []
+'2':
+  uniqueId: c1d7118c-4918-41ad-a098-0609ad5e9bf3
+  world: lobby
+  x: 109
+  y: 166
+  z: 121
+  yaw: 184.36676
+  type: admin
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:none
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"C","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#084CFB","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#1D61FB","bold":true},{"text":"S","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#3176FC","bold":true},{"text":"C","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#468BFC","bold":true},{"text":"O
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#5BA0FC","bold":true},{"text":"V","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#84C9FD","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#98DEFD","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADF3FD","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":["resistencia"]}'
+          enchants:
+            minecraft:aqua_affinity: 5
+            minecraft:mending: 3
+            minecraft:protection: 5
+            minecraft:respiration: 5
+            minecraft:unbreaking: 5
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "DAMAGE_RESISTANCE,0,true,true,true"
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: ECHO_SHARD
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"V","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#1508FB","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#616AFC","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADCCFD","bold":true}]}'
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#084CFB","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#195DFB","bold":true},{"text":"C","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#296DFB","bold":true},{"text":"H","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#3A7EFC","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#4A8FFC","bold":true},{"text":"R","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#5BA0FC","bold":true},{"text":"A
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#6BB0FC","bold":true},{"text":"V","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#8CD2FD","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#9DE2FD","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADF3FD","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":["incrementa 10 corazones"]}'
+          enchants:
+            minecraft:mending: 3
+            minecraft:protection: 5
+            minecraft:unbreaking: 5
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "HEALTH_BOOST,4,false,true,true"
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: ECHO_SHARD
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"V","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#1508FB","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#616AFC","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADCCFD","bold":true}]}'
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"G","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#084CFB","bold":true},{"text":"R","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#1A5FFB","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#2D71FB","bold":true},{"text":"B","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#3F84FC","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#5196FC","bold":true},{"text":"S
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#64A9FC","bold":true},{"text":"V","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#88CEFD","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#9BE0FD","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADF3FD","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":["hero de la aldea"]}'
+          enchants:
+            minecraft:mending: 3
+            minecraft:protection: 5
+            minecraft:swift_sneak: 5
+            minecraft:unbreaking: 5
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "HERO_OF_THE_VILLAGE,0,false,true,true"
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: ECHO_SHARD
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"V","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#1508FB","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#616AFC","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADCCFD","bold":true}]}'
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"B","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#084CFB","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#1D61FB","bold":true},{"text":"T","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#3176FC","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#468BFC","bold":true},{"text":"S
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#5BA0FC","bold":true},{"text":"V","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#84C9FD","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#98DEFD","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADF3FD","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":["velosidad"]}'
+          enchants:
+            minecraft:frost_walker: 3
+            minecraft:mending: 3
+            minecraft:protection: 5
+            minecraft:unbreaking: 5
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "SPEED,0,false,true,true"
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: ECHO_SHARD
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"V","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#1508FB","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#616AFC","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADCCFD","bold":true}]}'
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: NETHERITE_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#084CFB","bold":true},{"text":"S","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#1A5FFB","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#2D71FB","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#3F84FC","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#5196FC","bold":true},{"text":"A
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#64A9FC","bold":true},{"text":"V","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#88CEFD","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#9BE0FD","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADF3FD","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":["fuersa"]}'
+          enchants:
+            minecraft:looting: 5
+            minecraft:mending: 3
+            minecraft:sharpness: 5
+            minecraft:smite: 5
+            minecraft:unbreaking: 5
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "INCREASE_DAMAGE,0,true,true,true"
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: ECHO_SHARD
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"V","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#1508FB","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#616AFC","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADCCFD","bold":true}]}'
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: NETHERITE_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"H","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#084CFB","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#1D61FB","bold":true},{"text":"C","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#3176FC","bold":true},{"text":"H","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#468BFC","bold":true},{"text":"A
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#5BA0FC","bold":true},{"text":"V","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#84C9FD","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#98DEFD","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADF3FD","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":["prisa minera"]}'
+          enchants:
+            minecraft:mending: 3
+            minecraft:sharpness: 5
+            minecraft:smite: 5
+            minecraft:unbreaking: 5
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "FAST_DIGGING,0,true,true,true"
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: ECHO_SHARD
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"V","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#1508FB","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#616AFC","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADCCFD","bold":true}]}'
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: NETHERITE_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#084CFB","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#2064FB","bold":true},{"text":"C","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#377CFC","bold":true},{"text":"O
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#4F94FC","bold":true},{"text":"V","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#7EC3FC","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#95DBFD","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADF3FD","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":["prisa minera"]}'
+          enchants:
+            minecraft:fortune: 5
+            minecraft:mending: 3
+            minecraft:unbreaking: 5
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "FAST_DIGGING,0,true,true,true"
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: ECHO_SHARD
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"V","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#1508FB","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#616AFC","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADCCFD","bold":true}]}'
+    '8':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: NETHERITE_SHOVEL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#084CFB","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#2064FB","bold":true},{"text":"L","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#377CFC","bold":true},{"text":"A
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#4F94FC","bold":true},{"text":"V","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#7EC3FC","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#95DBFD","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADF3FD","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":["prisa minera"]}'
+          enchants:
+            minecraft:fortune: 5
+            minecraft:mending: 3
+            minecraft:unbreaking: 5
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "FAST_DIGGING,0,true,true,true"
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: ECHO_SHARD
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"V","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#1508FB","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#616AFC","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADCCFD","bold":true}]}'
+    '9':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: MACE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            minecraft:breach: 3
+            minecraft:density: 3
+            minecraft:mending: 3
+            minecraft:unbreaking: 7
+            minecraft:wind_burst: 3
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: ECHO_SHARD
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"V","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#1508FB","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#616AFC","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADCCFD","bold":true}]}'
+  snapshots: []
+'3':
+  uniqueId: 5f919fb2-d489-47d5-98ef-efb575ad44b0
+  world: lobby
+  x: 105
+  y: 166
+  z: 121
+  yaw: 115.389465
+  type: admin
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:none
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"C","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#EEFB08","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F0FA1A","bold":true},{"text":"S","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F1F92D","bold":true},{"text":"C","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F3F83F","bold":true},{"text":"O
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F5F751","bold":true},{"text":"G","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F8F476","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FAF388","bold":true},{"text":"L","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FBF29B","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FDF1AD","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":[{"text":"luminisencia","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[{"text":"resistencia 2","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          enchants:
+            minecraft:aqua_affinity: 7
+            minecraft:mending: 5
+            minecraft:protection: 7
+            minecraft:respiration: 7
+            minecraft:unbreaking: 7
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "DAMAGE_RESISTANCE,1,true,true,true;GLOWING,0,true,true,true"
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"C","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#084CFB","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#1D61FB","bold":true},{"text":"S","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#3176FC","bold":true},{"text":"C","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#468BFC","bold":true},{"text":"O
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#5BA0FC","bold":true},{"text":"V","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#84C9FD","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#98DEFD","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADF3FD","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":["resistencia"]}'
+          enchants:
+            minecraft:aqua_affinity: 5
+            minecraft:mending: 3
+            minecraft:protection: 5
+            minecraft:respiration: 5
+            minecraft:unbreaking: 5
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "DAMAGE_RESISTANCE,0,true,true,true"
+            }
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: YELLOW_DYE
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"G","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FBEB08","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FCEF3F","bold":true},{"text":"L","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FCF476","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FDF8AD","bold":true}]}'
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#EEFB08","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#EFFA17","bold":true},{"text":"C","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F1F926","bold":true},{"text":"H","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F2F835","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F3F744","bold":true},{"text":"R","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F5F653","bold":true},{"text":"A
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F6F662","bold":true},{"text":"G","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F9F480","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FAF38F","bold":true},{"text":"L","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FCF29E","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FDF1AD","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":[{"text":"incrementa 12 corazones","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          - '{"text":"","extra":[{"text":"regeneracion","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          enchants:
+            minecraft:mending: 5
+            minecraft:protection: 7
+            minecraft:unbreaking: 7
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "HEALTH_BOOST,5,false,true,true;REGENERATION,0,true,true,true"
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#084CFB","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#195DFB","bold":true},{"text":"C","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#296DFB","bold":true},{"text":"H","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#3A7EFC","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#4A8FFC","bold":true},{"text":"R","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#5BA0FC","bold":true},{"text":"A
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#6BB0FC","bold":true},{"text":"V","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#8CD2FD","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#9DE2FD","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADF3FD","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":["incrementa 10 corazones"]}'
+          enchants:
+            minecraft:mending: 3
+            minecraft:protection: 5
+            minecraft:unbreaking: 5
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "HEALTH_BOOST,4,false,true,true"
+            }
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: YELLOW_DYE
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"G","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FBEB08","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FCEF3F","bold":true},{"text":"L","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FCF476","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FDF8AD","bold":true}]}'
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"G","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#EEFB08","bold":true},{"text":"R","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F0FA19","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F1F929","bold":true},{"text":"B","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F3F83A","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F4F74A","bold":true},{"text":"S
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F6F65B","bold":true},{"text":"G","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F9F47C","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FAF38C","bold":true},{"text":"L","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FCF29D","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FDF1AD","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":[{"text":"heroe de la aldea 3","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          enchants:
+            minecraft:mending: 5
+            minecraft:protection: 7
+            minecraft:swift_sneak: 7
+            minecraft:unbreaking: 7
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "HERO_OF_THE_VILLAGE,2,false,true,true"
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"G","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#084CFB","bold":true},{"text":"R","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#1A5FFB","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#2D71FB","bold":true},{"text":"B","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#3F84FC","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#5196FC","bold":true},{"text":"S
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#64A9FC","bold":true},{"text":"V","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#88CEFD","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#9BE0FD","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADF3FD","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":["hero de la aldea"]}'
+          enchants:
+            minecraft:mending: 3
+            minecraft:protection: 5
+            minecraft:swift_sneak: 5
+            minecraft:unbreaking: 5
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "HERO_OF_THE_VILLAGE,0,false,true,true"
+            }
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: YELLOW_DYE
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"G","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FBEB08","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FCEF3F","bold":true},{"text":"L","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FCF476","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FDF8AD","bold":true}]}'
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"B","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#EEFB08","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F0FA1A","bold":true},{"text":"T","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F1F92D","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F3F83F","bold":true},{"text":"S
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F5F751","bold":true},{"text":"G","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F8F476","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FAF388","bold":true},{"text":"L","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FBF29B","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FDF1AD","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":[{"text":"velosidad 2","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          enchants:
+            minecraft:feather_falling: 7
+            minecraft:frost_walker: 3
+            minecraft:mending: 5
+            minecraft:protection: 7
+            minecraft:unbreaking: 7
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "SPEED,1,false,true,true"
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: ARMOR
+          display-name: '{"text":"","extra":[{"text":"B","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#084CFB","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#1D61FB","bold":true},{"text":"T","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#3176FC","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#468BFC","bold":true},{"text":"S
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#5BA0FC","bold":true},{"text":"V","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#84C9FD","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#98DEFD","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADF3FD","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":["velosidad"]}'
+          enchants:
+            minecraft:frost_walker: 3
+            minecraft:mending: 3
+            minecraft:protection: 5
+            minecraft:unbreaking: 5
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "SPEED,0,false,true,true"
+            }
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: YELLOW_DYE
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"G","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FBEB08","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FCEF3F","bold":true},{"text":"L","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FCF476","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FDF8AD","bold":true}]}'
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: NETHERITE_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#EEFB08","bold":true},{"text":"S","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F0FA19","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F1F929","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F3F83A","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F4F74A","bold":true},{"text":"A
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F6F65B","bold":true},{"text":"G","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F9F47C","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FAF38C","bold":true},{"text":"L","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FCF29D","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FDF1AD","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":[{"text":"fuersa 2","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          enchants:
+            minecraft:looting: 7
+            minecraft:mending: 5
+            minecraft:sharpness: 7
+            minecraft:smite: 7
+            minecraft:unbreaking: 7
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "INCREASE_DAMAGE,1,true,true,true"
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: NETHERITE_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#084CFB","bold":true},{"text":"S","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#1A5FFB","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#2D71FB","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#3F84FC","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#5196FC","bold":true},{"text":"A
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#64A9FC","bold":true},{"text":"V","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#88CEFD","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#9BE0FD","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADF3FD","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":["fuersa"]}'
+          enchants:
+            minecraft:looting: 5
+            minecraft:mending: 3
+            minecraft:sharpness: 5
+            minecraft:smite: 5
+            minecraft:unbreaking: 5
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "INCREASE_DAMAGE,0,true,true,true"
+            }
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: YELLOW_DYE
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"G","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FBEB08","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FCEF3F","bold":true},{"text":"L","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FCF476","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FDF8AD","bold":true}]}'
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: NETHERITE_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"H","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#EEFB08","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F0FA1A","bold":true},{"text":"C","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F1F92D","bold":true},{"text":"H","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F3F83F","bold":true},{"text":"A
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F5F751","bold":true},{"text":"G","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F8F476","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FAF388","bold":true},{"text":"L","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FBF29B","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FDF1AD","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":[{"text":"prisa minera 2","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          enchants:
+            minecraft:mending: 5
+            minecraft:sharpness: 7
+            minecraft:smite: 7
+            minecraft:unbreaking: 7
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "FAST_DIGGING,1,true,true,true"
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: NETHERITE_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"H","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#084CFB","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#1D61FB","bold":true},{"text":"C","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#3176FC","bold":true},{"text":"H","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#468BFC","bold":true},{"text":"A
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#5BA0FC","bold":true},{"text":"V","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#84C9FD","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#98DEFD","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADF3FD","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":["prisa minera"]}'
+          enchants:
+            minecraft:mending: 3
+            minecraft:sharpness: 5
+            minecraft:smite: 5
+            minecraft:unbreaking: 5
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "FAST_DIGGING,0,true,true,true"
+            }
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: YELLOW_DYE
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"G","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FBEB08","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FCEF3F","bold":true},{"text":"L","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FCF476","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FDF8AD","bold":true}]}'
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: NETHERITE_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#EEFB08","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F0FA1D","bold":true},{"text":"C","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F2F931","bold":true},{"text":"O
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F4F746","bold":true},{"text":"G","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F7F56F","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F9F484","bold":true},{"text":"L","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FBF298","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FDF1AD","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":[{"text":"prisa minera 2","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          enchants:
+            minecraft:fortune: 7
+            minecraft:mending: 5
+            minecraft:unbreaking: 7
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "FAST_DIGGING,1,true,true,true"
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: NETHERITE_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#084CFB","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#2064FB","bold":true},{"text":"C","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#377CFC","bold":true},{"text":"O
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#4F94FC","bold":true},{"text":"V","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#7EC3FC","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#95DBFD","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADF3FD","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":["prisa minera"]}'
+          enchants:
+            minecraft:fortune: 5
+            minecraft:mending: 3
+            minecraft:unbreaking: 5
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "FAST_DIGGING,0,true,true,true"
+            }
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: YELLOW_DYE
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"G","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FBEB08","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FCEF3F","bold":true},{"text":"L","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FCF476","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FDF8AD","bold":true}]}'
+    '8':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: NETHERITE_SHOVEL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#EEFB08","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F0FA1D","bold":true},{"text":"L","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F2F931","bold":true},{"text":"A
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F4F746","bold":true},{"text":"G","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F7F56F","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F9F484","bold":true},{"text":"L","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FBF298","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FDF1AD","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS:","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":[{"text":"prisa minera 2","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+          enchants:
+            minecraft:fortune: 7
+            minecraft:mending: 5
+            minecraft:unbreaking: 7
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "FAST_DIGGING,1,true,true,true"
+            }
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: NETHERITE_SHOVEL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#084CFB","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#2064FB","bold":true},{"text":"L","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#377CFC","bold":true},{"text":"A
+            ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#4F94FC","bold":true},{"text":"V","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#7EC3FC","bold":true},{"text":"I","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#95DBFD","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#ADF3FD","bold":true}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"EFECTOS","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+          - '{"text":"","extra":["prisa minera"]}'
+          enchants:
+            minecraft:fortune: 5
+            minecraft:mending: 3
+            minecraft:unbreaking: 5
+          PublicBukkitValues: |-
+            {
+                "itemtag:effects_list": "FAST_DIGGING,0,true,true,true"
+            }
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: YELLOW_DYE
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"G","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FBEB08","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FCEF3F","bold":true},{"text":"L","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FCF476","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FDF8AD","bold":true}]}'
+    '9':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: MACE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            minecraft:breach: 5
+            minecraft:density: 5
+            minecraft:mending: 3
+            minecraft:unbreaking: 7
+            minecraft:wind_burst: 5
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: MACE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            minecraft:breach: 3
+            minecraft:density: 3
+            minecraft:mending: 3
+            minecraft:unbreaking: 7
+            minecraft:wind_burst: 3
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3953
+        type: YELLOW_DYE
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"G","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FBEB08","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FCEF3F","bold":true},{"text":"L","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FCF476","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#FDF8AD","bold":true}]}'
+  snapshots: []
+'4':
+  uniqueId: 71000b45-d185-43a7-a17c-d2e68331fd15
+  world: lobby
+  x: 107
+  y: 165
+  z: 111
+  yaw: 78.27809
+  type: admin
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:none
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes: {}
+  snapshots: []
