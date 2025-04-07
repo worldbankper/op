@@ -1,0 +1,15 @@
+panels:
+  panel-3:
+    perm: default
+    rows: 1
+    title: '&8Generated panel-3'
+    empty: BLACK_STAINED_GLASS_PANE
+    item:
+      '3':
+        material: CREEPER_HEAD
+        stack: 1
+        name: §6§lGAMEMODE SPECTADOR
+      '5':
+        material: GRASS_BLOCK
+        stack: 1
+        name: §6§lGAMEMODE SURVIVAL

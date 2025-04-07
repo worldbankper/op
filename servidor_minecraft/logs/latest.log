@@ -1779,3 +1779,23 @@ java.lang.NoSuchMethodError: 'com.viaversion.viaversion.api.minecraft.entities.E
 [23:46:46] [Server thread/INFO]: wuyl12 issued server command: /dh line add bienvenida 1 &7&l/kits
 [23:46:55] [Server thread/INFO]: wuyl12 issued server command: /dh line add bienvenida 1 &7&l/rtp
 [23:47:13] [Server thread/INFO]: wuyl12 issued server command: /kits
+[23:48:11] [Server thread/INFO]: wuyl12 issued server command: /cp panel-1
+[23:48:51] [Server thread/INFO]: wuyl12 issued server command: /gamemode creative
+[23:49:11] [Server thread/INFO]: wuyl12 issued server command: /ie rename &6&lGAMEMODE SPECTADOR
+[23:49:21] [Server thread/INFO]: wuyl12 issued server command: /ie rename &6&lGAMEMODE SURVIVAL
+[23:49:34] [Server thread/INFO]: wuyl12 issued server command: /cpg 1
+[23:50:26] [Server thread/INFO]: smith lost connection: Disconnected
+[23:50:27] [Netty Epoll Server IO #3/INFO]: Could not get version of a client viewing motd! Continue with version 735 (1.16).
+[23:50:32] [Server thread/INFO]: wuyl12 lost connection: Disconnected
+[23:50:32] [Netty Epoll Server IO #0/INFO]: Could not get version of a client viewing motd! Continue with version 735 (1.16).
+[23:53:39] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 10 seconds
+[23:53:40] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 9 seconds
+[23:53:41] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 8 seconds
+[23:53:42] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 7 seconds
+[23:53:43] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 6 seconds
+[23:53:44] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 5 seconds
+[23:53:45] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 4 seconds
+[23:53:46] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 3 seconds
+[23:53:47] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 2 seconds
+[23:53:48] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 1 seconds
+[23:53:49] [Server thread/INFO]: [AntiLag] > Removing...
