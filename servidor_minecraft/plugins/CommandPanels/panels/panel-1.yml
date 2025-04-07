@@ -1,0 +1,107 @@
+panels:
+  WARPS:
+    perm: default
+    rows: 6
+    title: '&8warps'
+    empty: BLACK_STAINED_GLASS_PANE
+    item:
+      '0':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '1':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '3':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '4':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '5':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '7':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '8':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '9':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '12':
+        material: PLAYER_HEAD
+        stack: 1
+        name: §6§lSURVIVAL
+        nbt:
+          Skulls:ID: 102
+      '14':
+        material: PLAYER_HEAD
+        stack: 1
+        name: §6§lFUTBOLL
+      '17':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '28':
+        material: PLAYER_HEAD
+        stack: 1
+        name: §6§lPOCIONES
+        nbt:
+          Skulls:ID: 420
+      '30':
+        material: PLAYER_HEAD
+        stack: 1
+        name: §6§lCRATES
+      '32':
+        material: PLAYER_HEAD
+        stack: 1
+        name: §6§lKITS
+      '34':
+        material: PLAYER_HEAD
+        stack: 1
+        name: §6§lEND
+      '36':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '44':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '45':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '46':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '48':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '49':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '50':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '52':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
+      '53':
+        material: BLACK_STAINED_GLASS_PANE
+        stack: 1
+        name: ''
