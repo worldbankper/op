@@ -2,42 +2,45 @@ panels:
   panel-1:
     perm: default
     rows: 6
-    title: '&8Generated panel-1'
-    empty: BLACK_STAINED_GLASS_PANE
+    title: '                &#BD08FB&l&oW&#B943FC&l&oA&#B57EFC&l&oR&#B1B8FD&l&oP&#ADF3FD&l&oS'
+    commands:
+    - warps
+    - menu 
+    - warp
     item:
       item:
       '0':
         material: BLACK_STAINED_GLASS_PANE
         stack: 1
-        name: ''
+        name: ' '
       '1':
         material: BLACK_STAINED_GLASS_PANE
         stack: 1
-        name: ''
+        name: ' '
       '3':
         material: BLACK_STAINED_GLASS_PANE
         stack: 1
-        name: ''
+        name: ' '
       '4':
         material: BLACK_STAINED_GLASS_PANE
         stack: 1
-        name: ''
+        name: ' '
       '5':
         material: BLACK_STAINED_GLASS_PANE
         stack: 1
-        name: ''
+        name: ' '
       '7':
         material: BLACK_STAINED_GLASS_PANE
         stack: 1
-        name: ''
+        name: ' '
       '8':
         material: BLACK_STAINED_GLASS_PANE
         stack: 1
-        name: ''
+        name: ' '
       '9':
         material: BLACK_STAINED_GLASS_PANE
         stack: 1
-        name: ''
+        name: ' '
       '12':
         material: PLAYER_HEAD
         stack: 1
