@@ -1161,3 +1161,59 @@ java.lang.NoSuchMethodError: 'com.viaversion.viaversion.api.minecraft.entities.E
 [16:25:51] [Server thread/INFO]: wuyl12 issued server command: /it effects
 [16:26:03] [Server thread/INFO]: wuyl12 issued server command: /it effects
 [16:26:31] [Server thread/INFO]: wuyl12 issued server command: /it effects
+[16:27:39] [Server thread/INFO]: wuyl12 issued server command: /it effects set damage_resistance 3
+[16:27:56] [Server thread/INFO]: wuyl12 issued server command: /it effects set health_boost 10
+[16:28:06] [Server thread/INFO]: wuyl12 issued server command: /it effects set health_boost 8
+[16:28:10] [Server thread/INFO]: wuyl12 issued server command: /it effects set health_boost 5
+[16:28:19] [Server thread/INFO]: wuyl12 issued server command: /it effects set health_boost 7
+[16:28:28] [Server thread/INFO]: wuyl12 issued server command: /it effects set regeneration 1
+[16:28:53] [Server thread/INFO]: wuyl12 issued server command: /it effects set hero_of_the_village 5
+[16:29:14] [Server thread/INFO]: wuyl12 issued server command: /it effects set speed 4
+[16:29:24] [Server thread/INFO]: wuyl12 issued server command: /it effects set speed 3
+[16:30:22] [Server thread/INFO]: wuyl12 issued server command: /gmc
+[16:30:32] [Server thread/INFO]: wuyl12 issued server command: /it effects
+[16:30:39] [Server thread/INFO]: wuyl12 issued server command: /it effects
+[16:30:56] [Server thread/INFO]: wuyl12 issued server command: /it effects
+[16:31:52] [Server thread/INFO]: wuyl12 issued server command: /it effects
+[16:32:00] [Server thread/INFO]: wuyl12 issued server command: /it effects
+[16:32:04] [Server thread/INFO]: wuyl12 issued server command: /it effects
+[16:32:07] [Server thread/INFO]: wuyl12 issued server command: /it effects
+[16:32:29] [Server thread/INFO]: wuyl12 issued server command: /gmc
+[16:32:32] [Server thread/INFO]: wuyl12 issued server command: /gms
+[16:33:03] [Server thread/INFO]: wuyl12 issued server command: /ie lore add &6&lEFECTOS:
+[16:33:04] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 10 seconds
+[16:33:05] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 9 seconds
+[16:33:06] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 8 seconds
+[16:33:06] [Server thread/INFO]: wuyl12 issued server command: /ie lore add &6&lEFECTOS:
+[16:33:07] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 7 seconds
+[16:33:07] [Server thread/INFO]: wuyl12 issued server command: /ie lore add &6&lEFECTOS:
+[16:33:08] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 6 seconds
+[16:33:09] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 5 seconds
+[16:33:09] [Server thread/INFO]: wuyl12 issued server command: /ie lore add &6&lEFECTOS:
+[16:33:10] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 4 seconds
+[16:33:11] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 3 seconds
+[16:33:11] [Server thread/INFO]: wuyl12 issued server command: /ie lore add &6&lEFECTOS:
+[16:33:12] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 2 seconds
+[16:33:13] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 1 seconds
+[16:33:13] [Server thread/INFO]: wuyl12 issued server command: /ie lore add &6&lEFECTOS:
+[16:33:14] [Server thread/INFO]: [AntiLag] > Removing...
+[16:33:14] [Server thread/INFO]: wuyl12 issued server command: /ie lore add &6&lEFECTOS:
+[16:33:16] [Server thread/INFO]: wuyl12 issued server command: /ie lore add &6&lEFECTOS:
+[16:33:18] [Server thread/INFO]: wuyl12 issued server command: /ie lore add &6&lEFECTOS:
+[16:33:47] [Server thread/INFO]: wuyl12 issued server command: /ie lore add &7luminisencia
+[16:33:56] [Server thread/INFO]: wuyl12 issued server command: /ie lore add &7resistencia 3
+[16:34:09] [Server thread/INFO]: wuyl12 issued server command: /ie lore add &7regeneracion
+[16:34:20] [Server thread/INFO]: wuyl12 issued server command: /ie lore add &7aumenta 14 corazones
+[16:34:34] [Server thread/INFO]: wuyl12 issued server command: /ie lore add &7aumenta 14 corazones
+[16:34:42] [Server thread/INFO]: wuyl12 issued server command: /ie lore remove 4
+[16:34:57] [Server thread/INFO]: wuyl12 issued server command: /ie lore add &7heroe de la aldea 5
+[16:35:08] [Server thread/INFO]: wuyl12 issued server command: /ie lore add &7velosidad 3
+[16:35:23] [Server thread/INFO]: wuyl12 issued server command: /ie lore remove 2
+[16:35:44] [Server thread/INFO]: wuyl12 issued server command: /ie lore add &7fuersa 3
+[16:35:56] [Server thread/INFO]: wuyl12 issued server command: /ie lore add &7prisa minera 3
+[16:35:58] [Server thread/INFO]: wuyl12 issued server command: /ie lore add &7prisa minera 3
+[16:36:00] [Server thread/INFO]: wuyl12 issued server command: /ie lore add &7prisa minera 3
+[16:36:15] [Server thread/INFO]: wuyl12 issued server command: /ie enchant efficiency 10
+[16:36:17] [Server thread/INFO]: wuyl12 issued server command: /ie enchant efficiency 10
+[16:36:19] [Server thread/INFO]: wuyl12 issued server command: /ie enchant efficiency 10
+[16:36:40] [Server thread/INFO]: wuyl12 issued server command: /gmc
