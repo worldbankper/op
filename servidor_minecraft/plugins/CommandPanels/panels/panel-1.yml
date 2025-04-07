@@ -1,10 +1,11 @@
 panels:
-  WARPS:
+  panel-1:
     perm: default
     rows: 6
-    title: '&8warps'
+    title: '&8Generated panel-1'
     empty: BLACK_STAINED_GLASS_PANE
     item:
+      item:
       '0':
         material: BLACK_STAINED_GLASS_PANE
         stack: 1
@@ -105,3 +106,4 @@ panels:
         material: BLACK_STAINED_GLASS_PANE
         stack: 1
         name: ''
+

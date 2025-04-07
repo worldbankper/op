@@ -1232,3 +1232,49 @@ java.lang.NoSuchMethodError: 'com.viaversion.viaversion.api.minecraft.entities.E
 [22:27:30] [Server thread/INFO]: wuyl12 issued server command: /cpe panel-1.yml
 [22:27:37] [Server thread/INFO]: wuyl12 issued server command: /cpe warps
 [22:27:39] [Server thread/INFO]: wuyl12 issued server command: /cpe warp
+[22:28:26] [Server thread/INFO]: wuyl12 issued server command: /CPR
+[22:28:29] [Server thread/INFO]: wuyl12 issued server command: /cpr
+[22:28:35] [Server thread/INFO]: [CommandPanels] Reloaded.
+[22:28:39] [Server thread/INFO]: wuyl12 issued server command: /cpe
+[22:28:44] [Server thread/INFO]: wuyl12 issued server command: /cpe panel-1.yml
+[22:29:29] [Server thread/INFO]: wuyl12 issued server command: /cpr
+[22:29:31] [Server thread/INFO]: wuyl12 issued server command: /cpe panel-1.yml
+[22:29:44] [Server thread/INFO]: wuyl12 issued server command: /cpe panel-1.yml
+[22:29:46] [Server thread/INFO]: wuyl12 issued server command: /cpr
+[22:29:49] [Server thread/INFO]: wuyl12 issued server command: /cpe panel-1.ym
+[22:29:52] [Server thread/INFO]: wuyl12 issued server command: /cpe panel-1.yml
+[22:30:11] [Server thread/INFO]: wuyl12 issued server command: /warp
+[22:30:17] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 10 seconds
+[22:30:18] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 9 seconds
+[22:30:19] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 8 seconds
+[22:30:20] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 7 seconds
+[22:30:21] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 6 seconds
+[22:30:22] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 5 seconds
+[22:30:23] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 4 seconds
+[22:30:24] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 3 seconds
+[22:30:25] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 2 seconds
+[22:30:26] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 1 seconds
+[22:30:27] [Server thread/INFO]: [AntiLag] > Removing...
+[22:31:25] [Server thread/INFO]: wuyl12 issued server command: /cpr
+[22:31:27] [Server thread/INFO]: wuyl12 issued server command: /warp
+[22:31:32] [Server thread/INFO]: wuyl12 issued server command: /menu
+[22:32:05] [Server thread/INFO]: wuyl12 issued server command: /cpr
+[22:32:07] [Server thread/INFO]: wuyl12 issued server command: /menu
+[22:32:10] [Server thread/INFO]: wuyl12 issued server command: /cpr
+[22:32:11] [Server thread/INFO]: wuyl12 issued server command: /menu
+[22:32:29] [Server thread/INFO]: wuyl12 issued server command: /cpr
+[22:32:31] [Server thread/INFO]: wuyl12 issued server command: /menu
+[22:32:32] [Server thread/INFO]: wuyl12 issued server command: /cpr
+[22:32:37] [Server thread/INFO]: wuyl12 issued server command: /cpe panel-1.yml
+[22:33:47] [Server thread/INFO]: wuyl12 issued server command: /cpanel panel-1
+[22:34:05] [Server thread/INFO]: wuyl12 issued server command: /commandpaneledit
+[22:34:45] [Server thread/INFO]: wuyl12 issued server command: /cp
+[22:34:48] [Server thread/INFO]: wuyl12 issued server command: /cpe
+[22:35:03] [Server thread/INFO]: wuyl12 issued server command: /cpg 6
+[22:35:35] [Server thread/INFO]: wuyl12 issued server command: /cpe panel-1.yml
+[22:35:38] [Server thread/INFO]: wuyl12 issued server command: /cpe panel-1.yml
+[22:36:11] [Server thread/INFO]: wuyl12 issued server command: /cpr
+[22:36:13] [Server thread/INFO]: wuyl12 issued server command: /cpe panel-1.yml
+[22:36:31] [Server thread/INFO]: wuyl12 issued server command: /cpe template.yml
+[22:36:59] [Server thread/INFO]: wuyl12 issued server command: /commandpanel panel-1
+[22:37:12] [Server thread/INFO]: wuyl12 issued server command: /commandpaneledit panel-1.yml
