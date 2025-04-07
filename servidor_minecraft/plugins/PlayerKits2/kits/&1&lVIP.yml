@@ -1,7 +1,7 @@
 cooldown: 3600
 one_time: false
 auto_armor: false
-permission_required: false
+permission_required: true
 clear_inventory: false
 save_original_items: true
 display:
@@ -14,17 +14,14 @@ display:
     name: '&x&1&5&0&8&F&B&l&oV&x&6&1&6&A&F&C&l&oI&x&A&D&C&C&F&D&l&oP'
     amount: 1
   cooldown:
-    id: STONE_SWORD
-    name: '&c&l%kit_name% &cKit'
+    id: ECHO_SHARD
+    name: '&x&1&5&0&8&F&B&l&oV&x&6&1&6&A&F&C&l&oI&x&A&D&C&C&F&D&l&oP'
     amount: 1
-    lore:
-    - '&cYou need to wait &7%time%'
-    - '&cto claim this kit again.'
-    item_flags:
-    - HIDE_ATTRIBUTES
-    attributes:
-    - GENERIC_GRAVITY;ADD_NUMBER;0.0;playerkits2:dummy_attribute;feet
   one_time:
+    id: ECHO_SHARD
+    name: '&x&1&5&0&8&F&B&l&oV&x&6&1&6&A&F&C&l&oI&x&A&D&C&C&F&D&l&oP'
+    amount: 1
+  one_time_requirements:
     id: ECHO_SHARD
     name: '&x&1&5&0&8&F&B&l&oV&x&6&1&6&A&F&C&l&oI&x&A&D&C&C&F&D&l&oP'
     amount: 1

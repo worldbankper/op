@@ -1,1 +1,18 @@
 name: smith
+kits:
+  '&3DIAMOND':
+    cooldown: 1744070914469
+    one_time: false
+    bought: false
+  '&6&lGOLD':
+    cooldown: 1744070915664
+    one_time: false
+    bought: false
+  '&5&LDEPREDADOR':
+    cooldown: 1744070916160
+    one_time: false
+    bought: false
+  '&1&lVIP':
+    cooldown: 1744070917108
+    one_time: false
+    bought: false
