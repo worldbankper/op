@@ -1042,3 +1042,80 @@ java.lang.NoSuchMethodError: 'com.viaversion.viaversion.api.minecraft.entities.E
 [16:06:27] [Server thread/INFO]: wuyl12 issued server command: /ie rename &#08F1FB&l&oH&#16F2F8&l&oA&#24F3F4&l&oC&#31F4F1&l&oH&#3FF5EE&l&oA &#5BF7E7&l&oD&#68F8E4&l&oI&#76F9E0&l&oA&#84FADD&l&oM&#92FBDA&l&oO&#9FFCD6&l&oN&#ADFDD3&l&oD
 [16:06:39] [Server thread/INFO]: wuyl12 issued server command: /ie rename &#08F1FB&l&oP&#17F2F7&l&oI&#26F3F4&l&oC&#35F4F0&l&oO &#53F6E9&l&oD&#62F8E5&l&oI&#71F9E2&l&oA&#80FADE&l&oM&#8FFBDA&l&oO&#9EFCD7&l&oN&#ADFDD3&l&oD
 [16:06:53] [Server thread/INFO]: wuyl12 issued server command: /ie enchant &#08F1FB&l&oP&#17F2F7&l&oA&#26F3F4&l&oL&#35F4F0&l&oA &#53F6E9&l&oD&#62F8E5&l&oI&#71F9E2&l&oA&#80FADE&l&oM&#8FFBDA&l&oO&#9EFCD7&l&oN&#ADFDD3&l&oD
+[16:07:14] [Server thread/INFO]: wuyl12 issued server command: /ie rename &#08F1FB&l&oP&#17F2F7&l&oA&#26F3F4&l&oL&#35F4F0&l&oA &#53F6E9&l&oD&#62F8E5&l&oI&#71F9E2&l&oA&#80FADE&l&oM&#8FFBDA&l&oO&#9EFCD7&l&oN&#ADFDD3&l&oD
+[16:08:04] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 10 seconds
+[16:08:05] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 9 seconds
+[16:08:06] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 8 seconds
+[16:08:07] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 7 seconds
+[16:08:08] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 6 seconds
+[16:08:09] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 5 seconds
+[16:08:10] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 4 seconds
+[16:08:11] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 3 seconds
+[16:08:12] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 2 seconds
+[16:08:13] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 1 seconds
+[16:08:14] [Server thread/INFO]: [AntiLag] > Removing...
+[16:08:24] [Server thread/INFO]: wuyl12 issued server command: /ie enchant protection 15
+[16:08:25] [Server thread/INFO]: wuyl12 issued server command: /ie enchant protection 15
+[16:08:27] [Server thread/INFO]: wuyl12 issued server command: /ie enchant protection 15
+[16:08:28] [Server thread/INFO]: wuyl12 issued server command: /ie enchant protection 15
+[16:08:36] [Server thread/INFO]: wuyl12 issued server command: /ie enchant respiration 15
+[16:08:44] [Server thread/INFO]: wuyl12 issued server command: /ie enchant aqua_affinity 15
+[16:08:48] [Server thread/INFO]: wuyl12 issued server command: /ie enchant aqua_affinity 15
+[16:09:07] [Server thread/INFO]: wuyl12 issued server command: /ie enchant unbreaking 15
+[16:09:08] [Server thread/INFO]: wuyl12 issued server command: /ie enchant unbreaking 15
+[16:09:10] [Server thread/INFO]: wuyl12 issued server command: /ie enchant unbreaking 15
+[16:09:12] [Server thread/INFO]: wuyl12 issued server command: /ie enchant unbreaking 15
+[16:09:13] [Server thread/INFO]: wuyl12 issued server command: /ie enchant unbreaking 15
+[16:09:15] [Server thread/INFO]: wuyl12 issued server command: /ie enchant unbreaking 15
+[16:09:16] [Server thread/INFO]: wuyl12 issued server command: /ie enchant unbreaking 15
+[16:09:18] [Server thread/INFO]: wuyl12 issued server command: /ie enchant unbreaking 15
+[16:09:33] [Server thread/INFO]: wuyl12 issued server command: /ie enchant mending 10
+[16:09:35] [Server thread/INFO]: wuyl12 issued server command: /ie enchant mending 10
+[16:09:36] [Server thread/INFO]: wuyl12 issued server command: /ie enchant mending 10
+[16:09:38] [Server thread/INFO]: wuyl12 issued server command: /ie enchant mending 10
+[16:09:39] [Server thread/INFO]: wuyl12 issued server command: /ie enchant mending 10
+[16:09:41] [Server thread/INFO]: wuyl12 issued server command: /ie enchant mending 10
+[16:09:43] [Server thread/INFO]: wuyl12 issued server command: /ie enchant mending 10
+[16:09:44] [Server thread/INFO]: wuyl12 issued server command: /ie enchant mending 10
+[16:10:13] [Server thread/INFO]: wuyl12 issued server command: /ie enchant swift_sneak 15
+[16:10:26] [Server thread/INFO]: wuyl12 issued server command: /ie enchant feather_falling 15
+[16:10:35] [Server thread/INFO]: wuyl12 issued server command: /ie enchant sharpness 15
+[16:10:45] [Server thread/INFO]: wuyl12 issued server command: /ie enchant smite 12
+[16:10:48] [Server thread/INFO]: wuyl12 issued server command: /ie enchant smite 12
+[16:10:50] [Server thread/INFO]: wuyl12 issued server command: /ie enchant sharpness 15
+[16:10:58] [Server thread/INFO]: wuyl12 issued server command: /ie enchant looting 15
+[16:11:13] [Server thread/INFO]: wuyl12 issued server command: /ie enchant fortune 13
+[16:11:17] [Server thread/INFO]: wuyl12 issued server command: /ie enchant fortune 13
+[16:11:23] [Server thread/INFO]: wuyl12 issued server command: /ie enchant efficiency 15
+[16:11:25] [Server thread/INFO]: wuyl12 issued server command: /ie enchant efficiency 15
+[16:11:27] [Server thread/INFO]: wuyl12 issued server command: /ie enchant efficiency 15
+[16:12:29] [Server thread/INFO]: wuyl12 issued server command: /ie rename &#9F08FB&l&oD&#A412FB&l&oE&#A91DFB&l&oP&#AF27FB&l&oR&#B431FC&l&oE&#B93CFC&l&oF&#BE46FC&l&oD&#C350FC&l&oA&#C95BFC&l&oD&#CE65FC&l&oO&#D36FFC&l&oR &#DD84FD&l&o+ &#E898FD&l&o+ &#F2ADFD&l&o+
+[16:12:31] [Server thread/INFO]: wuyl12 issued server command: /ie rename &#9F08FB&l&oD&#A412FB&l&oE&#A91DFB&l&oP&#AF27FB&l&oR&#B431FC&l&oE&#B93CFC&l&oF&#BE46FC&l&oD&#C350FC&l&oA&#C95BFC&l&oD&#CE65FC&l&oO&#D36FFC&l&oR &#DD84FD&l&o+ &#E898FD&l&o+ &#F2ADFD&l&o+
+[16:12:33] [Server thread/INFO]: wuyl12 issued server command: /ie rename &#9F08FB&l&oD&#A412FB&l&oE&#A91DFB&l&oP&#AF27FB&l&oR&#B431FC&l&oE&#B93CFC&l&oF&#BE46FC&l&oD&#C350FC&l&oA&#C95BFC&l&oD&#CE65FC&l&oO&#D36FFC&l&oR &#DD84FD&l&o+ &#E898FD&l&o+ &#F2ADFD&l&o+
+[16:12:35] [Server thread/INFO]: wuyl12 issued server command: /ie rename &#9F08FB&l&oD&#A412FB&l&oE&#A91DFB&l&oP&#AF27FB&l&oR&#B431FC&l&oE&#B93CFC&l&oF&#BE46FC&l&oD&#C350FC&l&oA&#C95BFC&l&oD&#CE65FC&l&oO&#D36FFC&l&oR &#DD84FD&l&o+ &#E898FD&l&o+ &#F2ADFD&l&o+
+[16:12:36] [Server thread/INFO]: wuyl12 issued server command: /ie rename &#9F08FB&l&oD&#A412FB&l&oE&#A91DFB&l&oP&#AF27FB&l&oR&#B431FC&l&oE&#B93CFC&l&oF&#BE46FC&l&oD&#C350FC&l&oA&#C95BFC&l&oD&#CE65FC&l&oO&#D36FFC&l&oR &#DD84FD&l&o+ &#E898FD&l&o+ &#F2ADFD&l&o+
+[16:12:38] [Server thread/INFO]: wuyl12 issued server command: /ie rename &#9F08FB&l&oD&#A412FB&l&oE&#A91DFB&l&oP&#AF27FB&l&oR&#B431FC&l&oE&#B93CFC&l&oF&#BE46FC&l&oD&#C350FC&l&oA&#C95BFC&l&oD&#CE65FC&l&oO&#D36FFC&l&oR &#DD84FD&l&o+ &#E898FD&l&o+ &#F2ADFD&l&o+
+[16:12:39] [Server thread/INFO]: wuyl12 issued server command: /ie rename &#9F08FB&l&oD&#A412FB&l&oE&#A91DFB&l&oP&#AF27FB&l&oR&#B431FC&l&oE&#B93CFC&l&oF&#BE46FC&l&oD&#C350FC&l&oA&#C95BFC&l&oD&#CE65FC&l&oO&#D36FFC&l&oR &#DD84FD&l&o+ &#E898FD&l&o+ &#F2ADFD&l&o+
+[16:12:41] [Server thread/INFO]: wuyl12 issued server command: /ie rename &#9F08FB&l&oD&#A412FB&l&oE&#A91DFB&l&oP&#AF27FB&l&oR&#B431FC&l&oE&#B93CFC&l&oF&#BE46FC&l&oD&#C350FC&l&oA&#C95BFC&l&oD&#CE65FC&l&oO&#D36FFC&l&oR &#DD84FD&l&o+ &#E898FD&l&o+ &#F2ADFD&l&o+
+[16:13:27] [Server thread/INFO]: wuyl12 issued server command: /it effects
+[16:14:35] [Server thread/INFO]: wuyl12 issued server command: /ie lore add &6&lEFECTOS:
+[16:15:13] [Server thread/INFO]: wuyl12 issued server command: /ie lore add &7LUMINISENCIA
+[16:15:41] [Server thread/INFO]: wuyl12 issued server command: /ie lore add &7RESISTENCIA 4
+[16:15:53] [Server thread/INFO]: wuyl12 issued server command: /it effects
+[16:16:16] [Server thread/INFO]: wuyl12 issued server command: /it effects
+[16:16:24] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 10 seconds
+[16:16:25] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 9 seconds
+[16:16:26] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 8 seconds
+[16:16:27] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 7 seconds
+[16:16:27] [Server thread/INFO]: wuyl12 issued server command: /GMS
+[16:16:28] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 6 seconds
+[16:16:29] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 5 seconds
+[16:16:29] [Server thread/INFO]: wuyl12 issued server command: /gms
+[16:16:30] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 4 seconds
+[16:16:31] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 3 seconds
+[16:16:32] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 2 seconds
+[16:16:33] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 1 seconds
+[16:16:34] [Server thread/INFO]: [AntiLag] > Removing...
+[16:16:38] [Server thread/INFO]: wuyl12 issued server command: /it effects
+[16:16:45] [Server thread/INFO]: wuyl12 issued server command: /it effects
+[16:16:56] [Server thread/INFO]: wuyl12 issued server command: /it effects
