@@ -1051,3 +1051,76 @@ java.lang.NoSuchMethodError: 'com.viaversion.viaversion.api.minecraft.entities.E
 [21:40:27] [Server thread/INFO]: [AntiLag] > Removing...
 [21:44:58] [Server thread/INFO]: wuyl12 issued server command: /shopkeeper villager
 [21:45:04] [Server thread/INFO]: wuyl12 issued server command: /kit
+[21:48:19] [Server thread/INFO]: wuyl12 issued server command: /killall entities
+[21:48:23] [Server thread/INFO]: wuyl12 has made the advancement [The End?]
+[21:48:32] [Server thread/INFO]: wuyl12 issued server command: /gmsp
+[21:48:37] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 10 seconds
+[21:48:38] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 9 seconds
+[21:48:39] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 8 seconds
+[21:48:40] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 7 seconds
+[21:48:41] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 6 seconds
+[21:48:42] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 5 seconds
+[21:48:43] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 4 seconds
+[21:48:44] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 3 seconds
+[21:48:45] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 2 seconds
+[21:48:46] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 1 seconds
+[21:48:47] [Server thread/INFO]: [AntiLag] > Removing...
+[21:49:17] [Server thread/INFO]: wuyl12 issued server command: //cyl end_stone 110
+[21:49:23] [Server thread/INFO]: wuyl12 issued server command: //cyl end_stone
+[21:49:32] [Server thread/INFO]: wuyl12 issued server command: /undo
+[21:49:41] [Server thread/INFO]: wuyl12 issued server command: //cyl end_stone 50
+[21:49:46] [Server thread/INFO]: wuyl12 issued server command: /gmc
+[21:49:54] [Server thread/INFO]: wuyl12 issued server command: /undo
+[21:50:04] [Server thread/INFO]: wuyl12 issued server command: //cyl end_stone 15
+[21:50:17] [Server thread/INFO]: wuyl12 issued server command: //cyl end_stone 30
+[21:50:23] [Server thread/INFO]: wuyl12 issued server command: //cyl end_stone 50
+[21:50:47] [Server thread/INFO]: wuyl12 issued server command: //hsphere barrier 51
+[21:51:05] [Server thread/INFO]: wuyl12 issued server command: //pos1
+[21:51:19] [Server thread/INFO]: wuyl12 issued server command: //pos2
+[21:51:25] [Server thread/INFO]: wuyl12 issued server command: //pos2
+[21:51:43] [Server thread/INFO]: wuyl12 issued server command: //expand vert
+[21:51:51] [Server thread/INFO]: wuyl12 issued server command: /region define end
+[21:52:12] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world_the_end' have been background saved
+[21:52:12] [Server thread/INFO]: wuyl12 issued server command: /rg flags
+[21:52:15] [Server thread/INFO]: wuyl12 issued server command: /rg flags -w "world_the_end" -p 2 end
+[21:52:16] [Server thread/INFO]: wuyl12 issued server command: /rg flags -w "world_the_end" -p 3 end
+[21:52:20] [Server thread/INFO]: wuyl12 issued server command: /rg flag -w "world_the_end" -h 3 end mob-spawning DENY
+[21:52:21] [Server thread/INFO]: wuyl12 issued server command: /rg flag -w "world_the_end" -h 3 end entity-item-frame-destroy DENY
+[21:52:22] [Server thread/INFO]: wuyl12 issued server command: /rg flag -w "world_the_end" -h 3 end entity-item-frame-destroy DENY
+[21:52:25] [Server thread/INFO]: wuyl12 issued server command: /rg flag -w "world_the_end" -h 3 end entity-item-frame-destroy
+[21:52:26] [Server thread/INFO]: wuyl12 issued server command: /rg flag -w "world_the_end" -h 3 end entity-item-frame-destroy ALLOW
+[21:52:26] [Server thread/INFO]: wuyl12 issued server command: /rg flag -w "world_the_end" -h 3 end entity-item-frame-destroy DENY
+[21:52:27] [Server thread/INFO]: wuyl12 issued server command: /rg flag -w "world_the_end" -h 3 end entity-item-frame-destroy ALLOW
+[21:52:28] [Server thread/INFO]: wuyl12 issued server command: /rg flag -w "world_the_end" -h 3 end entity-item-frame-destroy
+[21:52:28] [Server thread/INFO]: wuyl12 issued server command: /rg flag -w "world_the_end" -h 3 end entity-item-frame-destroy
+[21:52:42] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world_the_end' have been background saved
+[21:52:48] [Server thread/INFO]: wuyl12 issued server command: /ie enchant sharpness 100000
+[21:52:50] [Server thread/INFO]: wuyl12 has made the advancement [Monster Hunter]
+[21:53:37] [Server thread/INFO]: wuyl12 issued server command: /killall endermam
+[21:54:04] [Server thread/INFO]: wuyl12 issued server command: /killall entities
+[21:54:33] [Server thread/INFO]: Dragon Slayer wuyl12 killed DEMONIO once again!
+[21:54:33] [Server thread/INFO]: wuyl12 has made the advancement [Free the End]
+[21:54:33] [Server thread/INFO]: Named entity EnderDragon['DEMONIO'/40, uuid='5d0ad6ed-35c8-4305-8e49-087a5b771777', l='ServerLevel[world_the_end]', x=53.65, y=77.42, z=-21.83, cpos=[3, -2], tl=321448, v=true] died: DEMONIO was slain by wuyl12
+[21:54:36] [Server thread/INFO]: wuyl12 has reached the goal [The Next Generation]
+[21:54:36] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /ping 
+[21:54:36] [Server thread/INFO]: Pong!
+[21:54:36] [Server thread/INFO]: [DragonSlayer] §aIn the world world_the_end Command: 'ping' was executed... on a 100% chance!
+[21:56:22] [Server thread/INFO]: wuyl12 issued server command: /killall entities
+[21:56:36] [Server thread/INFO]: wuyl12 issued server command: //8pos1
+[21:56:40] [Server thread/INFO]: wuyl12 issued server command: //pos1
+[21:56:49] [Server thread/INFO]: wuyl12 issued server command: /
+[21:56:52] [Server thread/INFO]: wuyl12 issued server command: //pos2
+[21:56:57] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 10 seconds
+[21:56:58] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 9 seconds
+[21:56:59] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 8 seconds
+[21:57:00] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 7 seconds
+[21:57:01] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 6 seconds
+[21:57:02] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 5 seconds
+[21:57:03] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 4 seconds
+[21:57:04] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 3 seconds
+[21:57:05] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 2 seconds
+[21:57:06] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 1 seconds
+[21:57:07] [Server thread/INFO]: [AntiLag] > Removing...
+[21:57:13] [Server thread/INFO]: wuyl12 issued server command: /killall entities
+[21:57:19] [Server thread/INFO]: wuyl12 issued server command: //expand vert
+[21:57:27] [Server thread/INFO]: wuyl12 issued server command: /region define end2
