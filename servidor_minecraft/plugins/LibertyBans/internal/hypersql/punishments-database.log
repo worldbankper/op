@@ -23,3 +23,22 @@ INSERT INTO "libertybans_names" VALUES('93accafa-0c2b-31d5-b8d3-195a7db150ef','w
 DELETE FROM "libertybans_addresses" WHERE "uuid"='93accafa-0c2b-31d5-b8d3-195a7db150ef' AND "address"='7f82bbd8' AND "updated"=1744059587
 INSERT INTO "libertybans_addresses" VALUES('93accafa-0c2b-31d5-b8d3-195a7db150ef','7f82bbd8',1744060011)
 COMMIT
+DELETE FROM "libertybans_names" WHERE "uuid"='80258602-1c58-3645-a5cc-dfd6de35a91e' AND "name"='smith' AND "lower_name"='smith' AND "updated"=1743902248
+INSERT INTO "libertybans_names" VALUES('80258602-1c58-3645-a5cc-dfd6de35a91e','smith','smith',1744060160)
+INSERT INTO "libertybans_addresses" VALUES('80258602-1c58-3645-a5cc-dfd6de35a91e','7f82bbd8',1744060160)
+COMMIT
+DELETE FROM "libertybans_names" WHERE "uuid"='93accafa-0c2b-31d5-b8d3-195a7db150ef' AND "name"='wuyl12' AND "lower_name"='wuyl12' AND "updated"=1744060011
+INSERT INTO "libertybans_names" VALUES('93accafa-0c2b-31d5-b8d3-195a7db150ef','wuyl12','wuyl12',1744060273)
+DELETE FROM "libertybans_addresses" WHERE "uuid"='93accafa-0c2b-31d5-b8d3-195a7db150ef' AND "address"='7f82bbd8' AND "updated"=1744060011
+INSERT INTO "libertybans_addresses" VALUES('93accafa-0c2b-31d5-b8d3-195a7db150ef','7f82bbd8',1744060273)
+COMMIT
+DELETE FROM "libertybans_names" WHERE "uuid"='93accafa-0c2b-31d5-b8d3-195a7db150ef' AND "name"='wuyl12' AND "lower_name"='wuyl12' AND "updated"=1744060273
+INSERT INTO "libertybans_names" VALUES('93accafa-0c2b-31d5-b8d3-195a7db150ef','wuyl12','wuyl12',1744060363)
+DELETE FROM "libertybans_addresses" WHERE "uuid"='93accafa-0c2b-31d5-b8d3-195a7db150ef' AND "address"='7f82bbd8' AND "updated"=1744060273
+INSERT INTO "libertybans_addresses" VALUES('93accafa-0c2b-31d5-b8d3-195a7db150ef','7f82bbd8',1744060363)
+COMMIT
+DELETE FROM "libertybans_names" WHERE "uuid"='80258602-1c58-3645-a5cc-dfd6de35a91e' AND "name"='smith' AND "lower_name"='smith' AND "updated"=1744060160
+INSERT INTO "libertybans_names" VALUES('80258602-1c58-3645-a5cc-dfd6de35a91e','smith','smith',1744060433)
+DELETE FROM "libertybans_addresses" WHERE "uuid"='80258602-1c58-3645-a5cc-dfd6de35a91e' AND "address"='7f82bbd8' AND "updated"=1744060160
+INSERT INTO "libertybans_addresses" VALUES('80258602-1c58-3645-a5cc-dfd6de35a91e','7f82bbd8',1744060433)
+COMMIT

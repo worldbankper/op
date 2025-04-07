@@ -926,3 +926,60 @@ java.lang.NoSuchMethodError: 'com.viaversion.viaversion.api.minecraft.entities.E
 [21:07:06] [Server thread/INFO]: wuyl12 fell out of the world
 [21:07:06] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 1 seconds
 [21:07:07] [Server thread/INFO]: [AntiLag] > Removing...
+[21:08:26] [Server thread/INFO]: Gamerule keepInventory is now set to: false
+[21:08:42] [Server thread/INFO]: wuyl12 fell out of the world
+[21:08:47] [Server thread/INFO]: wuyl12 lost connection: Disconnected
+[21:08:48] [Netty Epoll Server IO #0/INFO]: Could not get version of a client viewing motd! Continue with version 735 (1.16).
+[21:09:19] [Netty Epoll Server IO #1/INFO]: Could not get version of a client viewing motd! Continue with version 735 (1.16).
+[21:09:20] [Netty Epoll Server IO #2/INFO]: Could not get version of a client viewing motd! Continue with version 735 (1.16).
+[21:09:21] [User Authenticator #2/INFO]: UUID of player smith is 80258602-1c58-3645-a5cc-dfd6de35a91e
+[21:09:23] [TAB Processing Thread/INFO]: [TAB] [WARN] Player smith's group (staff) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[21:09:23] [Server thread/INFO]: smith[/127.130.187.216:57959] logged in with entity id 20343 at ([world]-25.5, 71.0, -28.5)
+[21:09:23] [Server thread/INFO]: smith has made the advancement [Getting an Upgrade]
+[21:09:32] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user smith has successfully logged in.
+[21:09:50] [Server thread/INFO]: smith issued server command: /fly
+[21:10:11] [Server thread/INFO]: smith issued server command: /spawn
+[21:10:23] [Server thread/INFO]: smith issued server command: /home
+[21:10:40] [Server thread/INFO]: smith issued server command: /godmode
+[21:10:52] [Server thread/INFO]: smith was pricked to death
+[21:11:01] [Server thread/INFO]: smith issued server command: /back
+[21:11:01] [Server thread/INFO]: [Essentials] smith was denied access to command.
+[21:11:11] [Netty Epoll Server IO #3/INFO]: Could not get version of a client viewing motd! Continue with version 735 (1.16).
+[21:11:13] [Netty Epoll Server IO #0/INFO]: Could not get version of a client viewing motd! Continue with version 735 (1.16).
+[21:11:13] [User Authenticator #3/INFO]: UUID of player wuyl12 is 93accafa-0c2b-31d5-b8d3-195a7db150ef
+[21:11:15] [Server thread/INFO]: wuyl12[/127.130.187.216:52389] logged in with entity id 24383 at ([lobby]1.2874681398757835, 122.0, -41.69999998807907)
+[21:11:22] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user wuyl12 has successfully logged in.
+[21:11:36] [Server thread/INFO]: wuyl12 issued server command: /lp editor
+[21:12:18] [Server thread/INFO]: smith lost connection: Disconnected
+[21:12:29] [Server thread/INFO]: wuyl12 lost connection: Timed out
+[21:12:41] [Netty Epoll Server IO #1/INFO]: Could not get version of a client viewing motd! Continue with version 735 (1.16).
+[21:12:43] [Netty Epoll Server IO #2/INFO]: Could not get version of a client viewing motd! Continue with version 735 (1.16).
+[21:12:43] [User Authenticator #4/INFO]: UUID of player wuyl12 is 93accafa-0c2b-31d5-b8d3-195a7db150ef
+[21:12:44] [Server thread/INFO]: wuyl12[/127.130.187.216:49625] logged in with entity id 28055 at ([lobby]0.001327979957637523, 123.0, -1.74891263672496)
+[21:12:54] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user wuyl12 has successfully logged in.
+[21:12:56] [Server thread/INFO]: wuyl12 issued server command: /lp editor
+[21:13:02] [Server thread/INFO]: wuyl12 issued server command: /lp trusteditor 198c-1c98
+[21:13:20] [Server thread/INFO]: wuyl12 issued server command: /lp trusteditor b41b-e9fa
+[21:13:51] [Netty Epoll Server IO #3/INFO]: Could not get version of a client viewing motd! Continue with version 735 (1.16).
+[21:13:53] [Netty Epoll Server IO #0/INFO]: Could not get version of a client viewing motd! Continue with version 735 (1.16).
+[21:13:54] [User Authenticator #5/INFO]: UUID of player smith is 80258602-1c58-3645-a5cc-dfd6de35a91e
+[21:13:55] [TAB Processing Thread/INFO]: [TAB] [WARN] Player smith's group (staff) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[21:13:55] [Server thread/INFO]: smith[/127.130.187.216:60581] logged in with entity id 31021 at ([lobby]2.6599980886296555, 123.0, -2.0770490804811943)
+[21:14:07] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user smith has successfully logged in.
+[21:14:22] [Server thread/INFO]: smith issued server command: /fly
+[21:15:17] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 10 seconds
+[21:15:18] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 9 seconds
+[21:15:19] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 8 seconds
+[21:15:20] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 7 seconds
+[21:15:21] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 6 seconds
+[21:15:22] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 5 seconds
+[21:15:23] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 4 seconds
+[21:15:24] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 3 seconds
+[21:15:25] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 2 seconds
+[21:15:26] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 1 seconds
+[21:15:27] [Server thread/INFO]: [AntiLag] > Removing...
+[21:17:03] [luckperms-worker-4/INFO]: [LP] LOG > (wuyl12) [G] (default)
+[21:17:03] [luckperms-worker-4/INFO]: [LP] LOG > webeditor add essentials.back.ondeath true
+[21:17:03] [luckperms-worker-4/INFO]: [LP] LOG > (wuyl12) [G] (default)
+[21:17:03] [luckperms-worker-4/INFO]: [LP] LOG > webeditor add essentials.back true
+[21:17:13] [Server thread/INFO]: smith issued server command: /back
