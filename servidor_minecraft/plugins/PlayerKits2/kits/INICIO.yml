@@ -1,0 +1,125 @@
+cooldown: 86400
+one_time: false
+auto_armor: true
+permission_required: false
+clear_inventory: false
+save_original_items: true
+display:
+  default:
+    id: SLIME_BALL
+    name: '&9&lKIT INICIO'
+    amount: 1
+  no_permission:
+    id: SLIME_BALL
+    name: '&9&lKIT INICIO'
+    amount: 1
+items:
+  '1':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: IRON_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:sharpness: 4
+          minecraft:unbreaking: 5
+  '2':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: IRON_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:efficiency: 3
+          minecraft:unbreaking: 5
+  '3':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: IRON_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:efficiency: 3
+          minecraft:unbreaking: 5
+  '4':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: IRON_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:efficiency: 3
+          minecraft:unbreaking: 5
+  '5':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: WHITE_SHULKER_BOX
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        internal: H4sIAAAAAAAA/6XRwW7CMAwGYI+WAd0YjMG47gV4gZ32JlFJTBWRxFGaHvb2C9KkJIdMWrjZkj/Z+t0BdHA8K+LXExov/feJk7ZkQjOu4E1Lg9z1F//Jyfg+dK4DgF0D7ajIhzL4VnrUS5hJAfsIRusmjkzR0MCc02Ru018AkT7U01k9beppm9FNQn1IrKTmVeqxSi2q1DJTx/TpdEXB9OQDL+nVXbrL9HvUAymBhvXWqvTwjxQ/lX4pHRkmzUC+tPe5RG97/6brjL5GKmSvyYjErVP3krlDdGgEOmaxdyqx29Ru/htyltP2Lr0r3f2rz4iXPCuAH+XrUD1ZBAAA
+        blockMaterial: WHITE_SHULKER_BOX
+  '6':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:protection: 5
+          minecraft:unbreaking: 5
+  '7':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: IRON_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:protection: 5
+          minecraft:unbreaking: 5
+  '8':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:protection: 5
+          minecraft:unbreaking: 5
+  '9':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:protection: 5
+          minecraft:unbreaking: 5
+actions:
+  claim:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;2'
+      execute_before_items: false
+      count_as_item: false
+  error:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1'
+      execute_before_items: false
+      count_as_item: false

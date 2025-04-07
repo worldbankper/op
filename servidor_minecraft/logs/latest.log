@@ -1362,3 +1362,49 @@ java.lang.NoSuchMethodError: 'com.viaversion.viaversion.api.minecraft.entities.E
 [17:06:46] [Server thread/INFO]: wuyl12 issued server command: /ie enchant efficiency 3
 [17:06:48] [Server thread/INFO]: wuyl12 issued server command: /ie enchant efficiency 3
 [17:06:58] [Server thread/INFO]: wuyl12 issued server command: /ie enchant sharpness 4
+[17:07:14] [Server thread/INFO]: wuyl12 issued server command: /ie enchant protection 5
+[17:07:16] [Server thread/INFO]: wuyl12 issued server command: /ie enchant protection 5
+[17:07:18] [Server thread/INFO]: wuyl12 issued server command: /ie enchant protection 5
+[17:07:20] [Server thread/INFO]: wuyl12 issued server command: /ie enchant protection 5
+[17:08:49] [Server thread/INFO]: wuyl12 has made the advancement [Acquire Hardware]
+[17:10:16] [Server thread/INFO]: wuyl12 issued server command: /playerkits2:kit create INICIO
+[17:10:18] [Server thread/INFO]: wuyl12 issued server command: /KIT
+[17:10:20] [Server thread/INFO]: wuyl12 issued server command: /kit
+[17:10:35] [Server thread/INFO]: wuyl12 issued server command: /kit
+[17:10:42] [Server thread/INFO]: wuyl12 issued server command: /kit
+[17:11:07] [Server thread/INFO]: wuyl12 issued server command: /playerkits edit
+[17:11:12] [Server thread/INFO]: wuyl12 issued server command: /playerkits edit INICIO
+[17:11:44] [Server thread/INFO]: wuyl12 issued server command: /kit
+[17:11:51] [Server thread/INFO]: wuyl12 issued server command: /kit
+[17:12:09] [Server thread/INFO]: wuyl12 issued server command: /playerkits delete diamond
+[17:12:14] [Server thread/INFO]: wuyl12 issued server command: /playerkits delete food
+[17:12:17] [Server thread/INFO]: wuyl12 issued server command: /playerkits delete iron
+[17:12:21] [Server thread/INFO]: wuyl12 issued server command: /playerkits edit INICIO
+[17:14:17] [Server thread/INFO]: wuyl12 issued server command: /ie rename &9&lKIT INICIO
+[17:14:23] [Server thread/INFO]: wuyl12 issued server command: /playerkits edit INICIO
+[17:14:43] [Server thread/INFO]: wuyl12 issued server command: /KIT
+[17:14:44] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 10 seconds
+[17:14:45] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 9 seconds
+[17:14:46] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 8 seconds
+[17:14:46] [Server thread/INFO]: wuyl12 issued server command: /kit
+[17:14:47] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 7 seconds
+[17:14:48] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 6 seconds
+[17:14:49] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 5 seconds
+[17:14:50] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 4 seconds
+[17:14:51] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 3 seconds
+[17:14:51] [Server thread/INFO]: wuyl12 issued server command: /KIT
+[17:14:52] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 2 seconds
+[17:14:53] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 1 seconds
+[17:14:53] [Server thread/INFO]: wuyl12 issued server command: /kit
+[17:14:54] [Server thread/INFO]: [AntiLag] > Removing...
+[17:14:57] [Server thread/INFO]: wuyl12 issued server command: /playerkits edit INICIO
+[17:15:05] [Server thread/INFO]: wuyl12 issued server command: /playerkits edit INICIO
+[17:15:08] [Server thread/INFO]: wuyl12 issued server command: /kit
+[17:15:17] [Server thread/INFO]: wuyl12 issued server command: /kit
+[17:15:20] [Server thread/INFO]: wuyl12 issued server command: /playerkits edit INICIO
+[17:15:36] [Server thread/INFO]: wuyl12 issued server command: /playerkits edit INICIO
+[17:15:40] [Server thread/INFO]: wuyl12 issued server command: /playerkits edit INICIO
+[17:15:44] [Server thread/INFO]: wuyl12 issued server command: /playerkits edit INICIO
+[17:16:05] [Server thread/INFO]: wuyl12 issued server command: /playerkits edit INICIO
+[17:16:32] [Server thread/INFO]: wuyl12 issued server command: /kit
+[17:16:54] [Server thread/INFO]: wuyl12 issued server command: /kit edit
