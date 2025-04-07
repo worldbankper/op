@@ -10,6 +10,14 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
+    end2:
+        min: {x: 22, y: 0, z: -379}
+        max: {x: 158, y: 255, z: -188}
+        members: {}
+        flags: {mob-spawning: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     end:
         min: {x: 47, y: 0, z: -328}
         max: {x: 168, y: 255, z: -207}

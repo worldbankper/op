@@ -1124,3 +1124,33 @@ java.lang.NoSuchMethodError: 'com.viaversion.viaversion.api.minecraft.entities.E
 [21:57:13] [Server thread/INFO]: wuyl12 issued server command: /killall entities
 [21:57:19] [Server thread/INFO]: wuyl12 issued server command: //expand vert
 [21:57:27] [Server thread/INFO]: wuyl12 issued server command: /region define end2
+[21:57:39] [Server thread/INFO]: wuyl12 issued server command: /rg flags end2
+[21:57:41] [Server thread/INFO]: wuyl12 issued server command: /rg flags -w "world_the_end" -p 2 end2
+[21:57:41] [Server thread/INFO]: wuyl12 issued server command: /rg flags -w "world_the_end" -p 3 end2
+[21:57:42] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world_the_end' have been background saved
+[21:57:42] [Server thread/INFO]: wuyl12 issued server command: /rg flags -w "world_the_end" -p 4 end2
+[21:57:44] [Server thread/INFO]: wuyl12 issued server command: /rg flags -w "world_the_end" -p 3 end2
+[21:57:46] [Server thread/INFO]: wuyl12 issued server command: /rg flag -w "world_the_end" -h 3 end2 mob-spawning DENY
+[21:57:54] [Server thread/INFO]: wuyl12 issued server command: /killall entities
+[21:58:12] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world_the_end' have been background saved
+[22:00:28] [Server thread/INFO]: wuyl12 issued server command: /shopkeepers villager
+[22:01:52] [Server thread/INFO]: wuyl12 issued server command: //brush apply cyl set
+[22:02:17] [Server thread/INFO]: wuyl12 issued server command: //brush apply cyl set red_mushroom_block
+[22:02:30] [Server thread/INFO]: wuyl12 issued server command: //brush apply cyl set red_mushroom_block
+[22:02:34] [Server thread/INFO]: wuyl12 issued server command: /unso
+[22:02:36] [Server thread/INFO]: wuyl12 issued server command: /undo
+[22:02:43] [Server thread/INFO]: wuyl12 issued server command: //brush apply cyl set red_mushroom_block 3
+[22:03:01] [Server thread/INFO]: wuyl12 issued server command: //brush apply cyl 3 set red_mushroom_block
+[22:04:58] [Server thread/INFO]: wuyl12 issued server command: //brush apply cyl 3 set sculk
+[22:05:17] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 10 seconds
+[22:05:18] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 9 seconds
+[22:05:19] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 8 seconds
+[22:05:20] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 7 seconds
+[22:05:21] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 6 seconds
+[22:05:22] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 5 seconds
+[22:05:23] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 4 seconds
+[22:05:24] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 3 seconds
+[22:05:25] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 2 seconds
+[22:05:26] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 1 seconds
+[22:05:27] [Server thread/INFO]: [AntiLag] > Removing...
+[22:06:51] [Server thread/INFO]: wuyl12 issued server command: /undo 5

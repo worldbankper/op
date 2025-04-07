@@ -1922,3 +1922,20 @@ data-version: 3|2|3953
             minecraft:unbreaking: 10
             minecraft:wind_burst: 8
   snapshots: []
+'6':
+  uniqueId: 15b574a1-159e-40d7-868d-e1648c2a7f1e
+  world: world_the_end
+  x: 106
+  y: 101
+  z: -326
+  yaw: 26.227846
+  type: admin
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:none
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes: {}
+  snapshots: []
