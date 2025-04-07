@@ -1038,3 +1038,16 @@ java.lang.NoSuchMethodError: 'com.viaversion.viaversion.api.minecraft.entities.E
 [21:32:12] [Server thread/INFO]: wuyl12 issued server command: /shopkeeper villager
 [21:34:29] [Server thread/INFO]: wuyl12 issued server command: /KIT
 [21:34:31] [Server thread/INFO]: wuyl12 issued server command: /kit
+[21:40:17] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 10 seconds
+[21:40:18] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 9 seconds
+[21:40:19] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 8 seconds
+[21:40:20] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 7 seconds
+[21:40:21] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 6 seconds
+[21:40:22] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 5 seconds
+[21:40:23] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 4 seconds
+[21:40:24] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 3 seconds
+[21:40:25] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 2 seconds
+[21:40:26] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 1 seconds
+[21:40:27] [Server thread/INFO]: [AntiLag] > Removing...
+[21:44:58] [Server thread/INFO]: wuyl12 issued server command: /shopkeeper villager
+[21:45:04] [Server thread/INFO]: wuyl12 issued server command: /kit
