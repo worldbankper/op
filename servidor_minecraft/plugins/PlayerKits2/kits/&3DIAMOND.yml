@@ -1,0 +1,46 @@
+cooldown: 3600
+one_time: false
+auto_armor: false
+permission_required: false
+clear_inventory: false
+save_original_items: true
+display:
+  default:
+    id: DIAMOND
+    name: '&x&0&8&B&6&F&B&l&oD&x&2&4&C&2&F&A&l&oI&x&3&F&C&E&F&A&l&oA&x&5&B&D&A&F&9&l&oM&x&7&6&E&5&F&8&l&oO&x&9&2&F&1&F&8&l&oN&x&A&D&F&D&F&7&l&oD'
+    amount: 1
+  no_permission:
+    id: DIAMOND
+    name: '&x&0&8&B&6&F&B&l&oD&x&2&4&C&2&F&A&l&oI&x&3&F&C&E&F&A&l&oA&x&5&B&D&A&F&9&l&oM&x&7&6&E&5&F&8&l&oO&x&9&2&F&1&F&8&l&oN&x&A&D&F&D&F&7&l&oD'
+    amount: 1
+  cooldown:
+    id: STONE_SWORD
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cYou need to wait &7%time%'
+    - '&cto claim this kit again.'
+    item_flags:
+    - HIDE_ATTRIBUTES
+items:
+  '1':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: BLUE_SHULKER_BOX
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        internal: 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
+        blockMaterial: BLUE_SHULKER_BOX
+actions:
+  claim:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;2'
+      execute_before_items: false
+      count_as_item: false
+  error:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1'
+      execute_before_items: false
+      count_as_item: false

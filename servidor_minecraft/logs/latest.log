@@ -1408,3 +1408,34 @@ java.lang.NoSuchMethodError: 'com.viaversion.viaversion.api.minecraft.entities.E
 [17:16:05] [Server thread/INFO]: wuyl12 issued server command: /playerkits edit INICIO
 [17:16:32] [Server thread/INFO]: wuyl12 issued server command: /kit
 [17:16:54] [Server thread/INFO]: wuyl12 issued server command: /kit edit
+[17:18:50] [Server thread/INFO]: wuyl12 issued server command: /ie rename DEPREFDADOR + + +
+[17:18:58] [Server thread/INFO]: wuyl12 issued server command: /ie rename &#9F08FB&l&oD&#A412FB&l&oE&#A91DFB&l&oP&#AF27FB&l&oR&#B431FC&l&oE&#B93CFC&l&oF&#BE46FC&l&oD&#C350FC&l&oA&#C95BFC&l&oD&#CE65FC&l&oO&#D36FFC&l&oR &#DD84FD&l&o+ &#E898FD&l&o+ &#F2ADFD&l&o+
+[17:19:09] [Server thread/INFO]: wuyl12 issued server command: /ie rename &#9F08FB&l&oD&#A412FB&l&oE&#A91DFB&l&oP&#AF27FB&l&oR&#B431FC&l&oE&#B93CFC&l&oF&#BE46FC&l&oD&#C350FC&l&oA&#C95BFC&l&oD&#CE65FC&l&oO&#D36FFC&l&oR &#DD84FD&l&o+ &#E898FD&l&o+ &#F2ADFD&l&o+
+[17:19:22] [Server thread/INFO]: wuyl12 issued server command: /createkit &#9F08FB&l&oD&#A412FB&l&oE&#A91DFB&l&oP&#AF27FB&l&oR&#B431FC&l&oE&#B93CFC&l&oF&#BE46FC&l&oD&#C350FC&l&oA&#C95BFC&l&oD&#CE65FC&l&oO&#D36FFC&l&oR &#DD84FD&l&o+ &#E898FD&l&o+ &#F2ADFD&l&o+
+[17:20:09] [Server thread/INFO]: wuyl12 issued server command: /createkit &5&LDEPREDADOR
+[17:20:23] [Server thread/INFO]: wuyl12 issued server command: /playerkits2:kit create &#9F08FB&l&oD&#A412FB&l&oE&#A91DFB&l&oP&#AF27FB&l&oR&#B431FC&l&oE&#B93CFC&l&oF&#BE46FC&l&oD&#C350FC&l&oA&#C95BFC&l&oD&#CE65FC&l&oO&#D36FFC&l&oR &#DD84FD&l&o+ &#E898FD&l&o+ &#F2ADFD&l&o+
+[17:20:48] [Server thread/INFO]: wuyl12 issued server command: /playerkits2:kit create &5&LDEPREDADOR
+[17:21:06] [Server thread/INFO]: wuyl12 issued server command: /playerkits2:kit edit &5&LDEPREDADOR
+[17:21:27] [Server thread/INFO]: wuyl12 issued server command: /playerkits2:kit edit &5&LDEPREDADOR
+[17:22:02] [Server thread/INFO]: wuyl12 issued server command: /kit
+[17:22:09] [Server thread/INFO]: wuyl12 issued server command: /playerkits2:kit edit &5&LDEPREDADOR
+[17:23:04] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 10 seconds
+[17:23:05] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 9 seconds
+[17:23:06] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 8 seconds
+[17:23:07] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 7 seconds
+[17:23:08] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 6 seconds
+[17:23:09] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 5 seconds
+[17:23:10] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 4 seconds
+[17:23:11] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 3 seconds
+[17:23:12] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 2 seconds
+[17:23:13] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 1 seconds
+[17:23:14] [Server thread/INFO]: [AntiLag] > Removing...
+[17:23:23] [Server thread/INFO]: wuyl12 issued server command: /playerkits2:kit create &3DIAMOND
+[17:23:35] [Server thread/INFO]: wuyl12 issued server command: /playerkits2:kit edit &3DIAMOND
+[17:24:16] [Server thread/INFO]: wuyl12 issued server command: /ie rename &#08B6FB&l&oD&#24C2FA&l&oI&#3FCEFA&l&oA&#5BDAF9&l&oM&#76E5F8&l&oO&#92F1F8&l&oN&#ADFDF7&l&oD
+[17:24:21] [Server thread/INFO]: wuyl12 issued server command: /playerkits2:kit edit &5&LDEPREDADOR
+[17:24:52] [Server thread/INFO]: wuyl12 issued server command: /playerkits2:kit edit &3DIAMOND
+[17:25:07] [Server thread/INFO]: wuyl12 issued server command: /kit
+[17:26:04] [Server thread/INFO]: wuyl12 issued server command: /ie rename &#FBEB08&l&oG&#FCEF3F&l&oO&#FCF476&l&oL&#FDF8AD&l&oD
+[17:26:43] [Server thread/INFO]: wuyl12 issued server command: /playerkits2:kit create &6&lGOLD
+[17:27:06] [Server thread/INFO]: wuyl12 issued server command: /playerkits2:kit edit &6&lGOLD

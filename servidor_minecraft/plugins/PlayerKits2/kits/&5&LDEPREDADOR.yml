@@ -1,0 +1,57 @@
+cooldown: 3600
+one_time: false
+auto_armor: false
+permission_required: false
+clear_inventory: false
+save_original_items: true
+display:
+  default:
+    id: OMINOUS_TRIAL_KEY
+    name: '&x&9&F&0&8&F&B&l&oD&x&A&4&1&2&F&B&l&oE&x&A&9&1&D&F&B&l&oP&x&A&F&2&7&F&B&l&oR&x&B&4&3&1&F&C&l&oE&x&B&9&3&C&F&C&l&oF&x&B&E&4&6&F&C&l&oD&x&C&3&5&0&F&C&l&oA&x&C&9&5&B&F&C&l&oD&x&C&E&6&5&F&C&l&oO&x&D&3&6&F&F&C&l&oR
+      &x&D&D&8&4&F&D&l&o+ &x&E&8&9&8&F&D&l&o+ &x&F&2&A&D&F&D&l&o+'
+    amount: 1
+  no_permission:
+    id: OMINOUS_TRIAL_KEY
+    name: '&x&9&F&0&8&F&B&l&oD&x&A&4&1&2&F&B&l&oE&x&A&9&1&D&F&B&l&oP&x&A&F&2&7&F&B&l&oR&x&B&4&3&1&F&C&l&oE&x&B&9&3&C&F&C&l&oF&x&B&E&4&6&F&C&l&oD&x&C&3&5&0&F&C&l&oA&x&C&9&5&B&F&C&l&oD&x&C&E&6&5&F&C&l&oO&x&D&3&6&F&F&C&l&oR
+      &x&D&D&8&4&F&D&l&o+ &x&E&8&9&8&F&D&l&o+ &x&F&2&A&D&F&D&l&o+'
+    amount: 1
+  cooldown:
+    id: STONE_SWORD
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cYou need to wait &7%time%'
+    - '&cto claim this kit again.'
+    item_flags:
+    - HIDE_ATTRIBUTES
+  one_time:
+    id: OMINOUS_TRIAL_KEY
+    name: '&x&9&F&0&8&F&B&l&oD&x&A&4&1&2&F&B&l&oE&x&A&9&1&D&F&B&l&oP&x&A&F&2&7&F&B&l&oR&x&B&4&3&1&F&C&l&oE&x&B&9&3&C&F&C&l&oF&x&B&E&4&6&F&C&l&oD&x&C&3&5&0&F&C&l&oA&x&C&9&5&B&F&C&l&oD&x&C&E&6&5&F&C&l&oO&x&D&3&6&F&F&C&l&oR
+      &x&D&D&8&4&F&D&l&o+ &x&E&8&9&8&F&D&l&o+ &x&F&2&A&D&F&D&l&o+'
+    amount: 1
+items:
+  '1':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: PURPLE_SHULKER_BOX
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#9F08FB","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#A412FB","bold":true},{"text":"P","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#A91DFB","bold":true},{"text":"R","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#AF27FB","bold":true},{"text":"E","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#B431FC","bold":true},{"text":"F","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#B93CFC","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#BE46FC","bold":true},{"text":"A","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#C350FC","bold":true},{"text":"D","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#C95BFC","bold":true},{"text":"O","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#CE65FC","bold":true},{"text":"R
+          ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#D36FFC","bold":true},{"text":"+
+          ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#DD84FD","bold":true},{"text":"+
+          ","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#E898FD","bold":true},{"text":"+","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"#F2ADFD","bold":true}]}'
+        internal: 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
+        blockMaterial: PURPLE_SHULKER_BOX
+actions:
+  claim:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;2'
+      execute_before_items: false
+      count_as_item: false
+  error:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1'
+      execute_before_items: false
+      count_as_item: false

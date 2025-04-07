@@ -1,0 +1,86 @@
+cooldown: 3600
+one_time: false
+auto_armor: false
+permission_required: false
+clear_inventory: false
+save_original_items: true
+display:
+  default:
+    id: YELLOW_DYE
+    name: '&x&F&B&E&B&0&8&l&oG&x&F&C&E&F&3&F&l&oO&x&F&C&F&4&7&6&l&oL&x&F&D&F&8&A&D&l&oD'
+    amount: 1
+  no_permission:
+    id: BARRIER
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cYou don''t have permissions to claim'
+    - '&cthis kit.'
+  cooldown:
+    id: STONE_SWORD
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cYou need to wait &7%time%'
+    - '&cto claim this kit again.'
+    item_flags:
+    - HIDE_ATTRIBUTES
+items:
+  '1':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: LIGHT_BLUE_SHULKER_BOX
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        internal: 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
+        blockMaterial: LIGHT_BLUE_SHULKER_BOX
+  '2':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: BARRIER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"%kit_name% ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"red","bold":true},{"text":"Kit","italic":false,"color":"red","bold":false}]}'
+        lore:
+        - '{"text":"","extra":[{"text":"You don''t have permissions to claim","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"red","bold":false}]}'
+        - '{"text":"","extra":[{"text":"this kit.","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"red","bold":false}]}'
+  '3':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: STONE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"%kit_name% ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"red","bold":true},{"text":"Kit","italic":false,"color":"red","bold":false}]}'
+        lore:
+        - '{"text":"","extra":[{"text":"This is a description of the kit.","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]}'
+        - '""'
+        - '{"text":"","extra":[{"text":"Edit it on the ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"%kit_name%.yml
+          ","italic":false,"color":"red"},{"text":"file","italic":false,"color":"gray"}]}'
+        - '{"text":"","extra":[{"text":"or using ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"/kit
+          edit %kit_name%","italic":false,"color":"red"}]}'
+        attribute-modifiers:
+          minecraft:generic.gravity:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 0.0
+            slot: feet
+            operation: 0
+            key: playerkits2:dummy_attribute
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+actions:
+  claim:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;2'
+      execute_before_items: false
+      count_as_item: false
+  error:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1'
+      execute_before_items: false
+      count_as_item: false

@@ -29,6 +29,12 @@ inventories:
         name: '&eNormal Kits'
         amount: 1
       open_inventory: main_inventory
+    '13':
+      type: 'kit: &5&LDEPREDADOR'
+    '19':
+      type: 'kit: &3DIAMOND'
+    '21':
+      type: 'kit: &6&lGOLD'
   preview_inventory:
     slots: 54
     title: '&4&lKit Preview'
