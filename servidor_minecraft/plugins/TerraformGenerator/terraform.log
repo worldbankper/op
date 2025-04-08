@@ -463,3 +463,105 @@
 [2025-04-07 20:58:04] [INFO   ] [Structure Registry] Registered Small Structure: IglooPopulator 
 [2025-04-07 20:58:04] [INFO   ] [Structure Registry] Registered Small Structure: DesertWellPopulator 
 [2025-04-07 20:58:04] [INFO   ] [Structure Registry] Registered Small Structure: WitchHutPopulator 
+[2025-04-08 03:32:22] [INFO   ]  Custom Logger Initialized 
+[2025-04-08 03:32:23] [INFO   ] [NOTICE] TerraformGenerator will suppress the server's watchdog while generating chunks to prevent unnecessary stacktrace warnings. Unless you specifically need thewatchdog now (to take aikar timings or debug lag), you don't need to take any action. 
+[2025-04-08 03:32:23] [INFO   ] It is recommended to pregenerate to reduce lag problems. 
+[2025-04-08 03:32:23] [INFO   ] Watchdog Thread hooked. 
+[2025-04-08 03:32:23] [INFO   ]  bStats Metrics enabled. 
+[2025-04-08 03:32:23] [INFO   ]  Detected version: 1.21, number: 21.0 
+[2025-04-08 03:32:23] [INFO   ] Unfreezing biome registry... 
+[2025-04-08 03:32:23] [INFO   ] Registered custom biome: muddy_bog 
+[2025-04-08 03:32:23] [INFO   ] Registered custom biome: cherry_grove 
+[2025-04-08 03:32:23] [INFO   ] Registered custom biome: scarlet_forest 
+[2025-04-08 03:32:23] [INFO   ] Registered custom biome: crystalline_cluster 
+[2025-04-08 03:32:23] [INFO   ] Freezing biome registry 
+[2025-04-08 03:32:23] [INFO   ] [Structure Registry] Registered Large Structure: VillageHousePopulator 
+[2025-04-08 03:32:23] [INFO   ] [Structure Registry] Registered Large Structure: VillagePopulator 
+[2025-04-08 03:32:23] [INFO   ] [Structure Registry] Registered Large Structure: OutpostPopulator 
+[2025-04-08 03:32:23] [INFO   ] [Structure Registry] Registered Large Structure: PyramidPopulator 
+[2025-04-08 03:32:23] [INFO   ] [Structure Registry] Registered Large Structure: MonumentPopulator 
+[2025-04-08 03:32:23] [INFO   ] [Structure Registry] Registered Large Structure: StrongholdPopulator 
+[2025-04-08 03:32:23] [INFO   ] [Structure Registry] Registered Large Structure: MansionPopulator 
+[2025-04-08 03:32:23] [INFO   ] [Structure Registry] Registered Large Structure: AncientCityPopulator 
+[2025-04-08 03:32:23] [INFO   ] [Structure Registry] Registered Large Structure: TrialChamberPopulator 
+[2025-04-08 03:32:23] [INFO   ] [Structure Registry] Registered Large Structure: LargeCavePopulator 
+[2025-04-08 03:32:23] [INFO   ] [Structure Registry] Registered Large Structure: MineshaftPopulator 
+[2025-04-08 03:32:24] [INFO   ] [Structure Registry] Registered Large Structure: CatacombsPopulator 
+[2025-04-08 03:32:24] [INFO   ] [Structure Registry] Registered Large Structure: BadlandsMinePopulator 
+[2025-04-08 03:32:24] [INFO   ] [Structure Registry] Registered Large Structure: WarmOceanRuinsPopulator 
+[2025-04-08 03:32:24] [INFO   ] [Structure Registry] Registered Large Structure: TrailRuinsPopulator 
+[2025-04-08 03:32:24] [INFO   ] [Structure Registry] Registered Small Structure: SmallDungeonPopulator 
+[2025-04-08 03:32:24] [INFO   ] [Structure Registry] Registered Small Structure: ShipwreckPopulator 
+[2025-04-08 03:32:24] [INFO   ] [Structure Registry] Registered Small Structure: BuriedTreasurePopulator 
+[2025-04-08 03:32:24] [INFO   ] [Structure Registry] Registered Small Structure: RuinedPortalPopulator 
+[2025-04-08 03:32:24] [INFO   ] [Structure Registry] Registered Small Structure: IglooPopulator 
+[2025-04-08 03:32:24] [INFO   ] [Structure Registry] Registered Small Structure: DesertWellPopulator 
+[2025-04-08 03:32:24] [INFO   ] [Structure Registry] Registered Small Structure: WitchHutPopulator 
+[2025-04-08 03:39:05] [INFO   ]  Custom Logger Initialized 
+[2025-04-08 03:39:06] [INFO   ] [NOTICE] TerraformGenerator will suppress the server's watchdog while generating chunks to prevent unnecessary stacktrace warnings. Unless you specifically need thewatchdog now (to take aikar timings or debug lag), you don't need to take any action. 
+[2025-04-08 03:39:06] [INFO   ] It is recommended to pregenerate to reduce lag problems. 
+[2025-04-08 03:39:06] [INFO   ] Watchdog Thread hooked. 
+[2025-04-08 03:39:06] [INFO   ]  bStats Metrics enabled. 
+[2025-04-08 03:39:06] [INFO   ]  Detected version: 1.21, number: 21.0 
+[2025-04-08 03:39:06] [INFO   ] Unfreezing biome registry... 
+[2025-04-08 03:39:06] [INFO   ] Registered custom biome: muddy_bog 
+[2025-04-08 03:39:06] [INFO   ] Registered custom biome: cherry_grove 
+[2025-04-08 03:39:06] [INFO   ] Registered custom biome: scarlet_forest 
+[2025-04-08 03:39:06] [INFO   ] Registered custom biome: crystalline_cluster 
+[2025-04-08 03:39:06] [INFO   ] Freezing biome registry 
+[2025-04-08 03:39:06] [INFO   ] [Structure Registry] Registered Large Structure: VillageHousePopulator 
+[2025-04-08 03:39:06] [INFO   ] [Structure Registry] Registered Large Structure: VillagePopulator 
+[2025-04-08 03:39:06] [INFO   ] [Structure Registry] Registered Large Structure: OutpostPopulator 
+[2025-04-08 03:39:06] [INFO   ] [Structure Registry] Registered Large Structure: PyramidPopulator 
+[2025-04-08 03:39:06] [INFO   ] [Structure Registry] Registered Large Structure: MonumentPopulator 
+[2025-04-08 03:39:06] [INFO   ] [Structure Registry] Registered Large Structure: StrongholdPopulator 
+[2025-04-08 03:39:06] [INFO   ] [Structure Registry] Registered Large Structure: MansionPopulator 
+[2025-04-08 03:39:06] [INFO   ] [Structure Registry] Registered Large Structure: AncientCityPopulator 
+[2025-04-08 03:39:06] [INFO   ] [Structure Registry] Registered Large Structure: TrialChamberPopulator 
+[2025-04-08 03:39:06] [INFO   ] [Structure Registry] Registered Large Structure: LargeCavePopulator 
+[2025-04-08 03:39:06] [INFO   ] [Structure Registry] Registered Large Structure: MineshaftPopulator 
+[2025-04-08 03:39:06] [INFO   ] [Structure Registry] Registered Large Structure: CatacombsPopulator 
+[2025-04-08 03:39:06] [INFO   ] [Structure Registry] Registered Large Structure: BadlandsMinePopulator 
+[2025-04-08 03:39:06] [INFO   ] [Structure Registry] Registered Large Structure: WarmOceanRuinsPopulator 
+[2025-04-08 03:39:06] [INFO   ] [Structure Registry] Registered Large Structure: TrailRuinsPopulator 
+[2025-04-08 03:39:06] [INFO   ] [Structure Registry] Registered Small Structure: SmallDungeonPopulator 
+[2025-04-08 03:39:06] [INFO   ] [Structure Registry] Registered Small Structure: ShipwreckPopulator 
+[2025-04-08 03:39:06] [INFO   ] [Structure Registry] Registered Small Structure: BuriedTreasurePopulator 
+[2025-04-08 03:39:06] [INFO   ] [Structure Registry] Registered Small Structure: RuinedPortalPopulator 
+[2025-04-08 03:39:06] [INFO   ] [Structure Registry] Registered Small Structure: IglooPopulator 
+[2025-04-08 03:39:06] [INFO   ] [Structure Registry] Registered Small Structure: DesertWellPopulator 
+[2025-04-08 03:39:06] [INFO   ] [Structure Registry] Registered Small Structure: WitchHutPopulator 
+[2025-04-08 16:20:57] [INFO   ]  Custom Logger Initialized 
+[2025-04-08 16:20:57] [INFO   ] [NOTICE] TerraformGenerator will suppress the server's watchdog while generating chunks to prevent unnecessary stacktrace warnings. Unless you specifically need thewatchdog now (to take aikar timings or debug lag), you don't need to take any action. 
+[2025-04-08 16:20:57] [INFO   ] It is recommended to pregenerate to reduce lag problems. 
+[2025-04-08 16:20:57] [INFO   ] Watchdog Thread hooked. 
+[2025-04-08 16:20:57] [INFO   ]  bStats Metrics enabled. 
+[2025-04-08 16:20:57] [INFO   ]  Detected version: 1.21, number: 21.0 
+[2025-04-08 16:20:57] [INFO   ] Unfreezing biome registry... 
+[2025-04-08 16:20:57] [INFO   ] Registered custom biome: muddy_bog 
+[2025-04-08 16:20:57] [INFO   ] Registered custom biome: cherry_grove 
+[2025-04-08 16:20:57] [INFO   ] Registered custom biome: scarlet_forest 
+[2025-04-08 16:20:57] [INFO   ] Registered custom biome: crystalline_cluster 
+[2025-04-08 16:20:57] [INFO   ] Freezing biome registry 
+[2025-04-08 16:20:57] [INFO   ] [Structure Registry] Registered Large Structure: VillageHousePopulator 
+[2025-04-08 16:20:57] [INFO   ] [Structure Registry] Registered Large Structure: VillagePopulator 
+[2025-04-08 16:20:57] [INFO   ] [Structure Registry] Registered Large Structure: OutpostPopulator 
+[2025-04-08 16:20:57] [INFO   ] [Structure Registry] Registered Large Structure: PyramidPopulator 
+[2025-04-08 16:20:57] [INFO   ] [Structure Registry] Registered Large Structure: MonumentPopulator 
+[2025-04-08 16:20:57] [INFO   ] [Structure Registry] Registered Large Structure: StrongholdPopulator 
+[2025-04-08 16:20:57] [INFO   ] [Structure Registry] Registered Large Structure: MansionPopulator 
+[2025-04-08 16:20:57] [INFO   ] [Structure Registry] Registered Large Structure: AncientCityPopulator 
+[2025-04-08 16:20:57] [INFO   ] [Structure Registry] Registered Large Structure: TrialChamberPopulator 
+[2025-04-08 16:20:57] [INFO   ] [Structure Registry] Registered Large Structure: LargeCavePopulator 
+[2025-04-08 16:20:57] [INFO   ] [Structure Registry] Registered Large Structure: MineshaftPopulator 
+[2025-04-08 16:20:57] [INFO   ] [Structure Registry] Registered Large Structure: CatacombsPopulator 
+[2025-04-08 16:20:57] [INFO   ] [Structure Registry] Registered Large Structure: BadlandsMinePopulator 
+[2025-04-08 16:20:57] [INFO   ] [Structure Registry] Registered Large Structure: WarmOceanRuinsPopulator 
+[2025-04-08 16:20:57] [INFO   ] [Structure Registry] Registered Large Structure: TrailRuinsPopulator 
+[2025-04-08 16:20:57] [INFO   ] [Structure Registry] Registered Small Structure: SmallDungeonPopulator 
+[2025-04-08 16:20:57] [INFO   ] [Structure Registry] Registered Small Structure: ShipwreckPopulator 
+[2025-04-08 16:20:57] [INFO   ] [Structure Registry] Registered Small Structure: BuriedTreasurePopulator 
+[2025-04-08 16:20:57] [INFO   ] [Structure Registry] Registered Small Structure: RuinedPortalPopulator 
+[2025-04-08 16:20:57] [INFO   ] [Structure Registry] Registered Small Structure: IglooPopulator 
+[2025-04-08 16:20:57] [INFO   ] [Structure Registry] Registered Small Structure: DesertWellPopulator 
+[2025-04-08 16:20:57] [INFO   ] [Structure Registry] Registered Small Structure: WitchHutPopulator 
