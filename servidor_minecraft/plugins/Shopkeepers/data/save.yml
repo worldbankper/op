@@ -2189,11 +2189,11 @@ data-version: 3|2|3953
   snapshots: []
 '7':
   uniqueId: 274604cd-b3a4-4107-989a-86e59fedc3fc
-  world: lobby
-  x: 27
-  y: 134
-  z: -113
-  yaw: 265.7082
+  world: world
+  x: -1544
+  y: 72
+  z: -2416
+  yaw: 269.1121
   type: admin
   name: ''
   object:
@@ -2206,11 +2206,11 @@ data-version: 3|2|3953
   snapshots: []
 '8':
   uniqueId: d7514d58-4d79-4788-8e7a-c2b0f7910cc8
-  world: lobby
-  x: -11
-  y: 133
-  z: -113
-  yaw: 273.37158
+  world: world
+  x: -1544
+  y: 72
+  z: -2414
+  yaw: 262.10437
   type: admin
   name: ''
   object:
