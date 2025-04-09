@@ -33,3 +33,8 @@
 [2025/04/09 01:31:48]:  §eTo remove this warning, log in with "nlogin.admin" permission on the server
 [2025/04/09 01:31:48]:  §eand click the "Setup plugin" button to configure your plugin.
 [2025/04/09 01:31:48]: 
+[2025/04/09 02:01:07]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "INSERT INTO `nlogin` (`last_name`, `unique_id`, `mojang_id`, `bedrock_id`, `password`, `last_ip`, `creation_date`, `last_seen`, `email`, `discord`, `settings`) VALUES ('wuyl12', 93accafa0c2b31d5b8d3195a7db150ef, null, null, '$2a$10$UbIG/IPS9pP/yrPATcBe6eMXRzAN9gOb2bXW3lLH178d/Y4iIubda', '127.162.49.85', '2025-04-09 02:01:07.092', '2025-04-09 02:01:07.092', null, null, '{"settings":[{"value":true,"key":"force-invalid-session"}],"version":0}')" (applied to all columns)
+[2025/04/09 02:01:07]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/04/09 02:01:07]: [nLogin] The user wuyl12 has successfully registered.
+[2025/04/09 02:09:57]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'wuyl12', `unique_id` = 93accafa0c2b31d5b8d3195a7db150ef,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$UbIG/IPS9pP/yrPATcBe6eMXRzAN9gOb2bXW3lLH178d/Y4iIubda', `last_ip` = '127.162.49.85', `creation_date` = 2025-04-09 02:01:07.092, `last_seen` = 2025-04-09 02:09:57.027, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"force-invalid-session"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2025/04/09 02:09:59]: [nLogin] Successful plugin core shutdown (took 0.00s)

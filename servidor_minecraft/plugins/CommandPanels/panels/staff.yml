@@ -1,6 +1,6 @@
 panels:
-  panel-3:
-    perm: default
+  staff:
+    perm: staff
     rows: 1
     title: '&8Generated panel-3'
     empty: BLACK_STAINED_GLASS_PANE
@@ -9,7 +9,11 @@ panels:
         material: CREEPER_HEAD
         stack: 1
         name: §6§lGAMEMODE SPECTADOR
+        commands:
+        - console= gamemode spectator %cp-player-name%
       '5':
         material: GRASS_BLOCK
         stack: 1
         name: §6§lGAMEMODE SURVIVAL
+        commands:
+        - console= gamemode survival %cp-player-name%

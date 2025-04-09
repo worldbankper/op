@@ -1,0 +1,87 @@
+items:
+  down-filler:
+    slot: 45-53
+    material: BLACK_STAINED_GLASS_PANE
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&e'
+    lore: []
+    actions: []
+  close-menu:
+    slot: '49'
+    material: ARROW
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&aClose Menu'
+    lore:
+    - '&7Click here to close this menu.'
+    - ''
+    - '&6Left-Click: &eClose menu.'
+    actions:
+    - '[CLOSE_INVENTORY]'
+settings:
+  type: SELECT_REWARD
+  title: Select %crate% Reward
+  rows: 6
+  refresh:
+    enabled: false
+    rate: 20
+  on-open-actions: []
+pagination:
+  align-items: LEFT
+  slots: 10-16, 19-25, 28-34
+  fill-item:
+    material: AIR
+    custom-model-data: 0
+    glow: false
+    display-name: ''
+    lore: []
+    actions: []
+  previous-item:
+    slot: '18'
+    material: ARROW
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&6Previous page - Page %page%'
+    lore:
+    - '&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<&a<&2<'
+    actions: []
+  next-item:
+    slot: '26'
+    material: ARROW
+    amount: 1
+    custom-model-data: 0
+    glow: false
+    hide-attributes: false
+    display-name: '&6Next page - Page %page%'
+    lore:
+    - '&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>&a>&2>'
+    actions: []
+reward:
+  unlocked:
+    display-name: '&7%reward_name%'
+    lore:
+    - '%reward_lore%'
+    - ''
+    - '&7(This lore is configured at the menus folder)'
+    - ''
+    - '&6Left-Click: &eClick here to redeem.'
+  locked:
+    material: BARRIER
+    custom-model-data: 0
+    glow: false
+    display-name: '&7%reward_name% &c(Locked)'
+    lore:
+    - '&8(This reward is locked)'
+    - ''
+    - '&7(This lore is configured at the menus folder)'
+    - ''
+    - '&6Left-Click: &eClick here to redeem.'
+    - '&cThis reward can''t be redeemed anymore.'
+    actions: []
