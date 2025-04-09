@@ -915,3 +915,21 @@ java.lang.NoSuchMethodError: 'com.viaversion.viaversion.api.minecraft.entities.E
 [01:48:32] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 2 seconds
 [01:48:33] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 1 seconds
 [01:48:34] [Server thread/INFO]: [AntiLag] > Removing...
+[01:50:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /r 
+[01:50:18] [Server thread/INFO]: Command Help: /r
+[01:50:18] [Server thread/INFO]: Description: Quickly reply to the last player to message you.
+[01:50:18] [Server thread/INFO]: Usage(s);
+[01:50:18] [Server thread/INFO]: /r <message> - Replies to the last player to message you with the given text
+[01:56:06] [Netty Epoll Server IO #1/INFO]: Could not get version of a client viewing motd! Continue with version 735 (1.16).
+[01:56:44] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 10 seconds
+[01:56:45] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 9 seconds
+[01:56:46] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 8 seconds
+[01:56:47] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 7 seconds
+[01:56:48] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 6 seconds
+[01:56:49] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 5 seconds
+[01:56:50] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 4 seconds
+[01:56:51] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 3 seconds
+[01:56:52] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 2 seconds
+[01:56:53] [Server thread/INFO]: [AntiLag] > All dropped items will be removed in 1 seconds
+[01:56:54] [Server thread/INFO]: [AntiLag] > Removing...
+[01:57:52] [Netty Epoll Server IO #2/INFO]: Could not get version of a client viewing motd! Continue with version 735 (1.16).
