@@ -3,11 +3,11 @@
 data-version: 3|2|3953
 '1':
   uniqueId: 44824bf2-a708-4db5-875a-1e71c4c7b77b
-  world: lobby
-  x: 107
-  y: 166
-  z: 123
-  yaw: 174.00623
+  world: world
+  x: -1543
+  y: 72
+  z: -2406
+  yaw: 250.96028
   type: admin
   name: DIAMONS
   object:
@@ -479,11 +479,11 @@ data-version: 3|2|3953
   snapshots: []
 '2':
   uniqueId: c1d7118c-4918-41ad-a098-0609ad5e9bf3
-  world: lobby
-  x: 109
-  y: 166
-  z: 121
-  yaw: 184.36676
+  world: world
+  x: -1544
+  y: 72
+  z: -2408
+  yaw: 275.8891
   type: admin
   name: ''
   object:
@@ -766,11 +766,11 @@ data-version: 3|2|3953
   snapshots: []
 '3':
   uniqueId: 5f919fb2-d489-47d5-98ef-efb575ad44b0
-  world: lobby
-  x: 105
-  y: 166
-  z: 121
-  yaw: 115.389465
+  world: world
+  x: -1542
+  y: 72
+  z: -2408
+  yaw: 277.22504
   type: admin
   name: ''
   object:
@@ -1236,11 +1236,11 @@ data-version: 3|2|3953
   snapshots: []
 '4':
   uniqueId: 71000b45-d185-43a7-a17c-d2e68331fd15
-  world: lobby
-  x: 107
-  y: 165
-  z: 111
-  yaw: 78.27809
+  world: world
+  x: -1544
+  y: 72
+  z: -2407
+  yaw: 269.40295
   type: admin
   name: ''
   object:
@@ -1924,11 +1924,11 @@ data-version: 3|2|3953
   snapshots: []
 '6':
   uniqueId: 15b574a1-159e-40d7-868d-e1648c2a7f1e
-  world: world_the_end
-  x: 106
-  y: 101
-  z: -326
-  yaw: 26.227846
+  world: world
+  x: -1544
+  y: 72
+  z: -2411
+  yaw: 272.69016
   type: admin
   name: ''
   object:
@@ -2186,4 +2186,38 @@ data-version: 3|2|3953
         v: 3953
         type: DRAGON_EGG
         amount: 16
+  snapshots: []
+'7':
+  uniqueId: 274604cd-b3a4-4107-989a-86e59fedc3fc
+  world: lobby
+  x: 27
+  y: 134
+  z: -113
+  yaw: 265.7082
+  type: admin
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:none
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes: {}
+  snapshots: []
+'8':
+  uniqueId: d7514d58-4d79-4788-8e7a-c2b0f7910cc8
+  world: lobby
+  x: -11
+  y: 133
+  z: -113
+  yaw: 273.37158
+  type: admin
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:none
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes: {}
   snapshots: []
