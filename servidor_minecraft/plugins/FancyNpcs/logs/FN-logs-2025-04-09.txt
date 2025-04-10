@@ -1,0 +1,9 @@
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"Plugin has been updated from version N/A to 2.4.4.","timestamp":1744214366334,"threadID":39,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs (2.4.4) has been enabled.","timestamp":1744214366551,"threadID":39,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"Updated skin for NPC: SURVIVAL","timestamp":1744214837779,"threadID":1222,"threadName":"FancyNpcs-Skins-0","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"Updated skin for NPC: SURVIVAL","timestamp":1744214838870,"threadID":1222,"threadName":"FancyNpcs-Skins-0","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"Updated skin for NPC: SURVIVAL","timestamp":1744214848915,"threadID":1222,"threadName":"FancyNpcs-Skins-0","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"Updated skin for NPC: SURVIVAL","timestamp":1744214853962,"threadID":1222,"threadName":"FancyNpcs-Skins-0","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs (2.4.4) has been enabled.","timestamp":1744217048821,"threadID":39,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs (2.4.4) has been enabled.","timestamp":1744217622749,"threadID":39,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"Updated skin for NPC: smith","timestamp":1744218243161,"threadID":400,"threadName":"FancyNpcs-Skins-0","properties":{}}

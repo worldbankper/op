@@ -1,8 +1,8 @@
 join-reminder: true
-language: UNDEFINED
+language: ES_ES
 notify-if-new-version: true
 debug: false
 crates:
   knockback: 0.6
-  quick-open: true
+  quick-open: false
   render-radius: 15

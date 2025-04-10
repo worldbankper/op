@@ -1,0 +1,621 @@
+enabled: true
+identifier: basica
+display-name: '&6&l BASICA'
+block-material: REINFORCED_DEEPSLATE
+engine: VANILLA_BLOCK
+open-money-cost: 0.0
+open-cooldown: 0
+simultaneous-openings: true
+preview-item: false
+permission:
+  required: false
+  permission: phoenixcrates.crate.basica
+animation:
+  idle-effects:
+  - STAR;{CRIT_MAGIC;#ffffff;0.0;0.6;0.0;0.30000000000000004;0.0;3}
+  opening-animations:
+    '0':
+    - CRACK;{}
+    - SWIRL;{#00ffff}
+    - SMOKE_SPIRAL;{#8a2be2}
+hologram:
+  lines:
+  - '&e&l%name%'
+  - ''
+  - '&7clic derecho para abrir!'
+  - '&7clic izquierdo para obtener una vista previa!'
+  offset: 0.0
+menus:
+  preview: default_rewards_preview
+  select-reward: default_select_reward
+key:
+  enabled: true
+  virtual: false
+  glow: true
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: GHAST_TEAR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"llave BASICA","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+      lore:
+      - '{"text":"","extra":["usa esta llave en /warp crates"]}'
+      enchants:
+        minecraft:unbreaking: 10
+rewards-mode: RANDOM
+max-win-rewards: 0
+current-milestone: NOTSET
+milestones: {}
+extra-settings:
+  animation:
+    display-item-position:
+      x: 0.0
+      y: 1.5
+      z: 0.0
+rewards:
+  '0':
+    identifier: reward_1744217615970
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: NETHERITE_SCRAP
+      amount: 64
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: NETHERITE_SCRAP
+      amount: 64
+    win-commands: []
+    win-limits: -1
+    percentage: 100.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3953
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '1':
+    identifier: reward_1744217615972
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: CHARCOAL
+      amount: 64
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: CHARCOAL
+      amount: 64
+    win-commands: []
+    win-limits: -1
+    percentage: 100.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3953
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '2':
+    identifier: reward_1744217615974
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: EMERALD
+      amount: 64
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: EMERALD
+      amount: 64
+    win-commands: []
+    win-limits: -1
+    percentage: 100.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3953
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '3':
+    identifier: reward_1744217615976
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: RAW_IRON
+      amount: 64
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: RAW_IRON
+      amount: 64
+    win-commands: []
+    win-limits: -1
+    percentage: 100.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3953
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '4':
+    identifier: reward_1744217615978
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: ENDER_PEARL
+      amount: 16
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: ENDER_PEARL
+      amount: 16
+    win-commands: []
+    win-limits: -1
+    percentage: 100.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3953
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '5':
+    identifier: reward_1744217615980
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: RAW_GOLD
+      amount: 64
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: RAW_GOLD
+      amount: 64
+    win-commands: []
+    win-limits: -1
+    percentage: 100.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3953
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '6':
+    identifier: reward_1744217615982
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: GOLD_INGOT
+      amount: 64
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: GOLD_INGOT
+      amount: 64
+    win-commands: []
+    win-limits: -1
+    percentage: 100.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3953
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '7':
+    identifier: reward_1744217615984
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: NETHERITE_INGOT
+      amount: 64
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: NETHERITE_INGOT
+      amount: 64
+    win-commands: []
+    win-limits: -1
+    percentage: 100.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3953
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '8':
+    identifier: reward_1744217615986
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: ANCIENT_DEBRIS
+      amount: 64
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: ANCIENT_DEBRIS
+      amount: 64
+    win-commands: []
+    win-limits: -1
+    percentage: 100.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3953
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '9':
+    identifier: reward_1744217615988
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: HEAVY_CORE
+      amount: 2
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: HEAVY_CORE
+      amount: 2
+    win-commands: []
+    win-limits: -1
+    percentage: 100.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3953
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '10':
+    identifier: reward_1744217615990
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: NAUTILUS_SHELL
+      amount: 64
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: NAUTILUS_SHELL
+      amount: 64
+    win-commands: []
+    win-limits: -1
+    percentage: 100.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3953
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '11':
+    identifier: reward_1744217615992
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: BLAZE_ROD
+      amount: 64
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: BLAZE_ROD
+      amount: 64
+    win-commands: []
+    win-limits: -1
+    percentage: 100.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3953
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '12':
+    identifier: reward_1744217615994
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: DIAMOND
+      amount: 64
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: DIAMOND
+      amount: 64
+    win-commands: []
+    win-limits: -1
+    percentage: 100.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3953
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '13':
+    identifier: reward_1744217615996
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: IRON_INGOT
+      amount: 64
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: IRON_INGOT
+      amount: 64
+    win-commands: []
+    win-limits: -1
+    percentage: 100.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3953
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '14':
+    identifier: reward_1744217615998
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: GHAST_TEAR
+      amount: 3
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"llave BASICA","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+        lore:
+        - '{"text":"","extra":["usa esta llave en /warp crates"]}'
+        enchants:
+          minecraft:unbreaking: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "phoenixcrateslite:crate-type": "basica"
+          }
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: GHAST_TEAR
+      amount: 3
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"llave BASICA","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+        lore:
+        - '{"text":"","extra":["usa esta llave en /warp crates"]}'
+        enchants:
+          minecraft:unbreaking: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "phoenixcrateslite:crate-type": "basica"
+          }
+    win-commands: []
+    win-limits: -1
+    percentage: 100.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3953
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '15':
+    identifier: reward_1744217616000
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: GHAST_TEAR
+      amount: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"llave BASICA","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+        lore:
+        - '{"text":"","extra":["usa esta llave en /warp crates"]}'
+        enchants:
+          minecraft:unbreaking: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "phoenixcrateslite:crate-type": "basica"
+          }
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: GHAST_TEAR
+      amount: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"llave BASICA","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+        lore:
+        - '{"text":"","extra":["usa esta llave en /warp crates"]}'
+        enchants:
+          minecraft:unbreaking: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "phoenixcrateslite:crate-type": "basica"
+          }
+    win-commands: []
+    win-limits: -1
+    percentage: 100.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3953
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []
+  '16':
+    identifier: reward_1744217616002
+    display-item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: GHAST_TEAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"llave BASICA","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+        lore:
+        - '{"text":"","extra":["usa esta llave en /warp crates"]}'
+        enchants:
+          minecraft:unbreaking: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "phoenixcrateslite:crate-type": "basica"
+          }
+    win-items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 3953
+      type: GHAST_TEAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"llave BASICA","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":true}]}'
+        lore:
+        - '{"text":"","extra":["usa esta llave en /warp crates"]}'
+        enchants:
+          minecraft:unbreaking: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ADDITIONAL_TOOLTIP
+        PublicBukkitValues: |-
+          {
+              "phoenixcrateslite:crate-type": "basica"
+          }
+    win-commands: []
+    win-limits: -1
+    percentage: 100.0
+    broadcast: false
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3953
+          type: DIAMOND_PICKAXE
+        display-name: §aAlternative Item
+        virtual: false
+        broadcast: false
+        commands: []

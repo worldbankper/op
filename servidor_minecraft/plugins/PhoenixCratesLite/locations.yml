@@ -1,2 +1,3 @@
 locations:
-  '&3&LVIP': []
+  basica:
+  - lobby;-38;111;-65;EAST

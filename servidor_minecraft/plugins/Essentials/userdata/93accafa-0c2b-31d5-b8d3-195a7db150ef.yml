@@ -1,6 +1,6 @@
 teleportenabled: true
 teleportauto: false
-godmode: false
+godmode: true
 muted: false
 jailed: false
 ip-address: 127.130.187.216
@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1744211895281
+  lastteleport: 1744216425072
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1744167937592
-  login: 1744210905178
+  logout: 1744214071618
+  login: 1744214393181
 money: '140000.0'
 last-account-name: wuyl12
 lastlocation:
   world: efbb6def-c431-447b-b488-a00541dc0755
   world-name: world
-  x: -1542.3475859710134
-  y: 72.0
-  z: -2414.5977366544516
-  yaw: 68.6027603149414
-  pitch: 19.284709930419922
+  x: -573.2338014360957
+  y: 63.0
+  z: -478.1660299885166
+  yaw: -14.7666015625
+  pitch: 8.105148315429688
 logoutlocation:
   world: 247b9917-61e2-4a30-9040-751bdd8fb5b5
   world-name: lobby
-  x: 34.66583447785508
-  y: 135.0
-  z: -113.45126106189375
-  yaw: -179.7125701904297
-  pitch: -7.292078018188477
+  x: 9.107149511747854
+  y: 100.0
+  z: 16.668909866574094
+  yaw: -56.92446517944336
+  pitch: 14.995132446289062
 homes:
   ww:
     world: d94b8f24-b34f-4d40-a778-168121561fb6

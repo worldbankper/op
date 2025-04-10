@@ -1,0 +1,66 @@
+npcs:
+  2aca02d8-66ae-4df0-b945-0df9316b99ac:
+    name: SURVIVAL
+    creator: 93accafa-0c2b-31d5-b8d3-195a7db150ef
+    displayName: '&6&lSURVIVAL'
+    type: PLAYER
+    location:
+      world: lobby
+      x: 0.49971570490348616
+      y: 101.0
+      z: 13.344606481091128
+      yaw: -179.09131
+      pitch: 7.5427203
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: true
+    glowingColor: dark_aqua
+    turnToPlayer: true
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: 2147483647
+    skin:
+      identifier: 62f128f7-1ff3-4606-9fde-536e7f9cfd58
+      variant: AUTO
+      mirrorSkin: false
+    actions:
+      LEFT_CLICK:
+        '1':
+          action: console_command
+          value: rtp world world
+      RIGHT_CLICK:
+        '1':
+          action: console_command
+          value: rtp world world
+        '2':
+          action: player_command
+          value: rtp world world
+        '3':
+          action: console_command
+          value: rtp player %player% world
+  65caf901-fc98-4f0a-b491-0684be9735f9:
+    name: smith
+    creator: 80258602-1c58-3645-a5cc-dfd6de35a91e
+    displayName: smith
+    type: PLAYER
+    location:
+      world: lobby
+      x: -71.37812169204022
+      y: 120.0625
+      z: -12.697331958172429
+      yaw: 1.9989624
+      pitch: 16.827438
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: true
+    glowingColor: dark_aqua
+    turnToPlayer: false
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: 2147483647
+    skin:
+      identifier: bc27afd7-6889-4811-97c9-135ee46cdabc
+      variant: AUTO
+      mirrorSkin: false

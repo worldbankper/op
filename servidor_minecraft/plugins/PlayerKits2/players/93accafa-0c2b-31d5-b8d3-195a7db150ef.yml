@@ -1,1 +1,6 @@
 name: wuyl12
+kits:
+  INICIO:
+    cooldown: 1744302586066
+    one_time: false
+    bought: false
